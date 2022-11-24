@@ -4,7 +4,7 @@
                 <div class="logo">
                     <a href="./index.html">
                         {%- if section.settings.logo != blank -%}
-                          <img src="{{ section.settings.header_logo | img_url:'master'}}" alt="">
+                          <img src="{{ section.settings.header_logo | img_url:'master'}}" alt="{{ section.settings.header_logo.alt }}">
                         {% endif %}
                     </a>
                 </div>
