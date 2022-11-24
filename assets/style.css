@@ -112,7 +112,7 @@ li:hover i.fa-circle.fa-solid {
     transition: .4s all ease-in-out;
 }
 
-.header_sec .button {
+.header_sec .butt {
     width: 20vw;
     display: flex;
     justify-content: flex-end;
