@@ -414,23 +414,9 @@ li:hover i.fa-circle.fa-solid {
         height: 7vh;
         top: -5.1vw;
     }
-      .wel-other .circle-wrap i{
-        height: 6vh;
+    .wel-other .circle-wrap i{
+        height: 7vh;
         font-size: .8vw;
-        align-items: flex-end;
-        animation-name: circle;
-        animation-duration: 1.8s;
-        animation-iteration-count:infinite; 
-        animation-delay:1000ms; 
-    }
-    @keyframes circle {
-        from{
-            height: 6vh;
-        }
-        to{
-            height: 5vh;
-        }
-        
     }
     .welcome .other-btn .bt-1 {
         font-size: 3.8vw;
