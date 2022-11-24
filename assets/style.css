@@ -234,19 +234,19 @@ li:hover i.fa-circle.fa-solid {
 }
 
 @media (max-width: 999px) {
-       .header .button{
+    .header_sec .butt{
         display: none;
     }
-    .header_header_logo img {
+    .header_logo img {
         width: 18vw;
     }
-    .header ul li + li{
+    .header_sec ul li + li{
         margin-left: 0;
     }
-    .header ul li {
+    .header_sec ul li {
         padding: 5vw;
     }
-    .header .navbar{
+    .header_sec .navbar{
         width: 100vw;
         background-color: var(--color-grey);
         position: absolute;
@@ -258,11 +258,11 @@ li:hover i.fa-circle.fa-solid {
     li i.fa-circle.fa-solid {
         display: none;
     }
-    .header ul li a {
+    .header_sec ul li a {
         font-size: 3vw;
         font-weight: 500;
     }
-    .header ul{
+    .header_sec ul{
         display: inline-block;
     }
     svg {
