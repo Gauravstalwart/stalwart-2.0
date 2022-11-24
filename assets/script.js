@@ -3,11 +3,8 @@ $(document).ready(function(){
         $(this).toggleClass('active');
         $(this).parent().find('.navbar').slideToggle();
     });
-});
 
-
-
-$(function(){
+  $(function(){
     var url = window.location.pathname, 
     urlRegExp = new RegExp(url.replace(/\/$/,'') + "$");
     $('.navbar ul li a').each(function(){
@@ -16,3 +13,9 @@ $(function(){
       }
     });
   });
+
+  
+});
+
+
+
