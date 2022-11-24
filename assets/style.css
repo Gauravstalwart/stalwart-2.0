@@ -222,6 +222,7 @@ li:hover i.fa-circle.fa-solid {
 @media (min-width: 1201px) {
     .container {
         max-width: 1920vw;
+        padding: 1vw 5vw;
     }
 }
 
