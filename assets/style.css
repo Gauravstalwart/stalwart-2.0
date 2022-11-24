@@ -63,12 +63,12 @@ body {
     justify-content: space-between;
 }
 
-.header .header_logo {
+.header .header_header_logo {
     width: 25vw  !important;
     line-height: 0;
 }
 
-.header_logo img {
+.header_header_logo img {
     width:12vw;
     max-width: 50vw;
 }
@@ -237,7 +237,7 @@ li:hover i.fa-circle.fa-solid {
        .header .button{
         display: none;
     }
-    .header_logo img {
+    .header_header_logo img {
         width: 18vw;
     }
     .header ul li + li{
