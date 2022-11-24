@@ -63,12 +63,12 @@ body {
     align-items: center;
     justify-content: space-between;
 }
-.logo {
+.header_logo {
     width: 25%;
     line-height: 0;
 }
 
-.header_sec  .logo img {
+.header_sec  .header_logo img {
     width: 200px;
     max-width: 250px;
 }
