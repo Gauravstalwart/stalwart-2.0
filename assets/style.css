@@ -47,7 +47,9 @@ body {
     text-transform: capitalize;
     transition: .4s all ease-in-out;
 }
-
+.btn:hover{
+    background-color: var(--color-btn-border);
+}
 /* HEADER SECTION START */
 .header_sec {
     width: 100vw;
