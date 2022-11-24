@@ -273,8 +273,8 @@ li:hover i.fa-circle.fa-solid {
         height: 8vw;
         width: 8vw;
         position: absolute;
-        top: -.6vw;
-        right: 4.4vw;
+        top: 1vw;
+        right: 9.4vw;
     }
     .plates {
         display: flex;
