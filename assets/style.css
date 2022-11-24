@@ -63,8 +63,7 @@ body {
     align-items: center;
     justify-content: space-between;
 }
-
-.header_sec  .logo {
+.logo {
     width: 25%;
     line-height: 0;
 }
