@@ -234,6 +234,8 @@
       document.documentElement.classList.add('shopify-design-mode');
     }
     </script>
+
+     {{ 'style.css' | asset_url | stylesheet_tag }}
   </head>
 
   <body class="gradient">
