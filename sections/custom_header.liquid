@@ -3,7 +3,9 @@
             <div class="header_innner">
                 <div class="logo">
                     <a href="./index.html">
-                        <img src="{{ section.settings.header_logo | img_url:'master'}}" alt="">
+                        {%- if section.settings.logo != blank -%}
+                          <img src="{{ section.settings.header_logo | img_url:'master'}}" alt="">
+                        {% endif %}
                     </a>
                 </div>
                 <div class="plate plate2" >
