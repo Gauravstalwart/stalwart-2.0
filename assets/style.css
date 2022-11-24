@@ -239,6 +239,8 @@ li:hover i.fa-circle.fa-solid {
     }
     .header_logo img {
         width: 18vw;
+        display: flex;
+        align-items:center;
     }
     .header_sec ul li + li{
         margin-left: 0;
