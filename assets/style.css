@@ -212,11 +212,11 @@ li:hover i.fa-circle.fa-solid {
     letter-spacing: .2vw;
     color: var(--color-black);
     text-transform: capitalize;
-    transition: .4s all ease-in-out;
 }
 .welcome .col:hover .bt-1{
     background-color: var(--color-black);
     color: var(--color-white);  
+    transition: .4s all ease-in-out;
 }
 
 @media (min-width: 1201px) {
