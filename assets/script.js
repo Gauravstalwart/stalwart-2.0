@@ -4,3 +4,15 @@ $(document).ready(function(){
         $(this).parent().find('.navbar').slideToggle();
     });
 });
+
+
+
+$(function(){
+    var url = window.location.pathname, 
+    urlRegExp = new RegExp(url.replace(/\/$/,'') + "$");
+    $('.navbar ul li a').each(function(){
+      if(urlRegExp.test(this.href.replace(/\/$/,''))){
+        $(this).parent().addClass('active');
+      }
+    });
+  });
