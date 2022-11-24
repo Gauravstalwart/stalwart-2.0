@@ -387,8 +387,10 @@ li:hover i.fa-circle.fa-solid {
     .welcome .wel-wrap {
         height: 35vh;
     }
-    .wel-other .circle-wrap{
-        height: 6vh;
+    .wel-other .circle-wrap {
+        width: 4.6vw;
+        height: 7vh;
+        top: -5.1vw;
     }
     .wel-other .circle-wrap i{
         height: 6vh;
