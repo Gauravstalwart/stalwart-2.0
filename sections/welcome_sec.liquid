@@ -2,10 +2,10 @@
         <div class="wel-wrap">
             <div class="container">
                 <div class="wel-heading">
-                    <h2>Meet 10X Growth.</h2>
-                    <h2>Shopify Plus Agency</h2>
-                    <h2>Shopify Experts, Web Design,</h2>
-                    <h2>ECommerce Development Services</h2>
+                    <h2>{{ section.settings.heading_1 }}</h2>
+                    <h2>{{ section.settings.heading_2 }}</h2>
+                    <h2>{{ section.settings.heading_3 }}</h2>
+                    <h2>{{ section.settings.heading_4 }}</h2>
                 </div>
             </div>
             <div class="wel-other">
@@ -35,7 +35,32 @@
 {% schema %}
   {
     "name": "Section name",
-    "settings": []
+    "class":"welcome_sec",
+    "settings": [
+        {
+            "type":"text",
+            "id":"heading_1",
+            "label":"Heading 1"
+        },
+        {
+            "type":"text",
+            "id":"heading_2",
+            "label":"Heading 2"
+        },
+        {
+            "type":"text",
+            "id":"heading_3",
+            "label":"Heading 3"
+        },
+        {
+            "type":"text",
+            "id":"heading_4",
+            "label":"Heading 4"
+        }
+    ],
+    "presets":[
+      { "name":"Welcome section"}
+    ]
   }
 {% endschema %}
 
