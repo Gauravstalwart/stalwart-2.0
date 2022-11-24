@@ -63,8 +63,8 @@ body {
     justify-content: space-between;
 }
 
-.header_inner .header_logo {
-    width: 25vw  !important;
+.header_sec .header_logo {
+    width: 25vw;
     line-height: 0;
 }
 
