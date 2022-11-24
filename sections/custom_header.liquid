@@ -1,12 +1,12 @@
-<header class="header">
+<header class="header_sec">
         <div class="container">
             <div class="header_innner">
                 <div class="logo">
-                    <a href="./index.html">
                         {%- if section.settings.logo != blank -%}
+                    <a href="./index.html">
                           <img src="{{ section.settings.header_logo | img_url:'master'}}" alt="{{ section.settings.header_logo.alt }}">
-                        {% endif %}
                     </a>
+                        {% endif %}
                 </div>
                 <div class="plate plate2" >
                     <svg class="burger" version="1.1" height="100" width="100" viewBox="0 0 100 100">
