@@ -170,11 +170,11 @@ li:hover i.fa-circle.fa-solid {
 }
 
 .wel-other .circle-wrap {
-    width: 2.4vw;
-    height: 10vh;
+    width: 1.6vw;
+    height: 5.6vh;
     border: .2vw solid var(--color-grey);
     margin: 0 auto;
-    border-radius: 3vw;
+    border-radius: .8vw;
     position: absolute;
     top: -3vw;
     left: 0;
