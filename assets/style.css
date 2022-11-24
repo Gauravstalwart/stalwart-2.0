@@ -428,7 +428,7 @@ li:hover i.fa-circle.fa-solid {
         height: 5vh;
     }
     svg{
-        top: 1vw;
+        top: .8vw;
     }
 }
 @media (max-width:391px){
