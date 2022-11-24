@@ -158,7 +158,7 @@ li:hover i.fa-circle.fa-solid {
     letter-spacing: .2vw;
     text-transform: capitalize;
     font-family: var(--font-primary);
-    letter-spacing: 1.2;
+    line-height: 1.2;
 }
 
 .welcome .wel-other {
