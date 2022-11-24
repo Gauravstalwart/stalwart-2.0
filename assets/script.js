@@ -4,7 +4,7 @@ $(document).ready(function(){
         $(this).parent().find('.navbar').slideToggle();
     });
 
-  $(function(){
+
     var url = window.location.pathname, 
     urlRegExp = new RegExp(url.replace(/\/$/,'') + "$");
     $('.navbar ul li a').each(function(){
@@ -12,7 +12,7 @@ $(document).ready(function(){
         $(this).parent().addClass('active');
       }
     });
-  });
+
 
   
 });
