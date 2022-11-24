@@ -400,7 +400,7 @@ li:hover i.fa-circle.fa-solid {
         font-size: 1.2vw;
         padding: 1vw 3vw;
     }
-    .header li a{
+    .header_sec li a{
         font-size: 1.5vw;
         font-weight: 500;
     }
@@ -409,7 +409,7 @@ li:hover i.fa-circle.fa-solid {
     .plate.plate2 {
         height: 4vh;
     } 
-    .header .navbar{
+    .header_sec .navbar{
         top: 10vw;
     } 
     .welcome .wel-wrap {
