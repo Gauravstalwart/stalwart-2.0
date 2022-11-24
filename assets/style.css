@@ -1,6 +1,5 @@
 /* GOOGLEFONT LINK START */
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
-
 /*
 font-family: 'Work Sans', sans-serif;
 font-family: 'Libre Baskerville', serif;
@@ -20,7 +19,7 @@ font-family: 'Libre Baskerville', serif;
 :root {
     --color-white: rgba(255, 255, 255, 1);
     --color-black: rgba(0, 0, 0, 1);
-    --color-grey: rgba(60, 60, 60, 1);
+    --color-grey: rgba(106, 106, 106, 1);
     --color-btn-font: rgba(249, 247, 232, 1);
     --color-btn-border: rgba(36, 100, 218, 1);
     --font-heading: 'Work Sans', sans-serif;
@@ -28,29 +27,29 @@ font-family: 'Libre Baskerville', serif;
 }
 
 .container {
-    width: 100%;
-    max-width: 1200px;
+    width: 100vw;
+    max-width: 1200vw;
     margin: 0 auto;
-    padding: 30px;
+    padding: 1.5vw 5vw;
 }
 
 body {
-    width: 100%;
+    width: 100vw;
     overflow-x: hidden;
 }
 
 .btn {
     font-family: var(--font-primary);
-    font-size: 16px;
-    padding: 10px 30px;
-    border: 3px solid var(--color-btn-border);
+    font-size: .8vw;
+    padding: .5vw 2vw;
+    border: .1vw solid var(--color-btn-border);
     color: var(--color-btn-font);
     text-transform: capitalize;
 }
 
 /* HEADER SECTION START */
-.header_sec {
-    width: 100%;
+.header {
+    width: 100vw;
     position: sticky;
     background-color: var(--color-black);
     position: absolute;
@@ -58,34 +57,34 @@ body {
     left: 0;
 }
 
-.header_sec .header_innner {
+.header .header_innner {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.header_logo {
-    width: 25%;
+
+.header .header_logo {
+    width: 25vw  !important;
     line-height: 0;
 }
 
-.header_sec  .header_logo img {
-    width: 200px;
-    max-width: 250px;
+.header_logo img {
+    width:12vw;
+    max-width: 50vw;
 }
 
 .plate.plate2 {
     display: none;
 }
 
-.header_sec  .navbar {
-    width: 55%;
-    width: 50%;
+.header .navbar {
+    width: 55vw;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.header_sec  ul {
+.header ul {
     display: inline-flex;
 }
 
@@ -95,19 +94,17 @@ li {
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
-    transition: .4s all ease-in-out;
-
 }
 
-.header_sec  ul li+li {
-    margin-left: 60px;
+.header ul li+li {
+    margin-left: 4vw;
 }
 
 li i.fa-circle.fa-solid {
     display: block;
-    font-size: 8px;
+    font-size: .4vw;
     color: var(--color-black);
-    margin-top: 10px;
+    margin-top: .5vw;
 }
 
 li:hover i.fa-circle.fa-solid {
@@ -115,24 +112,24 @@ li:hover i.fa-circle.fa-solid {
     transition: .4s all ease-in-out;
 }
 
-.header_sec  .butt {
-    width: 20%;
+.header .button {
+    width: 20vw;
     display: flex;
     justify-content: flex-end;
 }
 
-.header_sec  li a {
+.header li a {
     color: var(--color-white);
     font-family: var(--font-heading);
-    font-size: 16px;
+    font-size: 1vw;
     font-weight: 600;
-    letter-spacing: .8px;
+    letter-spacing: .04vw;
     text-transform: uppercase;
 }
 
 /* WELCOME SECTION */
 .welcome {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     display: flex;
     align-items: flex-end;
@@ -140,8 +137,8 @@ li:hover i.fa-circle.fa-solid {
 }
 
 .welcome .wel-wrap {
-    width: 100%;
-    height: 60vh;
+    width: 100vw;
+    height: 65vh;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -149,99 +146,111 @@ li:hover i.fa-circle.fa-solid {
     justify-content: space-between;
 }
 
-.welcome .wel-heading {
-    width: 100%;
+.container.wel-heading {
+    width: 100vw;
     flex-direction: column;
 }
 
-.welcome h2 {
+.wel-heading h2 {
     color: var(--color-white);
-    font-size: 60px;
+    font-size: 4vw;
     font-weight: 400;
-    letter-spacing: 5px;
+    letter-spacing: .2vw;
     text-transform: capitalize;
 }
 
 .welcome .wel-other {
-    width: 100%;
+    width: 100vw;
     position: relative;
 }
 
 .wel-other .circle-wrap {
-    width: fit-content;
-    border: 2px solid var(--color-grey);
+    width: 2.4vw;
+    height: 10vh;
+    border: .2vw solid var(--color-grey);
     margin: 0 auto;
-    padding: 30px 15px;
-    border-radius: 30px;
+    border-radius: 3vw;
     position: absolute;
-    top: -45px;
+    top: -3vw;
     left: 0;
     right: 0;
 }
 
 .wel-other .circle-wrap i {
     color: var(--color-grey);
-    font-size: 8px;
+    font-size: .4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 10vh;   
 }
 
 .welcome .row {
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
 }
 
 .welcome .col {
-    width: 33.33%;
+    width: 33.33vw;
     background-color: var(--color-white);
 }
 
 .welcome .other-btn .bt-1 {
     display: block;
     text-align: center;
-    padding: 40px;
-    border: 1px solid var(--color-black);
+    padding: 2vw;
+    border: .1vw solid var(--color-black);
     font-family: var(--font-primary);
-    font-size: 45px;
-    letter-spacing: 2px;
+    font-size: 2vw;
+    letter-spacing: .2vw;
     color: var(--color-black);
     text-transform: capitalize;
 }
 
 @media (min-width: 1201px) {
     .container {
-        max-width: 1920px;
-        padding: 30px 100px;
+        max-width: 1920vw;
     }
 }
 
 @media (max-width: 1200px) {
 
-    .welcome h2 {
-        font-size: 55px;
+    .wel-heading h2 {
+        font-size: 5vw;
     }
-
+    .welcome .wel-wrap{
+        height: 55vh;
+    }
     .welcome .other-btn .bt-1 {
-        font-size: 35px;
-        padding: 40px 20px;
+        font-size: 3vw;
+        padding: 3vw 1vw;
+    }
+    .wel-other .circle-wrap {
+        width: 3.4vw;
+        top: -4.2vw;
     }
 }
 
 @media (max-width: 999px) {
-       .header .butt{
+       .header .button{
         display: none;
+    }
+    .header_logo img {
+        width: 18vw;
     }
     .header ul li + li{
         margin-left: 0;
     }
     .header ul li {
-        padding: 30px;
+        padding: 5vw;
     }
     .header .navbar{
-        width: 100%;
+        width: 100vw;
         background-color: var(--color-grey);
         position: absolute;
-        top: 80%;
+        top: 8vw;
         left: 0;
         display: none;
         text-align: center;
@@ -249,27 +258,31 @@ li:hover i.fa-circle.fa-solid {
     li i.fa-circle.fa-solid {
         display: none;
     }
+    .header ul li a {
+        font-size: 3vw;
+        font-weight: 500;
+    }
     .header ul{
         display: inline-block;
     }
     svg {
-        height: 80px;
-        width: 80px;
+        height: 8vw;
+        width: 8vw;
         position: absolute;
-        top: 25px;
-        right: 25px;
+        top: .5vw;
+        right: 4.4vw;
     }
     .plates {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        max-height: 130px;
-        width: 400px;
+        max-height: 13vw;
+        width: 40vw;
     }
     .plate.plate2 {
-        height: 68px;
-        width: 70px;
+        height: 6vh;
+        width: 7vw;
         display: block;
     }
     .burger {
@@ -282,10 +295,10 @@ li:hover i.fa-circle.fa-solid {
     .line {
         fill: none;
         stroke: var(--color-white);
-        stroke-width: 6px;
+        stroke-width: .6vw;
         stroke-linecap: round;
         stroke-linejoin: round;
-        transform-origin: 50%;
+        transform-origin: 50vw;
         transition: stroke-dasharray 500ms 200ms, stroke-dashoffset 500ms 200ms, transform 500ms 200ms;
     }
     .active .x {
@@ -351,19 +364,91 @@ li:hover i.fa-circle.fa-solid {
     .active.plate2 .x {
         transition: transform 400ms 250ms;
     }
-    .welcome h2 {
-        font-size: 50px;
+    .wel-heading h2 {
+        font-size: 5vw;
     }
     .welcome .other-btn .bt-1 {
-        font-size: 30px;
+        font-size: 3vw;
+    }
+    .wel-other .circle-wrap {
+        width: 3.4vw;
+        top: -4.6vw;
+        height: 7vh;
     }
 }
-@media (max-width:768px){
+@media (max-width:1024px){
     .welcome h2 {
-        font-size: 45px;
+        font-size: 5.5vw;
+    }
+    .welcome .wel-wrap {
+        height: 35vh;
+    }
+    .wel-other .circle-wrap{
+        height: 6vh;
+    }
+    .wel-other .circle-wrap i{
+        height: 6vh;
+        font-size: .8vw
     }
     .welcome .other-btn .bt-1 {
-        font-size: 25px;
-        padding: 40px 0;
+        font-size: 3.8vw;
+        padding: 4vw 0;
     }
+    .btn {
+        font-size: 1.2vw;
+        padding: 1vw 3vw;
+    }
+    .header li a{
+        font-size: 1.5vw;
+        font-weight: 500;
+    }
+}
+@media (max-width:480px) {
+    .plate.plate2 {
+        height: 4vh;
+    } 
+    .header .navbar{
+        top: 10vw;
+    } 
+    .welcome .wel-wrap {
+        height: 30vh;
+    } 
+    .wel-other .circle-wrap {
+        width: 4.4vw;
+        height: 5vh;
+        top: -5vw;
+    } 
+    .wel-other .circle-wrap i {
+        height: 5vh;
+    }
+    svg{
+        top: 1vw;
+    }
+}
+@media (max-width:391px){
+    .wel-other .circle-wrap {
+        width: 4.4vw;
+        top: -6vw;
+        height: 4.6vh;
+    }
+    .wel-other .circle-wrap i {
+        height: 4.6vh;
+    }
+    svg{
+        top: 2vw;
+    }
+}
+@media (max-width:375px){
+    svg{
+        height: 9vw;
+        width: 9vw;
+        top: .6vw;
+    }
+    .line{
+        stroke-width: 1.5vw;
+    }
+    .wel-other .circle-wrap {
+        top: -4.3vw;
+    }
+
 }
