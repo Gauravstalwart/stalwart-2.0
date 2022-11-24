@@ -188,6 +188,19 @@ li:hover i.fa-circle.fa-solid {
     align-items: center;
     justify-content: center; 
     height: 10vh;   
+    animation-name: circle;
+    animation-duration: 1.8s;
+    animation-iteration-count:infinite; 
+    animation-delay:1000ms; 
+}
+
+@keyframes circle {
+    from{
+        height: 2vw;
+    }   
+    to{
+        height: 8vw;
+    } 
 }
 
 .welcome .row {
