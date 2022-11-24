@@ -153,11 +153,12 @@ li:hover i.fa-circle.fa-solid {
 
 .wel-heading h2 {
     color: var(--color-white);
-    font-size: 4vw;
+    font-size: 3vw;
     font-weight: 400;
     letter-spacing: .2vw;
     text-transform: capitalize;
     font-family: var(--font-primary);
+    letter-spacing: 1.2;
 }
 
 .welcome .wel-other {
