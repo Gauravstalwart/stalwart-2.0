@@ -3,6 +3,7 @@
     "5633b6a3-0b47-48d2-87d6-58abcc0f6dd1": {
       "type": "custom_header",
       "settings": {
+        "header_logo": "shopify:\/\/shop_images\/Stalwart_logo.png"
       }
     }
   },
