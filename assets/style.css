@@ -45,10 +45,10 @@ body {
     border: .1vw solid var(--color-btn-border);
     color: var(--color-btn-font);
     text-transform: capitalize;
-    transition: .4s all ease-in-out;
 }
 .btn:hover{
     background-color: var(--color-btn-border);
+    transition: .4s all ease-in-out;
 }
 /* HEADER SECTION START */
 .header_sec {
