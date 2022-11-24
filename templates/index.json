@@ -1,13 +1,12 @@
 {
   "sections": {
-    "cd2d3335-822f-4e03-a8aa-567342145fb8": {
+    "5633b6a3-0b47-48d2-87d6-58abcc0f6dd1": {
       "type": "custom_header",
       "settings": {
-        "header_logo": "shopify:\/\/shop_images\/Stalwart_logo.png"
       }
     }
   },
   "order": [
-    "cd2d3335-822f-4e03-a8aa-567342145fb8"
+    "5633b6a3-0b47-48d2-87d6-58abcc0f6dd1"
   ]
 }
