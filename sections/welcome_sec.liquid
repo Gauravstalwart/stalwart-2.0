@@ -15,17 +15,17 @@
                 <div class="row">
                     <div class="col">
                         <div class="other-btn">
-                            <a href="#" class="bt-1">Our Work</a>
+                            <a href="{{ section.settings.button_1_link }}" class="bt-1">{{ section.settings.button_1 }}</a>
                         </div>
                     </div>
                     <div class="col">
                         <div class="other-btn">
-                            <a href="#" class="bt-1">Our Services</a>
+                            <a href="{{ section.settings.button_2_link }}" class="bt-1">{{ section.settings.button_2 }}</a>
                         </div>
                     </div>
                     <div class="col">
                         <div class="other-btn">
-                            <a href="#" class="bt-1">Contact</a>
+                            <a href="{{ section.settings.button_3_link }}" class="bt-1">{{ section.settings.button_3 }}</a>
                         </div>
                     </div>
                 </div>
@@ -56,6 +56,36 @@
             "type":"text",
             "id":"heading_4",
             "label":"Heading 4"
+        },
+        {
+            "type":"text",
+            "id":"button_1",
+            "label":"Button 1"
+        },
+        {
+            "type":"url",
+            "id":"button_1_link",
+            "label":"Button link 1"
+        },
+        {
+            "type":"text",
+            "id":"button_2",
+            "label":"Button 2"
+        },
+        {
+            "type":"url",
+            "id":"button_2_link",
+            "label":"Button link 2"
+        },
+        {
+            "type":"text",
+            "id":"button_3",
+            "label":"Button 3"
+        },
+        {
+            "type":"text",
+            "id":"hbutton_3_link",
+            "label":"Button link 3"
         }
     ],
     "presets":[
