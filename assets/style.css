@@ -103,14 +103,19 @@ li {
     margin-left: 4vw;
 }
 
-li i.fa-circle.fa-solid {
+li i {
     display: block;
     font-size: .4vw;
     color: var(--color-black);
     margin-top: .5vw;
 }
 
-li:hover i.fa-circle.fa-solid {
+.header .navbar ul li.active a,
+.header .navbar ul li:hover a{
+    color: var(--color-white);
+}
+.header .navbar ul li.active i,
+.header .navbar ul li:hover i {
     color: var(--color-white);
     transition: .4s all ease-in-out;
 }
