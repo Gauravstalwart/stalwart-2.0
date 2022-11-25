@@ -286,10 +286,10 @@ li i {
 } 
 .col_study:hover a:after {
     content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
-    margin-left: -18px;
+    margin-left: 0;
     position: absolute;
-    top:14px;
-    right:14px;
+    top: 8px;
+    right: 85px;
 }
 
 @media (min-width: 1201px) {
