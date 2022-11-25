@@ -283,7 +283,7 @@ li i {
     border: 1px solid var(--color-white);
 }
 .case_study img{
-    width: 12vw;
+    width: 100%;
 }
  .case_study .col_study:hover .study_img{
     border: 1px solid black;
