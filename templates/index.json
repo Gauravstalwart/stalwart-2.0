@@ -20,10 +20,18 @@
         "button_3": "Contact",
         "hbutton_3_link": "#"
       }
+    },
+    "4469e16a-b705-45b6-9f82-a71d4bd4af7d": {
+      "type": "case_study",
+      "settings": {
+        "capital": "C",
+        "small": "asc study"
+      }
     }
   },
   "order": [
     "5633b6a3-0b47-48d2-87d6-58abcc0f6dd1",
-    "d9faded7-77ef-4d9f-957e-8a5b7c1d73ca"
+    "d9faded7-77ef-4d9f-957e-8a5b7c1d73ca",
+    "4469e16a-b705-45b6-9f82-a71d4bd4af7d"
   ]
 }
