@@ -30,10 +30,18 @@
             "brand_link": "#",
             "brand_logo": "shopify:\/\/shop_images\/01.webp"
           }
+        },
+        "32974e28-e4ba-43f4-9daa-be02e068fe0f": {
+          "type": "column",
+          "settings": {
+            "brand_link": "#",
+            "brand_logo": "shopify:\/\/shop_images\/02.webp"
+          }
         }
       },
       "block_order": [
-        "c5c6a7e4-9649-45aa-9cc1-6bb8e166dc44"
+        "c5c6a7e4-9649-45aa-9cc1-6bb8e166dc44",
+        "32974e28-e4ba-43f4-9daa-be02e068fe0f"
       ],
       "settings": {
         "capital": "C",
