@@ -317,7 +317,10 @@ li i {
 }
 
 @media (max-width: 999px) {
-    .header_sec .butt{
+  .header_sec .header_logo {
+      width: 50vw;
+  }  
+  .header_sec .butt{
         display: none;
     }
     .header_logo img {
@@ -542,6 +545,7 @@ li i {
     .header_sec{
       top: 10px;
     }
+    
 }
 @media (max-width:375px){
     svg{
