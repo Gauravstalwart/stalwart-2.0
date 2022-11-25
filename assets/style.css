@@ -468,7 +468,10 @@ li i {
 }
 @media (max-width:1024px){
     .header_sec{
-      top: 20px;
+        top: 20px;
+    }
+    .header_logo img {
+        width: 16vw;
     }
     .welcome h2 {
         font-size: 4vw;
