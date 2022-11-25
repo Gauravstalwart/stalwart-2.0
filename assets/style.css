@@ -502,7 +502,8 @@ li i {
 @media (max-width:480px) {
     .plate.plate2 {
         height: 4vh;
-    } 
+        width: 30vw;
+    }
     .header_sec .navbar{
         top: 10vw;
     } 
