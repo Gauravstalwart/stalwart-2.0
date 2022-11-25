@@ -317,6 +317,9 @@ li i {
 }
 
 @media (max-width: 999px) {
+  .header_sec{
+      top: 25px;
+  }
   .header_sec .header_logo {
       width: 50vw;
   }  
