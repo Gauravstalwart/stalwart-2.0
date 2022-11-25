@@ -517,6 +517,14 @@ li i {
     svg{
         top: .8vw;
     }
+     .case_study .col_study {
+        width: 15.66vw;
+    }
+    .col_study:hover a:after {
+        top: -3px;
+        right: 6px;
+    }
+}
 }
 @media (max-width:391px){
     .wel-other .circle-wrap {
