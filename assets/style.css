@@ -242,6 +242,7 @@ li i {
     width: 100vw;
     display: flex;
     align-items: center;
+    background-color: var(--color-white);
 }
 .case_study .main_heading{
     padding: 5vw;
