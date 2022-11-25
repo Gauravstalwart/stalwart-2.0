@@ -559,5 +559,12 @@ li i {
     .wel-other .circle-wrap {
         top: -4.3vw;
     }
+  
 
+}
+@media (max-width:355px){
+    .case_study .col_study {
+        width: 100vw;
+        margin: 6px;
+    }
 }
