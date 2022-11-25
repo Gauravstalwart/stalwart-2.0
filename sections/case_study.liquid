@@ -1,7 +1,7 @@
     <section class="case_study">
         <div class="container">
             <div class="main_heading">
-                <h3><big>{{ section.settings.capital }}</big><small>{{ section.settings.small }}</small></h3>
+                <h3>{{ section.settings.heading }}</small></h3>
             </div>
             <div class="row_study">
                {% for block in section.blocks %}
@@ -24,14 +24,9 @@
     "settings": [
       {
             "type":"text",
-            "id":"capital",
-            "label":"Heading First Letter"
-      },
-      {
-            "type":"text",
-            "id":"small",
-            "label":"Header Second word"
-      }      
+            "id":"heading",
+            "label":"Heading"
+      }    
     ],
     "blocks": [
       {
