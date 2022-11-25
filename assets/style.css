@@ -286,7 +286,7 @@ li i {
     margin-left: 0;
     position: absolute;
     top: 8px;
-    right: 8px;
+    right: 12px;
 }
 
 @media (min-width: 1201px) {
