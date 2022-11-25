@@ -550,6 +550,9 @@ li i {
     .main_heading h3{
         font-size: 8vw;
     }
+    .case_study{
+      padding: 10vw 0 5vw;
+    }
 }
 @media (max-width:391px){
     .wel-other .circle-wrap {
