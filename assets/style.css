@@ -357,8 +357,8 @@ li i {
         height: 15vw;
         width: 15vw;
         position: absolute;
-        bottom: 0vw;
-        right: 8vw;
+        bottom: -2.2vw;
+        right: 2.4vw;
     }
     .plates {
         display: flex;
