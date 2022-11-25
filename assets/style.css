@@ -243,7 +243,7 @@ li i {
     display: flex;
     align-items: center;
     background-color: var(--color-white);
-    padding: 3vw 0;
+    padding: 5vw 0;
 }
 .case_study .main_heading{
     text-align: center;
@@ -262,7 +262,7 @@ li i {
     align-items: center;
     justify-content: center;
     background-color: var(--color-white);
-    padding: 30px 0;
+    padding: 20px 0;
 }
 .case_study .col_study{
     width: 12.66vw;
