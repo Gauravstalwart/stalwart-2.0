@@ -41,7 +41,7 @@
         "94b2b032-b716-4806-a8fe-fc027cf6bb59": {
           "type": "column",
           "settings": {
-            "brand_link": "",
+            "brand_link": "#",
             "brand_logo": "shopify:\/\/shop_images\/03.webp"
           }
         },
@@ -146,7 +146,7 @@
         "6e0c83ff-18c6-44c5-926f-e244cf19cd3e": {
           "type": "column",
           "settings": {
-            "brand_link": "",
+            "brand_link": "#",
             "brand_logo": "shopify:\/\/shop_images\/18.webp"
           }
         },
