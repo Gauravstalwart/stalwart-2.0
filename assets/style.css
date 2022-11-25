@@ -301,7 +301,7 @@ li i {
 @media (min-width: 1201px) {
     .container {
         max-width: 1450vw;
-        padding: 1vw 5vw;
+        padding: 1vw 10vw;
     }
 }
 
