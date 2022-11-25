@@ -539,6 +539,9 @@ li i {
     svg{
         top: 2vw;
     }
+    .header_sec{
+      top: 10px;
+    }
 }
 @media (max-width:375px){
     svg{
