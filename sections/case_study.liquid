@@ -1,3 +1,22 @@
+    <section class="case_study">
+        <div class="container">
+            <div class="main_heading">
+                <h3><big>C</big><small>ase study</small></h3>
+            </div>
+            <div class="row_study">
+               {% for block in section.blocks %}
+                <div class="col_study">
+                    <div class="study_img">
+                        <a href="#">
+                            <img src="./img/comp-logo/01.webp" alt="">
+                        </a>
+                    </div>
+                </div>
+              {% endfor %}
+            </div>
+        </div>
+    </section>
+
 {% schema %}
   {
     "name": "Section name",
