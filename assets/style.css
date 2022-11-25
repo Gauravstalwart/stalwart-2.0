@@ -245,7 +245,6 @@ li i {
     background-color: var(--color-white);
 }
 .case_study .main_heading{
-    padding: 5vw;
     text-align: center;
 }
 .main_heading h3{
@@ -277,7 +276,7 @@ li i {
     border: 1px solid var(--color-white);
 }
 .case_study img{
-    width: 100%;
+    width: 75%;
     height: auto;
 }
  .case_study .col_study:hover .study_img img{
