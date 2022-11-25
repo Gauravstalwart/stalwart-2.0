@@ -191,6 +191,48 @@
             "brand_link": "#",
             "brand_logo": "shopify:\/\/shop_images\/24.webp"
           }
+        },
+        "43d0ca55-e787-4d88-b5f9-27b87906f4b1": {
+          "type": "column",
+          "settings": {
+            "brand_link": "#",
+            "brand_logo": "shopify:\/\/shop_images\/25.webp"
+          }
+        },
+        "232de175-15d4-4cd0-ab28-dd2c0726dafd": {
+          "type": "column",
+          "settings": {
+            "brand_link": "#",
+            "brand_logo": "shopify:\/\/shop_images\/26.webp"
+          }
+        },
+        "bb3c8b6f-b899-47c4-b72d-f51d4bee8b42": {
+          "type": "column",
+          "settings": {
+            "brand_link": "#",
+            "brand_logo": "shopify:\/\/shop_images\/27.webp"
+          }
+        },
+        "e00b8f31-fa70-424a-ada0-14e044fd9130": {
+          "type": "column",
+          "settings": {
+            "brand_link": "#",
+            "brand_logo": "shopify:\/\/shop_images\/28.webp"
+          }
+        },
+        "a4db75d1-7b67-4ee6-bec1-ac7ec1471a6e": {
+          "type": "column",
+          "settings": {
+            "brand_link": "#",
+            "brand_logo": "shopify:\/\/shop_images\/29.webp"
+          }
+        },
+        "4921f9f6-d114-46c3-bee8-9c4725b212e5": {
+          "type": "column",
+          "settings": {
+            "brand_link": "#",
+            "brand_logo": "shopify:\/\/shop_images\/30.webp"
+          }
         }
       },
       "block_order": [
@@ -217,7 +259,13 @@
         "ebde4330-dc34-43fd-8def-dfe28c944a84",
         "e952d519-7383-4b3b-9f81-db74656a5f2f",
         "bbb39a20-352b-4cd9-af26-f217aeddc312",
-        "f838aafa-1ea5-444a-b349-91b2c21128e4"
+        "f838aafa-1ea5-444a-b349-91b2c21128e4",
+        "43d0ca55-e787-4d88-b5f9-27b87906f4b1",
+        "232de175-15d4-4cd0-ab28-dd2c0726dafd",
+        "bb3c8b6f-b899-47c4-b72d-f51d4bee8b42",
+        "e00b8f31-fa70-424a-ada0-14e044fd9130",
+        "a4db75d1-7b67-4ee6-bec1-ac7ec1471a6e",
+        "4921f9f6-d114-46c3-bee8-9c4725b212e5"
       ],
       "settings": {
         "capital": "C",
