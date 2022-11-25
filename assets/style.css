@@ -490,7 +490,7 @@ li i {
 @media (max-width: 769px){
   .col_study:hover a:after {
     top: -3px;
-    right: 0px;
+    right: 6px;
 }
 }
 @media (max-width:480px) {
