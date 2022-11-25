@@ -11,12 +11,5 @@ $(document).ready(function(){
 
 
 
-  $(function(){
-    var url = window.location.pathname, 
-    urlRegExp = new RegExp(url.replace(/\/$/,'') + "$");
-    $('.navbar ul li a').each(function(){
-      if(urlRegExp.test(this.href.replace(/\/$/,''))){
-        $(this).parent().addClass('active');
-      }
-    });
-  });
+var activeurl = window.location;
+$('.navbar ul li a[href="'+activeurl+'"]').parent('li').addClass('active')
