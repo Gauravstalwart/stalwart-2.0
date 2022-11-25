@@ -357,7 +357,7 @@ li i {
         height: 15vw;
         width: 15vw;
         position: absolute;
-        top: .2vw;
+        bottom: 0vw;
         right: 8vw;
     }
     .plates {
