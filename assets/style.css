@@ -541,7 +541,8 @@ li i {
         height: 4.6vh;
     }
     svg{
-        bottom: 2vw;
+        bottom: -2.2vw;
+        right: 6vw;
     }
     .header_sec{
       top: 10px;
