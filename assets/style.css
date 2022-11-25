@@ -276,7 +276,7 @@ li i {
     width: 90%;
     height: auto;
 }
- .case_study .study_img:hover .study_img img{
+ .case_study:hover .study_img{
     border: 1px solid black;
     box-shadow: 4px 5px 0px black !important;
     transition: .4s all ease-out;
