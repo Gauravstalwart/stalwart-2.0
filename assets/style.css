@@ -201,10 +201,10 @@ li i {
 
 @keyframes circle {
     from{
-        height: 2vw;
+        height: 2vh;
     }   
     to{
-        height: 6vw;
+        height: 4vh;
     } 
 }
 
