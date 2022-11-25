@@ -252,7 +252,7 @@ li i {
     font-family: var(--font-primary);
     font-weight:700;
     font-size: 6vw;
-    color: var(--color-white);
+    color: var(--color-black);
 }
 .case_study .row_study{
     display:flex;
