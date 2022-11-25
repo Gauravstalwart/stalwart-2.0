@@ -503,6 +503,9 @@ li i {
     }
 }
 @media (max-width: 769px){
+  .header_logo img {
+      width: 28vw;
+  }
   .case_study .col_study {
         width: 15.66vw;
   }
