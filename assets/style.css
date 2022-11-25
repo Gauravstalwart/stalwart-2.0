@@ -550,11 +550,6 @@ li i {
     
 }
 @media (max-width:375px){
-    svg{
-        height: 9vw;
-        width: 9vw;
-        bottom: .2vw;
-    }
     .line{
         stroke-width: 1.5vw;
     }
