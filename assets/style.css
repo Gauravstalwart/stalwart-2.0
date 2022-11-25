@@ -592,7 +592,7 @@ li i {
 @media (max-width:355px){
     .case_study .col_study {
         width: 100vw;
-        margin: 6px;
+        margin: 10px auto; 
     }
      .case_study .col_study:nth-of-type(n+6) {
         display: none;
