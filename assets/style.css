@@ -529,12 +529,12 @@ li i {
         top: -3px;
         right: 6px;
     }
-  .case_study .col_study:nth-of-type(n+17) {
-    display: none;
-  }
-  .main_heading h3{
-    font-size: 8vw;
-  }
+    .case_study .col_study:nth-of-type(n+17) {
+        display: none;
+    }
+    .main_heading h3{
+        font-size: 8vw;
+    }
 }
 @media (max-width:391px){
     .wel-other .circle-wrap {
