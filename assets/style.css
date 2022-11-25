@@ -110,12 +110,12 @@ li i {
     margin-top: .5vw;
 }
 
-.header .navbar ul li.active a,
-.header .navbar ul li:hover a{
+.header_sec .navbar ul li.active a,
+.header_sec .navbar ul li:hover a{
     color: var(--color-white);
 }
-.header .navbar ul li.active i,
-.header .navbar ul li:hover i {
+.header_sec .navbar ul li.active i,
+.header_sec .navbar ul li:hover i {
     color: var(--color-white);
     transition: .4s all ease-in-out;
 }
