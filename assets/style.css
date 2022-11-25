@@ -284,7 +284,7 @@ li i {
     box-shadow: 4px 5px 0px black !important;
     transition: .4s all ease-out;
 } 
-.col_study:hover img:after {
+.col_study:hover a:after {
     content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
     margin-left: -18px;
     position: absolute;
