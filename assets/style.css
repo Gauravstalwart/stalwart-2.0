@@ -518,7 +518,8 @@ li i {
         top: .8vw;
     }
      .case_study .col_study {
-        width: 39.66vw;
+        width: 36.66vw;
+        margin: 6px;
     }
     .col_study:hover a:after {
         top: -3px;
