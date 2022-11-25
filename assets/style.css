@@ -565,6 +565,9 @@ li i {
     .header_sec{
       top: 10px;
     }
+      .case_study .col_study:nth-of-type(n+11) {
+        display: none;
+    }
     
 }
 @media (max-width:375px){
