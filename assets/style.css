@@ -263,7 +263,7 @@ li i {
     padding: 40px 0;
 }
 .case_study .col_study{
-    width: 11.66vw;
+    width: 12.66vw;
     padding: .4vw;
     position: relative;
     text-align: center;
@@ -277,7 +277,7 @@ li i {
     border: 1px solid var(--color-white);
 }
 .case_study img{
-    width: 75%;
+    width: 80%;
     height: auto;
 }
  .study_img img:hover .case_study{
