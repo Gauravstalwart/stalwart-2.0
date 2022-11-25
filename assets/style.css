@@ -487,6 +487,12 @@ li i {
         font-weight: 500;
     }
 }
+@media (max-width: 768){
+  .col_study:hover a:after {
+    top: -3px;
+    right: 6px;
+}
+}
 @media (max-width:480px) {
     .plate.plate2 {
         height: 4vh;
