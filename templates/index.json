@@ -23,6 +23,18 @@
     },
     "4469e16a-b705-45b6-9f82-a71d4bd4af7d": {
       "type": "case_study",
+      "blocks": {
+        "c5c6a7e4-9649-45aa-9cc1-6bb8e166dc44": {
+          "type": "column",
+          "settings": {
+            "brand_link": "#",
+            "brand_logo": "shopify:\/\/shop_images\/01.webp"
+          }
+        }
+      },
+      "block_order": [
+        "c5c6a7e4-9649-45aa-9cc1-6bb8e166dc44"
+      ],
       "settings": {
         "capital": "C",
         "small": "asc study"
