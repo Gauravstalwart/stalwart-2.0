@@ -585,4 +585,7 @@ li i {
         width: 100vw;
         margin: 6px;
     }
+     .case_study .col_study:nth-of-type(n+6) {
+        display: none;
+    }
 }
