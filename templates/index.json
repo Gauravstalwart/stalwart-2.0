@@ -37,11 +37,35 @@
             "brand_link": "#",
             "brand_logo": "shopify:\/\/shop_images\/02.webp"
           }
+        },
+        "94b2b032-b716-4806-a8fe-fc027cf6bb59": {
+          "type": "column",
+          "settings": {
+            "brand_link": "",
+            "brand_logo": "shopify:\/\/shop_images\/03.webp"
+          }
+        },
+        "3e967cd8-67ee-43b3-9d6f-f5ae770956ae": {
+          "type": "column",
+          "settings": {
+            "brand_link": "#",
+            "brand_logo": "shopify:\/\/shop_images\/04.webp"
+          }
+        },
+        "5f78c7b8-b2ac-452e-b673-d2067ce3735c": {
+          "type": "column",
+          "settings": {
+            "brand_link": "#",
+            "brand_logo": "shopify:\/\/shop_images\/05.webp"
+          }
         }
       },
       "block_order": [
         "c5c6a7e4-9649-45aa-9cc1-6bb8e166dc44",
-        "32974e28-e4ba-43f4-9daa-be02e068fe0f"
+        "32974e28-e4ba-43f4-9daa-be02e068fe0f",
+        "94b2b032-b716-4806-a8fe-fc027cf6bb59",
+        "3e967cd8-67ee-43b3-9d6f-f5ae770956ae",
+        "5f78c7b8-b2ac-452e-b673-d2067ce3735c"
       ],
       "settings": {
         "capital": "C",
