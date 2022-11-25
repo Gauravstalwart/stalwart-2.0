@@ -250,12 +250,7 @@ li i {
 .main_heading h3{
     font-family: var(--font-primary);
     font-weight:700;
-}.main_heading big{
     font-size: 10vw;
-    color: var(--color-btn-border);
-}
-.main_heading small{
-    font-size: 5vw;
     color: var(--color-white);
 }
 .case_study .row_study{
