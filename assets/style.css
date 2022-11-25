@@ -519,7 +519,7 @@ li i {
         height: 5vh;
     }
     svg{
-        top: .8vw;
+        bottom: .8vw;
     }
      .case_study .col_study {
         width: 36.66vw;
@@ -541,7 +541,7 @@ li i {
         height: 4.6vh;
     }
     svg{
-        top: 2vw;
+        bottom: 2vw;
     }
     .header_sec{
       top: 10px;
@@ -552,7 +552,7 @@ li i {
     svg{
         height: 9vw;
         width: 9vw;
-        top: .2vw;
+        bottom: .2vw;
     }
     .line{
         stroke-width: 1.5vw;
