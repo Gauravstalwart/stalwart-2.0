@@ -36,6 +36,7 @@ font-family: 'Libre Baskerville', serif;
 body {
     width: 100vw;
     overflow-x: hidden;
+    background-color: var(--color-black);
 }
 
 .btn {
