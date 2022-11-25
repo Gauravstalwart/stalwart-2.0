@@ -376,9 +376,9 @@ li i {
         width: 30vw;
         display: block;
     }
-    .burger {
+/*     .burger {
         filter: url(#gooeyness);
-    }
+    } */
     .x {
         transform: scale(0);
         transition: transform 400ms;
