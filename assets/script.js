@@ -22,23 +22,23 @@ $(window).scroll(function() {
   }
 });
 
-// $('.our_row').slick({
-// 	infinite: false,
-// 	slidesToShow: 4,
-// 	slidesToScroll: 1,
-// 	autoplay: false,
-//     speed: 1200,
-//     autoplaySpeed: 700,
-// 	dots: false,
-// 	arrows: true,
-// 	prevArrow:"<button type='button' class='slick-prev pull-left'><i class='fa-sharp fa-solid fa-arrow-left'></i></button>",
-// 	nextArrow:"<button type='button' class='slick-next pull-right'><i class='fa-sharp fa-solid fa-arrow-right'></i></button>",
-// 	responsive: [
-// 		{
-// 			breakpoint: 999,
-// 			settings: {
-// 				dots: false,
-// 			}
-// 		},
-// 	]
-// });
+$('.our_row').slick({
+	infinite: false,
+	slidesToShow: 4,
+	slidesToScroll: 1,
+	autoplay: false,
+    speed: 1200,
+    autoplaySpeed: 700,
+	dots: false,
+	arrows: true,
+	prevArrow:"<button type='button' class='slick-prev pull-left'><i class='fa-sharp fa-solid fa-arrow-left'></i></button>",
+	nextArrow:"<button type='button' class='slick-next pull-right'><i class='fa-sharp fa-solid fa-arrow-right'></i></button>",
+	responsive: [
+		{
+			breakpoint: 999,
+			settings: {
+				dots: false,
+			}
+		},
+	]
+});
