@@ -378,6 +378,7 @@ section.our_work{
 .slider_our_work .slider_detali .slider_text p{
     color: white;
     font-size: .8vw;
+    line-height: 1.3;
 }
 .slider_our_work .our_col .slider_img img {
     width: 17.6vw;
