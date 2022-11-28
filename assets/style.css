@@ -400,12 +400,12 @@ button {
 button.slick-next.pull-right.slick-arrow {
     position: absolute;
     top: 15vw;
-    right: 21.5vw;
+    right: 20.6vw;
 }
 button.slick-prev.pull-left.slick-arrow {
     position: absolute;
     top: 15vw;
-    left: 5vw;
+    left: 9.5vw;
     z-index: 11;
 }
 i {
