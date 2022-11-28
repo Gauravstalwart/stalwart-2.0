@@ -309,12 +309,19 @@
       "settings": {
         "main_heading": "Our Work"
       }
+    },
+    "9db5ab05-926e-4ded-a0af-4e207cbab353": {
+      "type": "svg",
+      "settings": {
+        "svg_path": "https:\/\/cdn.shopify.com\/s\/files\/1\/0663\/5326\/7005\/files\/slider_logo_3.svg?v=1669639215"
+      }
     }
   },
   "order": [
     "5633b6a3-0b47-48d2-87d6-58abcc0f6dd1",
     "d9faded7-77ef-4d9f-957e-8a5b7c1d73ca",
     "4469e16a-b705-45b6-9f82-a71d4bd4af7d",
-    "6f5ea4b2-e3a6-4d03-a22b-9c35169fc9fa"
+    "6f5ea4b2-e3a6-4d03-a22b-9c35169fc9fa",
+    "9db5ab05-926e-4ded-a0af-4e207cbab353"
   ]
 }
