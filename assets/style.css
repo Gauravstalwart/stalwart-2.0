@@ -245,9 +245,11 @@ li i {
     background-color: var(--color-black);
     padding: 5vw 0;
     transition: .5s all ease-in-out;
+    color: var(--color-white);
 }
 .color_change section.case_study {
     background-color: var(--color-white);
+    color:var(--color-black);
 }
 .case_study .main_heading{
     text-align: center;
