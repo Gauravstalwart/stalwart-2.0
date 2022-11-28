@@ -277,7 +277,7 @@
         "a66438f4-4ac6-4d22-b621-b8b2a0546589": {
           "type": "column",
           "settings": {
-            "slider_logo": "shopify:\/\/shop_images\/slider_logo_2.webp",
+            "slider_logo": "slider_logo_1.svg",
             "slider_heading": "Shopify store for a streetwear brand",
             "slider_desc": "<p>Anarchy wanted a clean and minimal website where customers could easily navigate through all the pages and most importantly, have a frictionless user experience.<\/p>",
             "slider_img": "shopify:\/\/shop_images\/slider_img_1.png"
@@ -286,6 +286,7 @@
         "1531319b-09f4-411c-ac5a-642890453532": {
           "type": "column",
           "settings": {
+            "slider_logo": "slider_logo_2.svg",
             "slider_heading": "Shopify store for a streetwear brand",
             "slider_desc": "<p>Anarchy wanted a clean and minimal website where customers could easily navigate through all the pages and most importantly, have a frictionless user experience.<\/p>",
             "slider_img": "shopify:\/\/shop_images\/slider_img_2.png"
@@ -294,7 +295,7 @@
         "a480ea48-85c8-4017-976d-31a42d42ce5c": {
           "type": "column",
           "settings": {
-            "slider_logo": "shopify:\/\/shop_images\/slider_logo_2.webp",
+            "slider_logo": "slider_logo_3.svg",
             "slider_heading": "Shopify store for a streetwear brand",
             "slider_desc": "<p>Anarchy wanted a clean and minimal website where customers could easily navigate through all the pages and most importantly, have a frictionless user experience.<\/p>",
             "slider_img": "shopify:\/\/shop_images\/slider_img_1.png"
@@ -309,19 +310,12 @@
       "settings": {
         "main_heading": "Our Work"
       }
-    },
-    "9db5ab05-926e-4ded-a0af-4e207cbab353": {
-      "type": "svg",
-      "settings": {
-        "svg_path": "slider_logo_3.svg"
-      }
     }
   },
   "order": [
     "5633b6a3-0b47-48d2-87d6-58abcc0f6dd1",
     "d9faded7-77ef-4d9f-957e-8a5b7c1d73ca",
     "4469e16a-b705-45b6-9f82-a71d4bd4af7d",
-    "6f5ea4b2-e3a6-4d03-a22b-9c35169fc9fa",
-    "9db5ab05-926e-4ded-a0af-4e207cbab353"
+    "6f5ea4b2-e3a6-4d03-a22b-9c35169fc9fa"
   ]
 }
