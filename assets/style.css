@@ -244,6 +244,7 @@ li i {
     align-items: center;
     background-color: var(--color-white);
     padding: 5vw 0;
+  transition: .5s all;
 }
 .color_change section.case_study {
     background: #000;
