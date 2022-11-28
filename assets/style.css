@@ -158,6 +158,9 @@ li i {
     width: 100vw;
     flex-direction: column;
 }
+.wel-heading {
+    margin-bottom: 80px;
+}
 
 .wel-heading h2 {
     color: var(--color-white);
