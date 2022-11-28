@@ -140,12 +140,13 @@ li i {
 }
 
 /* WELCOME SECTION */
-.welcome {
+section.welcome {
     width: 100vw;
     height: 100vh;
     display: flex;
     align-items: flex-end;
     background-color: var(--color-black);
+    padding: 0;
 }
 
 .welcome .wel-wrap {
