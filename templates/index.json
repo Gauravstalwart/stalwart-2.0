@@ -322,9 +322,10 @@
         "8152f2fa-7ce9-4c41-b51a-d4e732f00d43": {
           "type": "column",
           "settings": {
-            "slider_logo": "",
-            "slider_heading": "",
-            "slider_desc": ""
+            "slider_logo": "slider_logo_3.svg",
+            "slider_heading": "Shopify store for a streetwear brand",
+            "slider_desc": "<p>Anarchy wanted a clean and minimal website where customers could easily navigate through all the pages and most importantly, have a frictionless user experience.<\/p>",
+            "slider_img": "shopify:\/\/shop_images\/slider_img_3.png"
           }
         }
       },
