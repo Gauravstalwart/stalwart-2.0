@@ -147,11 +147,10 @@ li i {
 
 .welcome .wel-wrap {
     width: 100vw;
-    height: 65vh;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
 }
 
