@@ -291,7 +291,7 @@ li i {
 .case_study img{
     width: 90%;
     height: auto;
-    filter: initial(1);
+    filter: invert(1)
 }
  .col_study:hover .study_img{
     border: 1px solid black;
