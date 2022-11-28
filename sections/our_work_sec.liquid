@@ -9,13 +9,13 @@
                     <div class="slider_detali">
                         <div class="slider_text">
                             <div class="slider_logo">
-                                <img src="./img/slider_logo_1.svg" alt="">
+                                 <img src="{{ block.settings.slider_logo | img_url:'master'}}"  alt="">
                             </div>
-                            <h4>Shopify store for a streetwear brand</h4>
-                            <p>Anarchy wanted a clean and minimal website where customers could easily navigate through all the pages and most importantly, have a frictionless user experience.</p>
+                            <h4>{{ block.settings.slider_heading }}</h4>
+                            <p>{{ block.settings.slider_desc }}</p>
                         </div>
                         <div class="slider_img">
-                            <img src="./img/slider_img_1.png" alt="">
+                             <img src="{{ block.settings.slider_img | img_url:'master'}}" alt="">
                         </div>
                     </div>
                 </div>
@@ -36,7 +36,7 @@
     ],
      "blocks": [
       {
-        "name": "inner_column",
+        "name": "our_column",
         "type":"column",
         "settings": [
            {
@@ -55,14 +55,9 @@
             "label":"Offer Collection Description"
           },
            {
-            "type":"text",
-            "id":"offer_coll_btn",
-            "label":"Offer Collection Button"
-          },
-          {
-            "type":"url",
-            "id":"offer_coll_link",
-            "label":"Offer Collection Link"
+            "type":"image_picker",
+            "id":"offer_imge",
+            "label":"Offer Image"
           }
         ]
       }
