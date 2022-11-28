@@ -1,12 +1,35 @@
+<div class="section-container">
+<img src="{{ section.settings.svg_path | file_url }}">
+</div>
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+"name": "SVG Uploader",
+"class": "svg-uploader",
+"tag": "section",
+"settings": [
+{
+"type": "header",
+"content": "Desktop Settings"
+},
+{
+"type": "text",
+"id": "svg_path",
+"label":"SVG Path"
+}
+
+],
+"presets": [
+{
+"name": "SVG Uploader",
+"category":"Image",
+"settings": {
+}
+}
+]
+
+}
 {% endschema %}
 
-{% stylesheet %}
-{% endstylesheet %}
 
 {% javascript %}
 {% endjavascript %}
