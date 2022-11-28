@@ -249,7 +249,6 @@ section.case_study{
     display: flex;
     align-items: center;
     background-color: var(--color-black);
-    padding: 0;
     transition: .5s all ease-in-out;
 }
 .color_change section.case_study {
