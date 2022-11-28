@@ -244,12 +244,12 @@ section.welcome {
     transition: .4s all ease-in-out;
 }
 /* CASE_STUDY SECTION */
-.case_study{
+section.case_study{
     width: 100vw;
     display: flex;
     align-items: center;
     background-color: var(--color-black);
-    padding: 5vw 0;
+    padding: 0;
     transition: .5s all ease-in-out;
 }
 .color_change section.case_study {
