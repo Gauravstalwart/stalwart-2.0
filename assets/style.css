@@ -259,10 +259,10 @@ li i {
     font-size: 3vw;
     color: var(--color-white);
     line-height: 1.5;
+    transition: .5s all ease-in-out;
 }
 .color_change .main_heading h3{
     color: var(--color-black);
-    transition: .5s all ease-in-out;
 }
 .case_study .row_study{
     display:flex;
