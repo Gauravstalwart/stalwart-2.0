@@ -245,7 +245,6 @@ li i {
     background-color: var(--color-black);
     padding: 5vw 0;
     transition: .5s all ease-in-out;
-    color: var(--color-white);
 }
 .color_change section.case_study {
     background-color: var(--color-white);
@@ -254,12 +253,15 @@ li i {
 .case_study .main_heading{
     text-align: center;
 }
-.main_heading h3{
+.color_change section.{
     font-family: var(--font-primary);
     font-weight:700;
     font-size: 3vw;
-    color: var(--color-black);
+    color: var(--color-white);
     line-height: 1.5;
+}
+.color_change .color_change section.{
+    color: var(--color-black);
 }
 .case_study .row_study{
     display:flex;
