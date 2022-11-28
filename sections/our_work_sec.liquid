@@ -1,9 +1,10 @@
 <section class="our_work">
         <div class="main_heading">
-            <h3>Our Work</h3>
+            <h3>{{ section.settings.main_heading }}</h3>
         </div>
         <div class="slider_our_work">
             <div class="our_row">
+               {% for block in section.blocks %}
                 <div class="our_col">
                     <div class="slider_detali">
                         <div class="slider_text">
@@ -18,6 +19,7 @@
                         </div>
                     </div>
                 </div>
+              {% endfor %}
             </div>      
         </div>
 </section>
@@ -26,7 +28,44 @@
     "name": "Our Work",
     "class": "our_work_sec",
     "settings": [
-      
+         {
+                "type":"text",
+                "id":"main_heading",
+                "label":"Main Heading"
+         }
+    ],
+     "blocks": [
+      {
+        "name": "inner_column",
+        "type":"column",
+        "settings": [
+           {
+            "type":"image_picker",
+            "id":"offer_image",
+            "label":"Offer Image"
+          },
+          {
+            "type":"text",
+            "id":"offer_coll_heading",
+            "label":"Offer Collection Heading"
+          },
+          {
+            "type":"text",
+            "id":"offer_coll_desc",
+            "label":"Offer Collection Description"
+          },
+           {
+            "type":"text",
+            "id":"offer_coll_btn",
+            "label":"Offer Collection Button"
+          },
+          {
+            "type":"url",
+            "id":"offer_coll_link",
+            "label":"Offer Collection Link"
+          }
+        ]
+      }
     ],
     "presets":[
       { "name":"Our Work"}
