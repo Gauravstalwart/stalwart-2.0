@@ -51,6 +51,9 @@ body {
     background-color: var(--color-btn-border);
     transition: .4s all ease-in-out;
 }
+section{
+  padding: 100px 0;
+}
 /* HEADER SECTION START */
 .header_sec {
     width: 100vw;
