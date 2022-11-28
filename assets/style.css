@@ -282,6 +282,7 @@ li i {
 {
     border: 1px solid var(--color-black);
     background-color: var(--color-black);
+    transition: .5s all ease-in-out;
 }
 .color_change .case_study .study_img{
     border: 1px solid var(--color-white);
@@ -291,8 +292,7 @@ li i {
     width: 90%;
     height: auto;
     filter: invert(1);
-    transition: .5s all ease-in-out;
-  
+    transition: .5s all ease-in-out;  
 }
 .color_change .case_study img{
     filter: invert(0);
