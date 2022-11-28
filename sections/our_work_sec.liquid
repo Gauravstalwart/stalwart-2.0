@@ -9,7 +9,7 @@
                     <div class="slider_detali">
                         <div class="slider_text">
                             <div class="slider_logo">
-                                 <img src="{{ block.settings.slider_logo | img_url:'master'}}"  alt="">
+                                 <img src="{{ block.settings.slider_logo | file_url}}">
                             </div>
                             <h4>{{ block.settings.slider_heading }}</h4>
                             <p>{{ block.settings.slider_desc }}</p>
@@ -40,7 +40,7 @@
         "type":"column",
         "settings": [
            {
-            "type":"image_picker",
+            "type":"text",
             "id":"slider_logo",
             "label":"Slider Logo"
           },
