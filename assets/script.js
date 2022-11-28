@@ -15,7 +15,7 @@ $(window).scroll(function() {
   var brands_height_half = brands_height/2;
   var brands_height_scoll = $(window).scrollTop();
   
-  if (scroll >= brands_offset-brands_height_half) {
+  if (brands_height_scoll >= brands_offset-brands_height_half) {
       $('.case-study').addClass('color_change');
       console.log(brands_offset-brands_height_half);
   }
