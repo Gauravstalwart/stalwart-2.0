@@ -270,7 +270,6 @@ li i {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    
     padding: 20px 0;
 }
 .case_study .col_study{
@@ -292,6 +291,8 @@ li i {
     width: 90%;
     height: auto;
     filter: invert(1);
+    transition: .5s all ease-in-out;
+  
 }
 .color_change .case_study img{
     filter: invert(0);
