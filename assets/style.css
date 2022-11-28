@@ -149,7 +149,7 @@ li i {
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: end;
     flex-direction: row;
     justify-content: space-between;
 }
