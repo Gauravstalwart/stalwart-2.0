@@ -297,11 +297,16 @@ li i {
 .color_change .case_study img{
     filter: invert(0);
 }
- .col_study:hover .study_img{
+.col_study:hover .study_img{
+    border: 1px solid white;
+    box-shadow: 4px 5px 0px white !important;
+    transition: .4s all ease-out;
+}
+.color_change .col_study:hover .study_img
+{
     border: 1px solid black;
     box-shadow: 4px 5px 0px black !important;
-    transition: .4s all ease-out;
-} 
+}
   .col_study:hover a:after{
     content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
     margin-left: 0;
