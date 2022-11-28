@@ -248,18 +248,21 @@ li i {
 }
 .color_change section.case_study {
     background-color: var(--color-white);
+    color:var(--color-black);
 }
 .case_study .main_heading{
     text-align: center;
 }
-.color_change section.{
+.main_heading h3{
     font-family: var(--font-primary);
     font-weight:700;
     font-size: 3vw;
     color: var(--color-white);
     line-height: 1.5;
 }
-
+.color_change .main_heading h3{
+    color: var(--color-black);
+}
 .case_study .row_study{
     display:flex;
     flex-wrap: wrap;
