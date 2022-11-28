@@ -14,8 +14,9 @@ $(window).scroll(function() {
   var brands_offset = $('.case-study').offset();
   var brands_height_half = brands_height/2;
   var brands_height_scoll = $(window).scrollTop();
-  console.log(brands_offset.top-brands_height/2);
+  
   if (scroll >= brands_offset-brands_height_half) {
       $('.case-study').addClass('color_change');
+      console.log(brands_offset-brands_height_half);
   }
 });
