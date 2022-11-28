@@ -17,8 +17,8 @@ $(window).scroll(function() {
   
   
   if (brands_height_scoll >= brands_offset.top-) {
-    alert();
+   
       $('.case-study').addClass('color_change');
-      console.log(brands_offset.top-brands_height_half);
+      console.log(brands_height_scoll);
   }
 });
