@@ -326,6 +326,9 @@ section.case_study{
 section.our_work{
     width: 100vw;
 }
+.main_heading {
+    text-align: center;
+}
 .slider_our_work {
     display: flex;
     width: 100vw;
