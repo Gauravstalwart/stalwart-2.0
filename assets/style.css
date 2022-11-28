@@ -525,38 +525,6 @@ li i {
     .main_heading h3{
       font-size: 5vw;
     }
-
-  .case_study{
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    background-color: var(--color-black);
-    padding: 5vw 0;
-    transition: .5s all ease-in-out;
-}
-.color_change section.case_study {
-    background-color: var(--color-white);
-}
-    .col_study:hover .study_img{
-        border: 1px solid white;
-        box-shadow: 4px 5px 0px white !important;
-        transition: .4s all ease-out;
-    }
-    .color_change .col_study:hover .study_img{
-        border: 1px solid black;
-        box-shadow: 4px 5px 0px black !important;
-    }
-      .col_study:hover a:after{
-        content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
-        margin-left: 0;
-        position: absolute;
-        top: 8px;
-        right: 15px;
-        filter: invert(1);
-    }
-    .color_change .col_study:hover a:after{
-        filter: invert(0);
-    }
 }
 @media (max-width: 769px){
   .header_logo img {
