@@ -248,7 +248,6 @@ li i {
 }
 .color_change section.case_study {
     background-color: var(--color-white);
-    color:var(--color-black);
 }
 .case_study .main_heading{
     text-align: center;
@@ -526,6 +525,18 @@ li i {
     .main_heading h3{
       font-size: 5vw;
     }
+
+  .case_study{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    background-color: var(--color-black);
+    padding: 5vw 0;
+    transition: .5s all ease-in-out;
+}
+.color_change section.case_study {
+    background-color: var(--color-white);
+}
     .col_study:hover .study_img{
         border: 1px solid white;
         box-shadow: 4px 5px 0px white !important;
