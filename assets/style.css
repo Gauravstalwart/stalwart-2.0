@@ -345,13 +345,13 @@ section.our_work{
 }
 .slider_our_work .our_row .our_col {
     width:21vw;
-    height: 65vh;
+    height: 60vh;
     margin: 0 1.3vw;
     border: 1px solid rgba(82, 82, 82, 1);
 }
 .slider_our_work .our_col .slider_detali {
     width:auto;
-    height: 65vh;
+    height: 60vh;
     padding: 1vw 1vw 0vw;
     justify-content: space-between;
     display: flex;
