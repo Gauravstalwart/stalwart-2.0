@@ -525,6 +525,9 @@ li i {
     .main_heading h3{
       font-size: 5vw;
     }
+     .case_study{
+      padding: 10vw 0 5vw;
+    }
 }
 @media (max-width: 769px){
   .header_logo img {
