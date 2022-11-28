@@ -351,7 +351,7 @@ section.our_work{
 }
 .slider_our_work .our_col .slider_detali {
     width:auto;
-/*     height: 65vh; */
+    height: 65vh;
     padding: 1vw 1vw 0vw;
     justify-content: space-between;
     display: flex;
