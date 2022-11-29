@@ -850,6 +850,10 @@ i {
     i {
         font-size: 4.8vw;
     }
+    .circle{
+      width: 25vw;
+      height: 25vw;
+    }
   
 }
 @media (max-width:391px){
