@@ -375,6 +375,7 @@ section.our_work{
     aspect-ratio: 400/80;
     display: flex;
     align-items: center;
+    filter: invert(0);
 }
 .slider_our_work .slider_detali .slider_text h4 {
     color: white;
