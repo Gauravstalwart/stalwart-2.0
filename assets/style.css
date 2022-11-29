@@ -37,7 +37,6 @@ body {
     width: 100vw;
     overflow-x: hidden;
     background-color: var(--color-black);
-    position:relative;
 }
 
 .btn {
