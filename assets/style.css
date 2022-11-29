@@ -465,6 +465,9 @@ i {
     .slider_our_work .slider_detali .slider_text h4 {
         font-size: 2vw;
     }
+    .slider_our_work .slider_detali .slider_text{
+        font-size: 1.2vw;
+    }
 }
 
 @media (max-width: 999px) {
