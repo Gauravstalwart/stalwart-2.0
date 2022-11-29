@@ -23,7 +23,7 @@ $(window).scroll(function() {
 });
 
 
-$(window).scroll(function() {
+$(document).ready(function() {
 $('.our_row').slick({
 	infinite: false,
 	slidesToShow: 3.5,
