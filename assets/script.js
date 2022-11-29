@@ -23,7 +23,6 @@ $(window).scroll(function() {
 });
 
 
-
 $('.our_row').slick({
 	infinite: false,
 	slidesToShow: 4,
@@ -48,3 +47,6 @@ $('.our_row').slick({
 		},
 	]
 });
+
+
+
