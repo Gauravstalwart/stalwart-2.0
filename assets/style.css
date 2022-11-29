@@ -363,11 +363,10 @@ section.our_work{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    align-items: center;
     margin: 0 auto;
 }
 .slider_our_work .slider_detali .slider_text{
-    width: 18.8vw;
+    width: 17.6vw;
 }
 .slider_our_work .slider_detali .slider_text .slider_logo {
     width: 6vw;
