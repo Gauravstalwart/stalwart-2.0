@@ -57,10 +57,13 @@ section{
 }
 .cursor{
   position:fixed;
-  width:2vw;
-  height:2vw;
+  width:20vw;
+  height:20vw;
   border-radius: 50vw;
   background-color: var(--color-white);
+  transition: 0.2s;
+  transform: translate(-50%, -50%);
+  pointer-events:none;
 }
 
 /* HEADER SECTION START */
