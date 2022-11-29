@@ -39,19 +39,19 @@ $('.our_row').slick({
 		{
 			breakpoint: 1024,
 			settings: {
-				slidesToShow: 2.5
+				slidesToShow: 2,
 			}
 		},
         {
 			breakpoint: 780,
 			settings: {
-				slidesToShow: 2.5
+				slidesToShow: 2,
 			}
 		},
         {
 			breakpoint: 320,
 			settings: {
-				slidesToShow: 2.5
+				slidesToShow: 2,
 			}
 		},
 	]
