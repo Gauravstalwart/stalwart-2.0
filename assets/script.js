@@ -32,7 +32,7 @@ $(window).scroll(function() {
 
 window.addEventListener('DOMContentLoaded', () => {
 	const circle = document.getElementById('circle');
-	const button_2 = document.getElementsByClassName('our_row');
+	const button_2 = document.getElementsByClassName('our_col');
 
 	document.addEventListener('mousemove', (e) => {
 		circle.style.transform = 'translate(' + e.clientX + 'px, ' + e.clientY + 'px)';
