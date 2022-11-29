@@ -65,7 +65,7 @@ section{
   transition: transform 0.3s ease;
 }
 
-.hover-this:hover ~ .cursor {
+.our_col:hover ~ .cursor {
   transform: translate(-50%, -50%) scale(8);
 }
 
