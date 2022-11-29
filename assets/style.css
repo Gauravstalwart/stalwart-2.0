@@ -455,10 +455,10 @@ i {
 	border-radius: 50%;
 	margin-top: 24px;
 	margin-left: 8px;
-	background: var(--color-white);
+	background: var(--color-black);
 	font-size: 18px;
 	letter-spacing: 0.05em;
-	color: var(--color-black);
+	color: var(--color-white);
 	transform: translate( 0, 0);
 	transition-duration: .2s;  
 	transition-timing-function: ease-out;
