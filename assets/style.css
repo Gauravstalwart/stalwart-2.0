@@ -424,6 +424,9 @@ i {
     font-size: 1.5vw;
     padding: .5vw;
 }
+.our_col:hover .slider_text h4{
+  color: var(--color-white);
+}
 .circle {
 	position: fixed;
 	pointer-events: none;
@@ -447,7 +450,6 @@ i {
     left: 0;
     z-index: 1;
 }
-
 .circle.drag_me{opacity: 1;}
 
 
