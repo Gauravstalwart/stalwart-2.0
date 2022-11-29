@@ -726,37 +726,37 @@ i {
         top: -4.6vw;
     } 
     .wel-other .circle-wrap i {
-        height: 5vh;
+            height: 5vh;
     }
     svg{
-        bottom: -3vw;
+            bottom: -3vw;
     }
      .case_study .col_study {
-        width: 36.66vw;
-        margin: 6px;
+            width: 36.66vw;
+            margin: 6px;
     }
     .col_study:hover a:after {
-        top: -3px;
-        right: 6px;
+            top: -3px;
+            right: 6px;
     }
     .case_study .col_study:nth-of-type(n+17) {
-        display: none;
+            display: none;
     }
     .main_heading h3{
-        font-size: 8vw;
+            font-size: 8vw;
     }
     .case_study{
-      padding: 10vw 0 5vw;
+          padding: 10vw 0 5vw;
     }
     .case_study .row_study{
-      padding: 0;
+          padding: 0;
     }
-        .slider_our_work .our_row .our_col {
-        height: 40.3vw;
+    .slider_our_work .our_row .our_col {
+        height: 50vw;
     }
     .our_col.slick-slide .slider_detali {
         width: 26.9vw;
-        height: 40.2vw;
+        height: 49.5vw;
     }
     .slick-slide .slider_logo img {
         width: 10.6vw;
