@@ -794,6 +794,10 @@ i {
         top: 75vw;
         right: 28vw;
     }
+    button {
+        width: 6vw;
+        height: 6vw;
+    }
 }
 @media (max-width:391px){
     .wel-other .circle-wrap {
