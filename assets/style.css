@@ -356,7 +356,7 @@ section.our_work{
     margin: 0 1vw;
 }
 .our_col.slick-slide .slider_detali {
-    width:auto;
+    width:20vw;
     height: 26.5vw;
     padding: 1vw 1vw 0vw;
     justify-content: space-between;
