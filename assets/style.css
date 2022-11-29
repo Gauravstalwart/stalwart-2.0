@@ -430,6 +430,13 @@ i {
 .slider_our_work .our_row .our_col:hover .slider_detali .slider_text h4{
   color: var(--color-black);
 }
+.slider_our_work .our_row .our_col:hover .slider_detali .slider_text p{
+  color: var(--color-black);
+}
+.slider_our_work .our_row .our_col:hover .slider_detali .slider_text .slider_logo{
+  color: var(--color-black);
+}
+
 .circle {
 	position: fixed;
 	pointer-events: none;
