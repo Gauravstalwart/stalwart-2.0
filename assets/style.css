@@ -762,6 +762,7 @@ i {
     }
     .slider_our_work .our_row .our_col {
         height: 150vw;
+        margin: 0 5vw;
     }
     .our_col.slick-slide .slider_detali {
         width: 97.1vw;
