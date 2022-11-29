@@ -24,36 +24,36 @@ $(window).scroll(function() {
 
 
 $(document).ready(function() {
-$('.our_row').slick({
-	infinite: false,
-	slidesToShow: 3,
-	slidesToScroll: 1,
-	autoplay: false,
-    speed: 1200,
-    autoplaySpeed: 700,
-	dots: false,
-	arrows: true,
-	prevArrow:"<button type='button' class='slick-prev pull-left'><i class='fa-sharp fa-solid fa-arrow-left'></i></button>",
-	nextArrow:"<button type='button' class='slick-next pull-right'><i class='fa-sharp fa-solid fa-arrow-right'></i></button>",
-	responsive: [
-		{
-			breakpoint: 1024,
-			settings: {
-				slidesToShow: 2,
-			}
-		},
-        {
-			breakpoint: 780,
-			settings: {
-				slidesToShow: 2,
-			}
-		},
-        {
-			breakpoint: 320,
-			settings: {
-				slidesToShow: 2,
-			}
-		},
-	]
-});
+  $('.our_row').slick({
+  	infinite: false,
+  	slidesToShow: 3,
+  	slidesToScroll: 1,
+  	autoplay: false,
+      speed: 1200,
+      autoplaySpeed: 700,
+  	dots: false,
+  	arrows: true,
+  	prevArrow:"<button type='button' class='slick-prev pull-left'><i class='fa-sharp fa-solid fa-arrow-left'></i></button>",
+  	nextArrow:"<button type='button' class='slick-next pull-right'><i class='fa-sharp fa-solid fa-arrow-right'></i></button>",
+  	responsive: [
+  		{
+  			breakpoint: 1024,
+  			settings: {
+  				slidesToShow: 2,
+  			}
+  		},
+          {
+  			breakpoint: 780,
+  			settings: {
+  				slidesToShow: 2,
+  			}
+  		},
+          {
+  			breakpoint: 320,
+  			settings: {
+  				slidesToShow: 2,
+  			}
+  		},
+  	]
+  });
 });
