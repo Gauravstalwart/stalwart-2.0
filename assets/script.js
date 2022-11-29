@@ -42,6 +42,12 @@ $('.our_row').slick({
 				slidesToShow: 3
 			}
 		},
+        {
+			breakpoint: 480,
+			settings: {
+				slidesToShow: 2
+			}
+		},
 	]
 });
 });
