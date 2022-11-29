@@ -344,13 +344,18 @@ section.our_work{
     justify-content: flex-end;
 }
  .slider_our_work .our_row .our_col {
-    width:20.9vw !important;
+    width:20.9vw;
     height: 30.3vw;
-    margin: 0 1.5vw;
+    margin: 0 1.3vw;
     border: 1px solid rgba(82, 82, 82, 1);
 } 
-
-.slider_detali {
+/* .our_col.slick-slide {
+    width: 20.9vw !important;
+    height: 30.3vw;
+    border: 1px solid rgba(82, 82, 82, 1);
+    margin: 0 1vw;
+} */
+.our_col.slick-slide .slider_detali {
     width:20.9vw;
     height: 30.2vw;
     padding: 1vw 1vw 0vw;
@@ -406,7 +411,7 @@ button {
 button.slick-next.pull-right.slick-arrow {
     position: absolute;
     top: 15vw;
-    right: 17vw;
+    right: 18.8vw;
 }
 button.slick-prev.pull-left.slick-arrow {
     position: absolute;
