@@ -54,6 +54,14 @@ body {
 section{
   padding: 6vw 0;
 }
+.cursor{
+  position:fixed;
+  width:2vw;
+  height:2vw;
+  border-radius: 50vw;
+  background-color: var(--color-white);
+}
+
 /* HEADER SECTION START */
 .header_sec {
     width: 100vw;
