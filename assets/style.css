@@ -435,10 +435,10 @@ i {
 	border-radius: 50%;
 	margin-top: 24px;
 	margin-left: 8px;
-	background: #ff9999;
+	background: var(--color-white);
 	font-size: 18px;
 	letter-spacing: 0.05em;
-	color: #fff;
+	color: var(--color-black);
 	transform: translate( 0, 0);
 	transition-duration: .2s;  
 	transition-timing-function: ease-out;
