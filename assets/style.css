@@ -788,10 +788,10 @@ i {
         width: 91vw;
     }
     button.slick-prev.pull-left.slick-arrow{
-        top:55vw;
+        top:70vw;
     }
     button.slick-next.pull-right.slick-arrow {
-        top: 55vw;
+        top: 70vw;
         right: 28vw;
     }
 }
