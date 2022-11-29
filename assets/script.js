@@ -25,7 +25,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 $('.our_row').slick({
-	infinite: true,
+	infinite: false,
 	slidesToShow: 4,
 	slidesToScroll: 1,
 	autoplay: false,
