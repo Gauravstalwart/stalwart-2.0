@@ -451,6 +451,10 @@ i {
     .slider_our_work .our_row .our_col {
         height: 40.3vw;
     }
+    .our_col.slick-slide .slider_detali {
+        width: 26.9vw;
+        height: 40.2vw;
+    }
 }
 
 @media (max-width: 999px) {
