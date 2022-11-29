@@ -24,11 +24,11 @@ $(window).scroll(function() {
 
 (function () {
 
-      const link = document.querySelectorAll('nav > .hover-this');
+      const link = document.querySelectorAll('.our_row > .hover-this');
       const cursor = document.querySelector('.cursor');
 
       const animateit = function (e) {
-            const span = this.querySelector('span');
+            const span = this.querySelector('.our_col');
             const { offsetX: x, offsetY: y } = e,
             { offsetWidth: width, offsetHeight: height } = this,
 
