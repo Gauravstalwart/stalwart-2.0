@@ -798,6 +798,7 @@ i {
     button {
         width: 10vw;
         height: 10vw;
+        border-redius: 40vw
     }
     i {
         font-size: 3vw;
