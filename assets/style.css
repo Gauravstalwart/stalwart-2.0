@@ -798,6 +798,10 @@ i {
         width: 6vw;
         height: 6vw;
     }
+    i {
+        font-size: 3vw;
+    }
+  
 }
 @media (max-width:391px){
     .wel-other .circle-wrap {
