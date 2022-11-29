@@ -424,7 +424,7 @@ i {
     font-size: 1.5vw;
     padding: .5vw;
 }
-circle {
+.circle {
 	position: fixed;
 	pointer-events: none;
 	display: flex;
@@ -445,7 +445,7 @@ circle {
 	opacity: 0;
     top: 0;
     left: 0;
-    z-index: 1111;
+    z-index: 1;
 }
 
 .circle.drag_me{opacity: 1;}
