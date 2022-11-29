@@ -295,11 +295,11 @@
     </script>
 
     {%- if settings.predictive_search_enabled -%}
-      <script src="{{ 'https://code.jquery.com/jquery-3.6.1.min.js' }}"></script>
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
-      <script src="{{ '//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js' }}"></script>
-      <script src="{{ 'https://unpkg.com/aos@2.3.1/dist/aos.js' }}"></script>
-      <script src="{{ 'script.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+    <script src="{{ 'https://code.jquery.com/jquery-3.6.1.min.js' }}"></script>
+    <script src="{{ '//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js' }}"></script>
+    <script src="{{ 'https://unpkg.com/aos@2.3.1/dist/aos.js' }}"></script>
+    <script src="{{ 'script.js' | asset_url }}" defer="defer"></script>
   </body>
 </html>
