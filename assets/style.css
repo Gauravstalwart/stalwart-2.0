@@ -897,20 +897,3 @@ i {
         display: none;
     }
 }
-@media (min-width:355px){
-  .slider_our_work .our_row .our_col:hover {
-    background:var(--color-white);
-    cursor:pointer;
-}
-.slider_our_work .our_row .our_col:hover .slider_detali .slider_text h4{
-     color: var(--color-black);
-}
-.slider_our_work .our_row .our_col:hover .slider_detali .slider_text p{
-    color: var(--color-black);
-   
-  
-}
-.slider_our_work .our_row .our_col:hover .slider_detali .slider_text .slider_logo{
-  filter: invert(1);
-}
-}
