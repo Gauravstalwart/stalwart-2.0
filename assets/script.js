@@ -59,7 +59,8 @@ $('.our_row').slick({
         {
 			breakpoint: 480,
 			settings: {
-				slidesToShow: 1
+				slidesToShow: 1,
+                slidesToScroll: 1
 			}
 		},
 	]
