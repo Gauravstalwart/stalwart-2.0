@@ -758,11 +758,11 @@ i {
           padding: 10vw 0;
     }
     .slider_our_work .our_row .our_col {
-        height: 50vw;
+        height: 80vw;
     }
     .our_col.slick-slide .slider_detali {
-        width: 32.6vw;
-        height: 49.5vw;
+        width: 72.6vw;
+        height: 79.5vw;
     }
     .slick-slide .slider_logo img {
         width: 10.6vw;
