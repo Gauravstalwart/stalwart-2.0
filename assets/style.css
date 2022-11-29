@@ -390,7 +390,7 @@ section.our_work{
   display:flex;
 }
 .slider_our_work .our_col .slider_img img {
-    width: 17.6vw;
+    width: 18.8vw;
     aspect-ratio: 360/220;
 }
 .slick-list.draggable{
