@@ -900,6 +900,7 @@ i {
 @media (min-width:355px){
   .slider_our_work .our_row .our_col:hover {
     background:var(--color-white);
+    cursor:pointer;
 }
 .slider_our_work .our_row .our_col:hover .slider_detali .slider_text h4{
      color: var(--color-black);
