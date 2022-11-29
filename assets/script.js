@@ -25,7 +25,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 $('.our_row').slick({
-	infinite: false,
+	infinite: true,
 	slidesToShow: 4,
 	slidesToScroll: 1,
 	autoplay: false,
@@ -33,8 +33,6 @@ $('.our_row').slick({
     autoplaySpeed: 700,
 	dots: false,
 	arrows: true,
-	prevArrow:"<button type='button' class='slick-prev pull-left'><i class='fa-sharp fa-solid fa-arrow-left'></i></button>",
-	nextArrow:"<button type='button' class='slick-next pull-right'><i class='fa-sharp fa-solid fa-arrow-right'></i></button>",
 	responsive: [
 		{
 			breakpoint: 1025,
