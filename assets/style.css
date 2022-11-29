@@ -355,7 +355,7 @@ section.our_work{
     border: 1px solid rgba(82, 82, 82, 1);
     margin: 0 2vw;
 }
-.slider_our_work .our_col .slider_detali {
+.our_col.slick-slide .slider_detali {
     width:auto;
     height: 26.5vw;
     padding: 1vw 1vw 0vw;
