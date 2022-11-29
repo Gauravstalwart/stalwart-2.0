@@ -39,7 +39,7 @@ $('.our_row').slick({
 		{
 			breakpoint: 748,
 			settings: {
-				slidesToShow: 3,
+				slidesToShow: 3.5,
 			}
 		},
 	]
