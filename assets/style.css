@@ -424,6 +424,9 @@ i {
     font-size: 1.5vw;
     padding: .5vw;
 }
+.slider_our_work .our_row .our_col:hover {
+    background:var(--color-white);
+}
 .slider_our_work .our_row .our_col:hover .slider_detali .slider_text h4{
   color: var(--color-black);
 }
