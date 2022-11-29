@@ -3,6 +3,13 @@ $(document).ready(function(){
         $(this).toggleClass('active');
         $(this).parent().find('.navbar').slideToggle();
     });
+
+    $('.our_col').hover(function () {
+	$('.circle').addClass('drag_me');
+  });
+  $('.our_col').mouseleave(function () {
+	$('.circle').removeClass('drag_me');
+  });
 });
 
 var activeurl = window.location;
@@ -20,6 +27,16 @@ $(window).scroll(function() {
   }else{
     $('.case-study').removeClass('color_change');
   }
+});
+
+
+window.addEventListener('DOMContentLoaded', () => {
+	const circle = document.getElementById('circle');
+	const button_2 = document.getElementsByClassName('our_col');
+
+	document.addEventListener('mousemove', (e) => {
+		circle.style.transform = 'translate(' + e.clientX + 'px, ' + e.clientY + 'px)';
+	});
 });
 
 
