@@ -32,7 +32,7 @@ $('.our_row').slick({
     speed: 1200,
     autoplaySpeed: 700,
 	dots: false,
-	arrows: true,
+	arrows: false,
 	responsive: [
 		{
 			breakpoint: 1025,
