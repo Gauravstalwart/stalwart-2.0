@@ -434,7 +434,7 @@ i {
   color: var(--color-black);
 }
 .slider_our_work .our_row .our_col:hover .slider_detali .slider_text .slider_logo{
-  color: var(--color-black);
+  filter: invert(1);
 }
 
 .circle {
