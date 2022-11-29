@@ -384,11 +384,13 @@ section.our_work{
     margin: .8vw auto;
     font-size: 1.5vw;
     line-height: 1.3;
+    transition: .4s all ease-out;
 }
 .slider_our_work .slider_detali .slider_text p{
     color: white;
     font-size: .8vw;
     line-height: 1.3;
+    transition: .4s all ease-out;
 }
 .slider_our_work .our_col .slider_img {
   display:flex;
@@ -431,12 +433,11 @@ i {
     background:var(--color-white);
 }
 .slider_our_work .our_row .our_col:hover .slider_detali .slider_text h4{
-    transition: .4s all ease-out;
-    color: var(--color-black);
+     color: var(--color-black);
 }
 .slider_our_work .our_row .our_col:hover .slider_detali .slider_text p{
     color: var(--color-black);
-    transition: .4s all ease-out;
+   
   
 }
 .slider_our_work .our_row .our_col:hover .slider_detali .slider_text .slider_logo{
