@@ -71,24 +71,6 @@ section{
   transform: translate(-50%, -50%) scale(2);
 }
 
-@media (min-width: 900px) {
-  nav {
-    display: flex;
-    justify-content: space-around;
-  }
-}
-
-@media (max-width: 900px) {
-  nav {
-    top: 30%;
-  }
-
-  .hover-this {
-    width: 100%;
-    padding: 20px 0;
-    display: inline-block;
-  }
-}
 
 
 /* HEADER SECTION START */
