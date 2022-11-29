@@ -448,6 +448,9 @@ i {
         width: 3.4vw;
         top: -4.2vw;
     }
+    .slider_our_work .our_row .our_col {
+        height: 40.3vw;
+    }
 }
 
 @media (max-width: 999px) {
