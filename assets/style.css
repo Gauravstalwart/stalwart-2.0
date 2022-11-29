@@ -55,21 +55,6 @@ section{
   padding: 6vw 0;
 }
 
-.hover-this {
-  transition: all 0.3s ease;
-}
-.cursor {
-  pointer-events: none;
-  position: fixed;
-  padding: 0.3rem;
-  background-color: #fff;
-  border-radius: 50%;
-  mix-blend-mode: difference;
-  transition: transform 0.3s ease;
-}
-.slider_text:hover ~ .cursor {
-  transform: translate(-50%, -50%) scale(2);
-}
 
 
 
