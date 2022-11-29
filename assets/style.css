@@ -751,6 +751,9 @@ i {
     .case_study .row_study{
           padding: 0;
     }
+    section.our_work{
+          padding: 10vw 0;
+    }
     .slider_our_work .our_row .our_col {
         height: 50vw;
     }
