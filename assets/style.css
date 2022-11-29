@@ -425,7 +425,7 @@ i {
     padding: .5vw;
 }
 .our_col:hover .slider_text h4{
-  color: var(--color-white);
+  color: var(--color-black);
 }
 .circle {
 	position: fixed;
