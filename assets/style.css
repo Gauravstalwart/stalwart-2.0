@@ -798,7 +798,7 @@ i {
     button {
         width: 10vw;
         height: 10vw;
-        border-redius: 40vw
+        border-radius: 6vw;
     }
     i {
         font-size: 3vw;
