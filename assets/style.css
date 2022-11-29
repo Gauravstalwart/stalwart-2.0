@@ -350,7 +350,7 @@ section.our_work{
     border: 1px solid rgba(82, 82, 82, 1);
 } */
 .our_col.slick-slide {
-    width: 20vw;
+    width: 20vw !important;
     height: 26.7vw;
     border: 1px solid rgba(82, 82, 82, 1);
     margin: 0 2vw;
