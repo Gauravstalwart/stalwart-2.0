@@ -344,9 +344,8 @@ section.our_work{
     justify-content: flex-end;
 }
  .slider_our_work .our_row .our_col {
-    width:20.9vw;
     height: 30.3vw;
-    margin: 0 1.3vw;
+    margin: 0 2vw;
     border: 1px solid rgba(82, 82, 82, 1);
 } 
 /* .our_col.slick-slide {
