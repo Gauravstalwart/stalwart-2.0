@@ -814,7 +814,7 @@ i {
     .our_col.slick-slide .slider_detali {
         width: 89.4vw;
         height: 149.5vw;
-        padding:3vw;
+        padding:6vw 3vw 0;;
     }
     .slick-slide .slider_logo img {
         width: 40vw;
