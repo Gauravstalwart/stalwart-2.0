@@ -37,9 +37,9 @@ $('.our_row').slick({
 	nextArrow:"<button type='button' class='slick-next pull-right'><i class='fa-sharp fa-solid fa-arrow-right'></i></button>",
 	responsive: [
 		{
-			breakpoint: 999,
+			breakpoint: 748,
 			settings: {
-				dots: false,
+				slidesToShow: 2,
 			}
 		},
 	]
