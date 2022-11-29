@@ -455,6 +455,10 @@ i {
         width: 26.9vw;
         height: 40.2vw;
     }
+    .slick-slide .slider_logo img {
+        width: 10.6vw;
+        height: 3vw;
+    }
 }
 
 @media (max-width: 999px) {
