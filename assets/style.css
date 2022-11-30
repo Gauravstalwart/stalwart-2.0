@@ -421,7 +421,7 @@ section.our_work {
   aspect-ratio: 360/220;
 }
 .slick-list.draggable {
-  padding: 1vw 0 1vw 11vw;
+  padding: 0.5vw 0 0.5vw 11vw;
 }
 .slick-slide .slider_logo img {
   display: block;
