@@ -343,15 +343,15 @@ section.our_work {
   align-items: center;
   justify-content: flex-end;
 }
-.slider_our_work .our_row::before,
-.slider_our_work .our_row::after {
+.slider_our_work .our_col::before,
+.slider_our_work .our_col::after {
   position: absolute;
   content: "";
   z-index: -1;
   border-radius: 50%;
 }
 
-.slider_our_work .our_row::before {
+.slider_our_work .our_col::before {
   top: -20px;
   right: -30px;
   width: 180px;
@@ -359,7 +359,7 @@ section.our_work {
   background-color: dodgerblue;
 }
 
-.slider_our_work .our_row::after {
+.slider_our_work .our_col::after {
   bottom: -30px;
   left: -40px;
   width: 140px;
