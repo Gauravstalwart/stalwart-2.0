@@ -360,8 +360,8 @@ section.our_work {
 }
 
 .slider_our_work .our_row::after {
-  bottom: 30px;
-  left: 40px;
+  bottom: 140px;
+  left: 140px;
   width: 140px;
   height: 140px;
   background-color: deeppink;
