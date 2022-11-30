@@ -350,7 +350,8 @@ section.our_work {
   transition: 0.4s all ease-out;
   border: 1px solid var(--color-white);
   position: relative;
-  /*   animation-name: spin;
+  transition: 0.4s all easy-out;
+  /*animation-name: spin;
   animation-timing-function: linear;
   animation-duration: 6s;
   animation-iteration-count: infinite;
