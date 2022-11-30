@@ -348,6 +348,11 @@ section.our_work {
   margin: 0 1.3vw;
   transition: 0.4s all ease-out;
   border: 1px solid rgba(82, 82, 82, 1);
+  /*   animation-name: spin; */
+  animation-timing-function: linear;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
 }
 /* .our_col.slick-slide {
     width: 20.9vw !important;
