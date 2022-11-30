@@ -377,7 +377,19 @@ section.our_work {
   animation-iteration-count: infinite;
   animation-fill-mode: both; */
 }
-.slider_our_work .our_row .our_col:hover ::after {
+.slider_our_work .our_row .our_col:hover {
+}
+.slider_our_work .our_row .our_col::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 20px;
+  background-image: url(https://cdn.shopify.com/s/files/1/0663/5326/7005/files/blur.png?v=1669804816);
+  background-repeat: repeat;
+  background-size: 80px;
   background-image: linear-gradient(
     150deg,
     rgba(255 255 255 / 40%) 0%,
@@ -385,15 +397,6 @@ section.our_work {
   );
   backdrop-filter: blur(20px);
   box-shadow: 0 1px 24px -1px rgb(0 0 0 / 10%);
-  position: absolute;
-  content: "";
-
-  top: 0;
-  left: 0;
-  border-radius: 20px;
-  background-image: url(https://cdn.shopify.com/s/files/1/0663/5326/7005/files/blur.png?v=1669804816);
-  background-repeat: repeat;
-  background-size: 80px;
 }
 
 .our_col.slick-slide .slider_detali {
