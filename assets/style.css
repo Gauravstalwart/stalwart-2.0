@@ -385,6 +385,7 @@ section.our_work {
   );
   backdrop-filter: blur(20px);
   box-shadow: 0 1px 24px -1px rgb(0 0 0 / 10%);
+  z-index: -111;
 }
 .slider_our_work .our_row .our_col::after {
   position: absolute;
