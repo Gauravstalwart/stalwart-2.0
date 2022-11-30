@@ -360,7 +360,7 @@ section.our_work {
 }
 
 .slider_our_work .our_row::after {
-  bottom: 140px;
+  bottom: 200px;
   left: 140px;
   width: 140px;
   height: 140px;
