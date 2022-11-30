@@ -30,15 +30,15 @@ $(window).scroll(function () {
   }
 });
 
-window.addEventListener("DOMContentLoaded", () => {
-  const circle = document.getElementById("circle");
-  const button_2 = document.getElementsByClassName("our_col");
+// window.addEventListener("DOMContentLoaded", () => {
+//   const circle = document.getElementById("circle");
+//   const button_2 = document.getElementsByClassName("our_col");
 
-  document.addEventListener("mousemove", (e) => {
-    circle.style.transform =
-      "translate(" + e.clientX + "px, " + e.clientY + "px)";
-  });
-});
+//   document.addEventListener("mousemove", (e) => {
+//     circle.style.transform =
+//       "translate(" + e.clientX + "px, " + e.clientY + "px)";
+//   });
+// });
 
 // const cards = document.querySelectorAll(".our_col");
 // cards.forEach((card) => {
