@@ -345,7 +345,7 @@ section.our_work {
 }
 .slider_our_work .our_row .our_col {
   height: 35vw;
-  margin: 0 1.3vw;
+  margin: 0 1.6vw;
   transition: 0.4s all ease-out;
   border: 1px solid rgba(82, 82, 82, 1);
   background-image: linear-gradient(
