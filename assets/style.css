@@ -333,7 +333,6 @@ section.our_work {
   display: flex;
   width: 100vw;
   align-items: center;
-  padding: 3vw 0;
   flex-wrap: wrap;
 }
 .slider_our_work .our_row {
@@ -421,7 +420,7 @@ section.our_work {
   aspect-ratio: 360/220;
 }
 .slick-list.draggable {
-  padding: 1vw 0 1vw 11vw;
+  padding: 2vw 0 2vw 11vw;
 }
 .slick-slide .slider_logo img {
   display: block;
