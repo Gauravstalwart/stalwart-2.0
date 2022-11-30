@@ -389,7 +389,7 @@ section.our_work {
   margin: 0 auto;
 }
 .slider_our_work .slider_detali .slider_text {
-  width: 17.6vw;
+  width: 21vw;
 }
 .slider_our_work .slider_detali .slider_text .slider_logo {
   width: 6vw;
@@ -416,7 +416,7 @@ section.our_work {
   display: flex;
 }
 .slider_our_work .our_col .slider_img img {
-  width: 17.6vw;
+  width: 21vw;
   aspect-ratio: 360/220;
 }
 .slick-list.draggable {
