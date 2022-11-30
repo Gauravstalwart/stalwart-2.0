@@ -384,7 +384,7 @@ section.our_work {
   animation-iteration-count: infinite;
   animation-fill-mode: both; */
 }
-.slider_our_work .our_row .our_col::after {
+.slider_our_work .our_row .our_col:hover ::after {
   position: absolute;
   content: "";
   width: 100%;
