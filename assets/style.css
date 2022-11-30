@@ -352,16 +352,16 @@ section.our_work {
 }
 
 .slider_our_work .our_row::before {
-  top: -20px;
-  right: -30px;
+  top: 20px;
+  right: 30px;
   width: 180px;
   height: 180px;
   background-color: dodgerblue;
 }
 
 .slider_our_work .our_row::after {
-  bottom: -30px;
-  left: -40px;
+  bottom: 30px;
+  left: 40px;
   width: 140px;
   height: 140px;
   background-color: deeppink;
