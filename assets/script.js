@@ -80,7 +80,7 @@ cards.forEach((card) => {
 
 $('.our_row').slick({
 	infinite: false,
-	slidesToShow: 4,
+	slidesToShow: 3.5,
 	slidesToScroll: 2,
 	autoplay: false,
     speed: 1200,
