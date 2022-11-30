@@ -372,7 +372,7 @@ section.our_work {
   background-repeat: repeat;
   background-size: 80px;
 } */
-.our_col:first-child {
+.slider_our_work .our_row .our_col:first-child {
   margin-left: 0;
 }
 .our_col.slick-slide .slider_detali {
