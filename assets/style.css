@@ -344,7 +344,7 @@ section.our_work {
   justify-content: flex-end;
 }
 .slider_our_work .our_row .our_col {
-  height: 30.3vw;
+  height: 35vw;
   margin: 0 1.3vw;
   transition: 0.4s all ease-out;
   border: 1px solid rgba(82, 82, 82, 1);
@@ -379,7 +379,7 @@ section.our_work {
     margin: 0 1vw;
 } */
 .our_col.slick-slide .slider_detali {
-  width: 19.6vw;
+  width: 23.1vw;
   height: 30.2vw;
   padding: 1vw 1vw 0vw;
   justify-content: space-between;
