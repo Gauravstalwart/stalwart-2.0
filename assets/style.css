@@ -359,13 +359,6 @@ section.our_work {
   background-color: dodgerblue;
 }
 
-.slider_our_work .our_col::after {
-  bottom: -30px;
-  left: -40px;
-  width: 140px;
-  height: 140px;
-  background-color: deeppink;
-}
 .slider_our_work .our_row .our_col {
   height: 40vw;
   margin: 0 1.6vw;
