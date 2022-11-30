@@ -396,7 +396,7 @@ section.our_work {
 }
 .slider_our_work .slider_detali .slider_text h4 {
   color: white;
-  margin: 0.8vw auto;
+  margin: 0.8vw auto 1vw;
   font-size: 2.9vw;
   line-height: 1;
   transition: 0.4s all ease-out;
