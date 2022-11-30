@@ -389,6 +389,7 @@ section.our_work {
   flex-wrap: wrap;
   flex-direction: column;
   margin: 0 auto;
+  z-index: 1;
 }
 .slider_our_work .slider_detali .slider_text {
   width: 24.5vw;
