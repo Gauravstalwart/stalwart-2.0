@@ -394,6 +394,7 @@ section.our_work {
   align-items: center;
   filter: invert(0);
   transition: 0.4s all ease-out;
+  z-index: 1;
 }
 .slider_our_work .slider_detali .slider_text h4 {
   color: white;
@@ -403,6 +404,7 @@ section.our_work {
   font-weight: 500;
   line-height: 1;
   transition: 0.4s all ease-out;
+  z-index: 1;
 }
 .slider_our_work .slider_detali .slider_text p {
   color: white;
@@ -410,6 +412,7 @@ section.our_work {
   font-family: var(--font-primary);
   line-height: 1.5;
   transition: 0.4s all ease-out;
+  z-index: 1;
 }
 .slider_our_work .our_col .slider_img {
   display: flex;
@@ -417,6 +420,7 @@ section.our_work {
 .slider_our_work .our_col .slider_img img {
   width: 24.5vw;
   aspect-ratio: 360/220;
+  z-index: 1;
 }
 .slick-list.draggable {
   padding: 2vw 2vw 2vw 9vw;
