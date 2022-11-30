@@ -1,44 +1,44 @@
-$(document).ready(function(){
-    $('.plate').click(function(){
-        $(this).toggleClass('active');
-        $(this).parent().find('.navbar').slideToggle();
-    });
-
-    $('.our_col').hover(function () {
-	$('.circle').addClass('drag_me');
+$(document).ready(function () {
+  $(".plate").click(function () {
+    $(this).toggleClass("active");
+    $(this).parent().find(".navbar").slideToggle();
   });
-  $('.our_col').mouseleave(function () {
-	$('.circle').removeClass('drag_me');
+
+  $(".our_col").hover(function () {
+    $(".circle").addClass("drag_me");
+  });
+  $(".our_col").mouseleave(function () {
+    $(".circle").removeClass("drag_me");
   });
 });
 
 var activeurl = window.location;
-$('.navbar ul li a[href="'+activeurl+'"]').parent('li').addClass('active')
+$('.navbar ul li a[href="' + activeurl + '"]')
+  .parent("li")
+  .addClass("active");
 
-
-$(window).scroll(function() {
-  var brands_height = $('.case-study').height();
-  var brands_offset = $('.case-study').offset().top;
-  var brands_height_half = brands_height/3;
+$(window).scroll(function () {
+  var brands_height = $(".case-study").height();
+  var brands_offset = $(".case-study").offset().top;
+  var brands_height_half = brands_height / 3;
   var brands_height_scoll = $(window).scrollTop();
-  
-  if (brands_height_scoll >= brands_offset-brands_height_half ) {
-      $('.case-study').addClass('color_change');
-  }else{
-    $('.case-study').removeClass('color_change');
+
+  if (brands_height_scoll >= brands_offset - brands_height_half) {
+    $(".case-study").addClass("color_change");
+  } else {
+    $(".case-study").removeClass("color_change");
   }
 });
 
+window.addEventListener("DOMContentLoaded", () => {
+  const circle = document.getElementById("circle");
+  const button_2 = document.getElementsByClassName("our_col");
 
-window.addEventListener('DOMContentLoaded', () => {
-	const circle = document.getElementById('circle');
-	const button_2 = document.getElementsByClassName('our_col');
-
-	document.addEventListener('mousemove', (e) => {
-		circle.style.transform = 'translate(' + e.clientX + 'px, ' + e.clientY + 'px)';
-	});
+  document.addEventListener("mousemove", (e) => {
+    circle.style.transform =
+      "translate(" + e.clientX + "px, " + e.clientY + "px)";
+  });
 });
-
 
 const cards = document.querySelectorAll(".our_col");
 cards.forEach((card) => {
@@ -68,41 +68,38 @@ cards.forEach((card) => {
     card.style.transform = "perspective(1000px) scale(1) rotateX(0) rotateY(0)";
     card.removeEventListener("mousemove", mouseMoveHandler);
   });
-  
+
   card.addEventListener("click", (evt) => {
     evt.preventDefault();
     card.style.animation = "spin 1s ease-in-out";
-    setTimeout(() => {      
-      card.style.animation = '';
+    setTimeout(() => {
+      card.style.animation = "";
     }, 1000);
   });
 });
 
-$('.our_row').slick({
-	infinite: false,
-	slidesToShow: 3.5,
-	slidesToScroll: 2,
-	autoplay: false,
-    speed: 1200,
-    autoplaySpeed: 700,
-	dots: false,
-	arrows: false,
-	responsive: [
-		{
-			breakpoint: 1025,
-			settings: {
-				slidesToShow: 3
-			}
-		},
-        {
-			breakpoint: 480,
-			settings: {
-				slidesToShow: 1,
-                slidesToScroll: 1
-			}
-		},
-	]
+$(".our_row").slick({
+  infinite: false,
+  slidesToShow: 3,
+  slidesToScroll: 2,
+  autoplay: false,
+  speed: 1200,
+  autoplaySpeed: 700,
+  dots: false,
+  arrows: false,
+  responsive: [
+    {
+      breakpoint: 1025,
+      settings: {
+        slidesToShow: 3,
+      },
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      },
+    },
+  ],
 });
-
-
-
