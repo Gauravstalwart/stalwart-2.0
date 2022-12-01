@@ -89,9 +89,9 @@ jQuery(".our_row").length > 0 &&
     arrows: false,
     responsive: [
       {
-        breakpoint: 999,
+        breakpoint: 1025,
         settings: {
-          slidesToShow: 2.5,
+          slidesToShow: 3.2,
         },
       },
       {
