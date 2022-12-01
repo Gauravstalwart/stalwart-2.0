@@ -931,4 +931,15 @@ i {
     background-color: var(--color-black);
     padding: 0;
 }
+.welcome-_work .work-wrap{
+  width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+}
 }
