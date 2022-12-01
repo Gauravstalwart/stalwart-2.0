@@ -56,27 +56,27 @@ window.addEventListener("DOMContentLoaded", () => {
 //     });
 //   };
 
-// //   card.addEventListener("mousemove", mouseMoveHandler);
+//   card.addEventListener("mousemove", mouseMoveHandler);
 
-// //   card.addEventListener("mouseenter", (evt) => {
-// //     evt.preventDefault();
-// //     card.addEventListener("mousemove", mouseMoveHandler);
-// //   });
+//   card.addEventListener("mouseenter", (evt) => {
+//     evt.preventDefault();
+//     card.addEventListener("mousemove", mouseMoveHandler);
+//   });
 
-// //   card.addEventListener("mouseout", (evt) => {
-// //     evt.preventDefault();
-// //     card.style.transform = "perspective(1000px) scale(1) rotateX(0) rotateY(0)";
-// //     card.removeEventListener("mousemove", mouseMoveHandler);
-// //   });
+//   card.addEventListener("mouseout", (evt) => {
+//     evt.preventDefault();
+//     card.style.transform = "perspective(1000px) scale(1) rotateX(0) rotateY(0)";
+//     card.removeEventListener("mousemove", mouseMoveHandler);
+//   });
 
-// //   card.addEventListener("click", (evt) => {
-// //     evt.preventDefault();
-// //     card.style.animation = "spin 1s ease-in-out";
-// //     setTimeout(() => {
-// //       card.style.animation = "";
-// //     }, 1000);
-// //   });
-// // });
+//   card.addEventListener("click", (evt) => {
+//     evt.preventDefault();
+//     card.style.animation = "spin 1s ease-in-out";
+//     setTimeout(() => {
+//       card.style.animation = "";
+//     }, 1000);
+//   });
+// });
 
 // $(".our_row").slick({
 //   infinite: false,
@@ -111,19 +111,3 @@ jQuery(".our_row").length > 0 &&
     draggable: !0,
     arrows: !1,
   });
-
-// const cursor = document.querySelector("#circle"),
-//   cursorCircle = cursor.querySelector(".circle"),
-//   mouse = {
-//     x: -100,
-//     y: -100,
-//   },
-//   pos = {
-//     x: 0,
-//     y: 0,
-//   },
-//   speed = 0.1,
-//   updateCoordinates = (a) => {
-//     (mouse.x = a.clientX), (mouse.y = a.clientY);
-//   };
-// window.addEventListener("mousemove", updateCoordinates);
