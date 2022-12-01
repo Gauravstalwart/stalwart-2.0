@@ -951,7 +951,7 @@ section.work_section {
 }
 .work_col {
   width: calc(33.3% - 2vw);
-  height: 40vw;
+  height: 36vw;
   border: 1px solid var(--color-white);
   margin: 1vw;
 }
@@ -962,7 +962,7 @@ section.work_section {
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
-  height: 40.5vw;
+  height: 36.4vw;
 }
 .work_detali .work_logo {
   width: 6vw;
