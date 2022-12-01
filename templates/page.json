@@ -27,7 +27,7 @@
           "type": "column",
           "settings": {
             "work_logo": "slider_logo_1.svg",
-            "work_heading": "",
+            "work_heading": "Shopify store for a streetwear brand",
             "work_desc": "",
             "work_img": "shopify:\/\/shop_images\/slider_img_1.png"
           }
@@ -36,7 +36,7 @@
           "type": "column",
           "settings": {
             "work_logo": "slider_logo_2.svg",
-            "work_heading": "",
+            "work_heading": "Shopify store for a streetwear brand",
             "work_desc": "",
             "work_img": "shopify:\/\/shop_images\/slider_img_3.png"
           }
@@ -45,7 +45,7 @@
           "type": "column",
           "settings": {
             "work_logo": "slider_logo_3.svg",
-            "work_heading": "",
+            "work_heading": "Shopify store for a streetwear brand",
             "work_desc": "",
             "work_img": "shopify:\/\/shop_images\/slider_img_2.png"
           }
@@ -54,7 +54,7 @@
           "type": "column",
           "settings": {
             "work_logo": "slider_logo_1.svg",
-            "work_heading": "",
+            "work_heading": "Shopify store for a streetwear brand",
             "work_desc": "",
             "work_img": "shopify:\/\/shop_images\/slider_img_3.png"
           }
@@ -63,7 +63,7 @@
           "type": "column",
           "settings": {
             "work_logo": "slider_logo_2.svg",
-            "work_heading": "",
+            "work_heading": "Shopify store for a streetwear brand",
             "work_desc": "",
             "work_img": "shopify:\/\/shop_images\/slider_img_2.png"
           }
@@ -71,8 +71,8 @@
         "d8f774d0-37cd-41d4-8a10-a1fcfe8435d4": {
           "type": "column",
           "settings": {
-            "work_logo": "slider_logo_",
-            "work_heading": "",
+            "work_logo": "slider_logo_3.svg",
+            "work_heading": "Shopify store for a streetwear brand",
             "work_desc": "",
             "work_img": "shopify:\/\/shop_images\/slider_img_1.png"
           }
