@@ -91,7 +91,7 @@ jQuery(".our_row").length > 0 &&
       {
         breakpoint: 1025,
         settings: {
-          slidesToShow: 3.2,
+          slidesToShow: 2.8,
         },
       },
       {
