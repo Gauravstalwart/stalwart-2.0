@@ -950,10 +950,10 @@ section.work_section {
   justify-content: center;
 }
 .work_col {
-  width: calc(33.3% - 2vw);
+  width: calc(33.3% - 3vw);
   height: 40vw;
   border: 1px solid var(--color-white);
-  margin: 1vw;
+  margin: 0 1.5vw;
 }
 .work_detali {
   padding: 2vw 2vw 0;
