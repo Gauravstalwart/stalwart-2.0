@@ -81,7 +81,7 @@ window.addEventListener("DOMContentLoaded", () => {
 $(".our_row").slick({
   infinite: false,
   slidesToShow: 3,
-  slidesToScroll: 3,
+  slidesToScroll: 1,
   autoplay: false,
   speed: 1200,
   autoplaySpeed: 700,
