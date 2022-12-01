@@ -939,3 +939,6 @@ i {
   flex-direction: row;
   justify-content: space-between;
 }
+.welcome-_work .work-wrap .wel-heading {
+  margin-bottom: 80px;
+}
