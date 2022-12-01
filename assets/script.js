@@ -78,8 +78,8 @@ window.addEventListener("DOMContentLoaded", () => {
 //   });
 // });
 
-jQuery(".our_row").length > 0 &&
-  jQuery(".our_row").slick({
+jQuery(".slider").length > 0 &&
+  jQuery(".slider").slick({
     infinite: false,
     slidesToShow: 3,
     autoplay: false,
