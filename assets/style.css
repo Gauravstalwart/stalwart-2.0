@@ -923,23 +923,19 @@ i {
   }
 }
 /* WORK PAGE CSS */
-.welcome_work{
+.welcome_work {
   width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: flex-end;
-    background-color: var(--color-black);
-    padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  background-color: var(--color-black);
+  padding: 0;
 }
-.welcome-_work .work-wrap{
+.welcome-_work .work-wrap {
   width: 100vw;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: end;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-
-}
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  flex-direction: row;
+  justify-content: space-between;
 }
