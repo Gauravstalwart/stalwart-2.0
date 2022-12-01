@@ -1,7 +1,71 @@
+<section class="our_work">
+        <div class="main_heading">
+            <h3>{{ section.settings.main_heading }}</h3>
+        </div>
+        <div class="slider_our_work">
+              <div class="circle" id="circle">DRAG ME</div>
+            <div class="our_row">
+               {% for block in section.blocks %}
+                <div class="our_col">
+                    <div class="slider_detali">
+                        <div class="slider_text">
+                            <div class="slider_logo">
+                                 <img src="{{ block.settings.slider_logo | file_url}}">
+                            </div>
+                            <h4>{{ block.settings.slider_heading }}</h4>
+                            <p>{{ block.settings.slider_desc }}</p>
+                        </div>
+                        <div class="slider_img">
+                             <img src="{{ block.settings.slider_img | img_url:'master'}}" alt="">
+                        </div>
+                    </div>
+                </div>
+              {% endfor %}
+            </div>      
+        </div>
+</section>
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Our Work",
+    "class": "our_work_sec",
+    "settings": [
+         {
+                "type":"text",
+                "id":"main_heading",
+                "label":"Main Heading"
+         }
+    ],
+     "blocks": [
+      {
+        "name": "our_column",
+        "type":"column",
+        "settings": [
+           {
+            "type":"text",
+            "id":"slider_logo",
+            "label":"Slider Logo"
+          },
+          {
+            "type":"text",
+            "id":"slider_heading",
+            "label":"Slider Heading"
+          },
+          {
+            "type":"richtext",
+            "id":"slider_desc",
+            "label":"Slider Description"
+          },
+           {
+            "type":"image_picker",
+            "id":"slider_img",
+            "label":"Slider Image"
+          }
+        ]
+      }
+    ],
+    "presets":[
+      { "name":"Our Work"}
+    ]
   }
 {% endschema %}
 
