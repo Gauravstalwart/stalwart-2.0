@@ -964,6 +964,12 @@ section.work_section {
   flex-direction: column;
   height: 40.5vw;
 }
+.work_detali .work_logo {
+  width: 6vw;
+  aspect-ratio: 400/80;
+  display: flex;
+  align-items: center;
+}
 .work_detali .work_logo img {
   display: block;
   width: 12vw;
