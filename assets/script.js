@@ -4,12 +4,12 @@ $(document).ready(function () {
     $(this).parent().find(".navbar").slideToggle();
   });
 
-  $(".our_col").hover(function () {
-    $(".circle").addClass("drag_me");
-  });
-  $(".our_col").mouseleave(function () {
-    $(".circle").removeClass("drag_me");
-  });
+  // $(".our_col").hover(function () {
+  //   $(".circle").addClass("drag_me");
+  // });
+  // $(".our_col").mouseleave(function () {
+  //   $(".circle").removeClass("drag_me");
+  // });
 });
 
 var activeurl = window.location;
