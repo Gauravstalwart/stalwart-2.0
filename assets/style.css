@@ -967,6 +967,14 @@ section.work_section {
 .work_detali .work_text {
   width: 22vw;
 }
+.work_detali .work_text h4 {
+  color: #fff;
+  margin: 2vw auto;
+  font-family: var(--font-heading);
+  font-size: 2.6vw;
+  font-weight: 500;
+  line-height: 1;
+}
 .work_detali .work_img {
   width: 22vw;
 }
