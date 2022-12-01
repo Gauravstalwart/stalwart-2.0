@@ -957,6 +957,7 @@ section.work_section {
 }
 .work_detali {
   padding: 2vw 2vw 0;
+  display: flex;
 }
 .work_detali .work_text {
   width: 22vw;
