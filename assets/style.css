@@ -986,6 +986,12 @@ section.work_section {
   font-weight: 500;
   line-height: 1;
 }
+.work_detali .work_text p {
+  color: #fff;
+  font-size: 1.22vw;
+  font-family: var(--font-primary);
+  line-height: 1.5;
+}
 .work_detali .work_img {
   width: 22vw;
 }
