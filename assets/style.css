@@ -923,6 +923,9 @@ i {
   }
 }
 /* WORK PAGE CSS */
+section.work_section {
+  padding: 0;
+}
 .welcome_work {
   width: 100vw;
   height: 70vh;
