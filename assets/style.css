@@ -428,7 +428,7 @@ section.our_work {
   z-index: 1;
 }
 .slick-list.draggable {
-  padding-left: calc((100vw - 1200px) / 2);
+  padding: 2vw 2vw 2vw 9vw;
 }
 .slick-slide .slider_logo img {
   display: block;
