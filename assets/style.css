@@ -923,7 +923,7 @@ i {
   }
 }
 /* WORK PAGE CSS */
-/* section.work_section {
+section.work_section {
   padding: 0;
 }
 .welcome_work {
@@ -954,4 +954,4 @@ i {
   height: 40vw;
   border: 1px solid var(--color-white);
   margin: 1vw;
-} */
+}
