@@ -939,3 +939,10 @@ i {
   flex-direction: row;
   justify-content: space-between;
 }
+.work_row {
+  width: 84vw;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
