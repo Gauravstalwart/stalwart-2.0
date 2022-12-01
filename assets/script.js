@@ -40,22 +40,6 @@ window.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-const cards = document.querySelectorAll(".our_col");
-cards.forEach((card) => {
-  const height = card.clientHeight;
-  const width = card.clientWidth;
-
-  const mouseMoveHandler = (evt) => {
-    evt.preventDefault();
-
-    requestAnimationFrame(() => {
-      const xRotation = -30 * ((evt.layerY - height / 2) / height);
-      const yRotation = 20 * ((evt.layerX - width / 2) / width);
-
-      card.style.transform = `perspective(1000px) scale(1.05) rotateX(${xRotation}deg) rotateY(${yRotation}deg)`;
-    });
-  };
-
 //   card.addEventListener("mousemove", mouseMoveHandler);
 
 //   card.addEventListener("mouseenter", (evt) => {
