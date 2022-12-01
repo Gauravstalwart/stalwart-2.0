@@ -111,3 +111,18 @@ jQuery(".our_row").length > 0 &&
     draggable: !0,
     arrows: !1,
   });
+const cursor = document.querySelector("#circle"),
+  cursorCircle = cursor.querySelector(".circle"),
+  mouse = {
+    x: -100,
+    y: -100,
+  },
+  pos = {
+    x: 0,
+    y: 0,
+  },
+  speed = 0.1,
+  updateCoordinates = (a) => {
+    (mouse.x = a.clientX), (mouse.y = a.clientY);
+  };
+window.addEventListener("mousemove", updateCoordinates);
