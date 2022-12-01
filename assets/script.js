@@ -79,7 +79,7 @@ window.addEventListener("DOMContentLoaded", () => {
 // });
 
 $(".our_row").slick({
-  infinite: true,
+  infinite: false,
   slidesToShow: 3,
   autoplay: false,
   speed: 1200,
