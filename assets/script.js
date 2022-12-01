@@ -78,38 +78,15 @@ window.addEventListener("DOMContentLoaded", () => {
 //   });
 // });
 
-$(".our_row").slick({
-  infinite: false,
-  slidesToShow: 3,
-  autoplay: false,
-  speed: 1200,
-  autoplaySpeed: 700,
-  dots: false,
-  arrows: false,
-  responsive: [
-    {
-      breakpoint: 1025,
-      settings: {
-        slidesToShow: 3,
-      },
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-      },
-    },
-  ],
-});
 jQuery(".our_row").length > 0 &&
   jQuery(".our_row").slick({
-    slidesToScroll: 1,
-    slidesToShow: 1,
-    variableWidth: !0,
-    dots: !1,
-    infinite: !1,
-    draggable: !0,
-    arrows: !1,
+    infinite: false,
+    slidesToShow: 3,
+    autoplay: false,
+    speed: 1200,
+    autoplaySpeed: 700,
+    dots: false,
+    arrows: false,
     responsive: [
       {
         breakpoint: 1025,
