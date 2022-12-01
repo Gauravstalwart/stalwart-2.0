@@ -4,12 +4,12 @@ $(document).ready(function () {
     $(this).parent().find(".navbar").slideToggle();
   });
 
-  // $(".our_col").hover(function () {
-  //   $(".circle").addClass("drag_me");
-  // });
-  // $(".our_col").mouseleave(function () {
-  //   $(".circle").removeClass("drag_me");
-  // });
+  $(".our_col").hover(function () {
+    $(".circle").addClass("drag_me");
+  });
+  $(".our_col").mouseleave(function () {
+    $(".circle").removeClass("drag_me");
+  });
 });
 
 var activeurl = window.location;
@@ -78,29 +78,29 @@ window.addEventListener("DOMContentLoaded", () => {
 //   });
 // });
 
-// $(".our_row").slick({
-//   infinite: false,
-//   slidesToShow: 3,
-//   autoplay: false,
-//   speed: 1200,
-//   autoplaySpeed: 700,
-//   dots: false,
-//   arrows: false,
-//   responsive: [
-//     {
-//       breakpoint: 1025,
-//       settings: {
-//         slidesToShow: 3,
-//       },
-//     },
-//     {
-//       breakpoint: 480,
-//       settings: {
-//         slidesToShow: 1,
-//       },
-//     },
-//   ],
-// });
+$(".our_row").slick({
+  infinite: false,
+  slidesToShow: 3,
+  autoplay: false,
+  speed: 1200,
+  autoplaySpeed: 700,
+  dots: false,
+  arrows: false,
+  responsive: [
+    {
+      breakpoint: 1025,
+      settings: {
+        slidesToShow: 3,
+      },
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+      },
+    },
+  ],
+});
 jQuery(".our_row").length > 0 &&
   jQuery(".our_row").slick({
     slidesToScroll: 1,
@@ -110,19 +110,18 @@ jQuery(".our_row").length > 0 &&
     infinite: !1,
     draggable: !0,
     arrows: !1,
+    responsive: [
+      {
+        breakpoint: 1025,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   });
-const cursor = document.querySelector("#circle"),
-  cursorCircle = cursor.querySelector(".circle"),
-  mouse = {
-    x: -100,
-    y: -100,
-  },
-  pos = {
-    x: 0,
-    y: 0,
-  },
-  speed = 0.1,
-  updateCoordinates = (a) => {
-    (mouse.x = a.clientX), (mouse.y = a.clientY);
-  };
-window.addEventListener("mousemove", updateCoordinates);
