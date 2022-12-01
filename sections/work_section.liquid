@@ -1,22 +1,21 @@
-<section class="our_work">
+<section class="work_section">
         <div class="main_heading">
             <h3>{{ section.settings.main_heading }}</h3>
         </div>
-        <div class="slider_our_work">
-              <div class="circle" id="circle">DRAG ME</div>
-            <div class="our_row">
+        <div class="work">
+            <div class="work_row">
                {% for block in section.blocks %}
-                <div class="our_col">
-                    <div class="slider_detali">
-                        <div class="slider_text">
-                            <div class="slider_logo">
-                                 <img src="{{ block.settings.slider_logo | file_url}}">
+                <div class="work_col">
+                    <div class="work_detali">
+                        <div class="work_text">
+                            <div class="work_logo">
+                                 <img src="{{ block.settings.work_logo | file_url}}">
                             </div>
-                            <h4>{{ block.settings.slider_heading }}</h4>
-                            <p>{{ block.settings.slider_desc }}</p>
+                            <h4>{{ block.settings.work_heading }}</h4>
+                            <p>{{ block.settings.work_desc }}</p>
                         </div>
-                        <div class="slider_img">
-                             <img src="{{ block.settings.slider_img | img_url:'master'}}" alt="">
+                        <div class="work_img">
+                             <img src="{{ block.settings.work_img | img_url:'master'}}" alt="">
                         </div>
                     </div>
                 </div>
@@ -42,23 +41,23 @@
         "settings": [
            {
             "type":"text",
-            "id":"slider_logo",
-            "label":"Slider Logo"
+            "id":"work_logo",
+            "label":"Work Logo"
           },
           {
             "type":"text",
-            "id":"slider_heading",
-            "label":"Slider Heading"
+            "id":"work_heading",
+            "label":"Work Heading"
           },
           {
             "type":"richtext",
-            "id":"slider_desc",
-            "label":"Slider Description"
+            "id":"work_desc",
+            "label":"Work Description"
           },
            {
             "type":"image_picker",
-            "id":"slider_img",
-            "label":"Slider Image"
+            "id":"work_img",
+            "label":"Work Image"
           }
         ]
       }
