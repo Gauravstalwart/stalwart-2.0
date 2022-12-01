@@ -81,7 +81,6 @@ window.addEventListener("DOMContentLoaded", () => {
 $(".our_row").slick({
   infinite: false,
   slidesToShow: 3,
-  slidesToScroll: 1,
   autoplay: false,
   speed: 1200,
   autoplaySpeed: 700,
@@ -98,7 +97,6 @@ $(".our_row").slick({
       breakpoint: 480,
       settings: {
         slidesToShow: 1,
-        slidesToScroll: 1,
       },
     },
   ],
