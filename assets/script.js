@@ -112,8 +112,8 @@ jQuery(".our_row").length > 0 &&
     arrows: !1,
   });
 
-const cursor = document.querySelector("#cursor"),
-  cursorCircle = cursor.querySelector(".cursor__circle"),
+const cursor = document.querySelector("#circle"),
+  cursorCircle = cursor.querySelector(".circle"),
   mouse = {
     x: -100,
     y: -100,
