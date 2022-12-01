@@ -964,6 +964,11 @@ section.work_section {
   flex-direction: column;
   height: 40.5vw;
 }
+.work_detali .work_logo img {
+  display: block;
+  width: 12vw;
+  height: 3vw;
+}
 .work_detali .work_text {
   width: 22vw;
 }
