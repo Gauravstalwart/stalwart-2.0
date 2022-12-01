@@ -946,3 +946,6 @@ i {
   align-items: center;
   justify-content: center;
 }
+.work_col {
+  width: 33.3%;
+}
