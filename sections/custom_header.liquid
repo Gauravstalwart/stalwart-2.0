@@ -6,6 +6,8 @@
                 <a href="./index.html">
                   {%- if section.settings.header_logo != blank -%}
                           <img src="{{ section.settings.header_logo | img_url:'master'}}" alt="{{ section.settings.header_logo.alt }}">
+                    {% else %}
+                          <img src="https://cdn.shopify.com/s/files/1/0663/5326/7005/files/Stalwart_logo.png?v=1669267158">
                         {% endif %}
                 </a>
                 </div>
