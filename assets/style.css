@@ -1005,10 +1005,11 @@ section.work_section {
   line-height: 1.5;
 }
 .work_detali .work_text big {
+  display: fit-contant;
   color: var(--color-black);
   background-color: var(--color-white);
   padding: 0.5vw 1vw;
-  margin: 1vw auto;
+  margin: 0.5vw auto;
 }
 .work_detali .work_img {
   width: 22vw;
