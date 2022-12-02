@@ -13,6 +13,7 @@
                             </div>
                             <h4>{{ block.settings.work_heading }}</h4>
                             <p>{{ block.settings.work_desc }}</p>
+                            <big class="branding">{{ block.settings.brand_name }}</big>
                         </div>
                         <div class="work_img">
                              <img src="{{ block.settings.work_img | img_url:'master'}}" alt="">
@@ -53,6 +54,11 @@
             "type":"richtext",
             "id":"work_desc",
             "label":"Work Description"
+          },
+          {
+            "type":"text",
+            "id":"brand_name",
+            "label":"Brand Name"
           },
            {
             "type":"image_picker",
