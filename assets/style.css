@@ -945,6 +945,7 @@ section.work_section {
 .work_row {
   width: 100%;
   display: grid;
+  grid-template-columns: repeat(3, 1fr);
   align-items: center;
 }
 .work_col {
