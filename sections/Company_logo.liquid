@@ -8,7 +8,7 @@
           {% for block in section.blocks %}
               {% case block.type %}
               <div class="comp_row_left">
-                {% when '' %}
+                {% when 'logo' %}
                 <div class="comp_col_img">
                     <img src="{{ block.settings.comp_img | img_url:'master'}}" alt="">
                 </div>
@@ -59,8 +59,8 @@
     ],
      "blocks": [
       {
-        "name": "hero-col",
-        "type":"hero_column",
+        "name": "comp_logo",
+        "type":"logo",
         "settings": []
       }
     ],
