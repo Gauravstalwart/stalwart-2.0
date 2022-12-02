@@ -35,7 +35,6 @@ font-family: 'Libre Baskerville', serif;
 
 body {
   width: 100%;
-  overflow-x: hidden;
   background-color: var(--color-black);
 }
 
