@@ -954,7 +954,7 @@ section.work_section {
   border: 1px solid var(--color-white);
   margin: 2vw;
 }
-.work_col:nth-child(1) {
+/* .work_col:nth-child(1) {
   margin-left: 0;
 }
 .work_col:nth-child(3) {
@@ -965,7 +965,7 @@ section.work_section {
 }
 .work_col:nth-child(6) {
   margin-right: 0;
-}
+} */
 .work_detali {
   padding: 2vw 2vw 0;
   display: flex;
