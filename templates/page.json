@@ -104,10 +104,18 @@
           "settings": {
             "comp_img": "shopify:\/\/shop_images\/22.webp"
           }
+        },
+        "d9d61c05-f40c-4232-92f4-9fcb2b7fac47": {
+          "type": "link",
+          "settings": {
+            "list_name": "Fit Body",
+            "list_link": ""
+          }
         }
       },
       "block_order": [
-        "9a030f6f-70cf-4b3d-a354-c083190ddb79"
+        "9a030f6f-70cf-4b3d-a354-c083190ddb79",
+        "d9d61c05-f40c-4232-92f4-9fcb2b7fac47"
       ],
       "settings": {
         "comp_sec_heading": "We've also worked with...",
