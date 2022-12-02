@@ -147,27 +147,6 @@
             "comp_img": "shopify:\/\/shop_images\/21.webp"
           }
         },
-        "6bc98224-af62-4570-abcd-17ce67cce2de": {
-          "type": "link",
-          "settings": {
-            "list_name": "Fiy Body",
-            "list_link": ""
-          }
-        },
-        "78e3cb36-1aa7-42ad-baf6-4c93494e034b": {
-          "type": "link",
-          "settings": {
-            "list_name": "Plume",
-            "list_link": ""
-          }
-        },
-        "277f4b50-4442-471f-acef-b88994ef526d": {
-          "type": "link",
-          "settings": {
-            "list_name": "Marey",
-            "list_link": ""
-          }
-        },
         "f7da0c91-070b-4053-bcd3-69d9abf85e28": {
           "type": "logo",
           "settings": {
@@ -191,6 +170,34 @@
           "settings": {
             "comp_img": "shopify:\/\/shop_images\/25.webp"
           }
+        },
+        "6bc98224-af62-4570-abcd-17ce67cce2de": {
+          "type": "link",
+          "settings": {
+            "list_name": "Fiy Body",
+            "list_link": ""
+          }
+        },
+        "78e3cb36-1aa7-42ad-baf6-4c93494e034b": {
+          "type": "link",
+          "settings": {
+            "list_name": "Plume",
+            "list_link": ""
+          }
+        },
+        "277f4b50-4442-471f-acef-b88994ef526d": {
+          "type": "link",
+          "settings": {
+            "list_name": "Marey",
+            "list_link": ""
+          }
+        },
+        "816d5e02-c7ee-4b00-97d8-7813982c56ec": {
+          "type": "link",
+          "settings": {
+            "list_name": "Grand Western",
+            "list_link": ""
+          }
         }
       },
       "block_order": [
@@ -202,13 +209,14 @@
         "f51c3a65-071a-419d-b926-3cbf72301f35",
         "ef651f88-9b6d-4a93-8026-3c5b16754af7",
         "d947ba60-b850-403f-a2cc-897108d9526d",
-        "6bc98224-af62-4570-abcd-17ce67cce2de",
-        "78e3cb36-1aa7-42ad-baf6-4c93494e034b",
-        "277f4b50-4442-471f-acef-b88994ef526d",
         "f7da0c91-070b-4053-bcd3-69d9abf85e28",
         "8b072742-ab97-4b74-97c7-049da342e16e",
         "89b8f5ff-362c-4531-adcf-8272282a889d",
-        "a4b537a6-2a4e-47e0-b20b-5aa55d3ab2e0"
+        "a4b537a6-2a4e-47e0-b20b-5aa55d3ab2e0",
+        "6bc98224-af62-4570-abcd-17ce67cce2de",
+        "78e3cb36-1aa7-42ad-baf6-4c93494e034b",
+        "277f4b50-4442-471f-acef-b88994ef526d",
+        "816d5e02-c7ee-4b00-97d8-7813982c56ec"
       ],
       "settings": {
         "comp_sec_heading": "We've also worked with...",
