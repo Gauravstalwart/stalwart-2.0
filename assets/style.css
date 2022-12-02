@@ -511,6 +511,7 @@ i {
   color: white;
   font-size: 4.5vw;
   font-family: var(--font-primary);
+  margin: 0 10px;
 }
 .comp_sec {
   width: 100%;
