@@ -1,37 +1,36 @@
 
- <section class="comp_logo">
+<section class="comp_logo">
     <div class="container">
         <div class="sec_heading">
             <h2>{{ section.settings.comp_sec_heading }}</h2>
         </div> 
         <div class="comp_sec">
-          {% for block in section.blocks %}
-          {% case block.type %}
+            {% for block in section.blocks %}
+            {% case block.type %}
               <div class="comp_row_left">
                 {% when 'logo' %}
                 <div class="comp_col_img">
                     <img src="{{ block.settings.comp_img | img_url:'master'}}" alt="">
                 </div>
-            </div>
+              </div>
             {% endcase %}
             {% endfor %}
-            <div class="comp_row_right">
-                <small>A Few More...</small>
-                <div class="comp_logoes">
-                    <ul class="comp_navlist">
-                         {% for block in section.blocks %}
-                          {% case block.type %}
-                           {% when 'link' %}
-                        <li><a href="{{ block.settings.list_link }}">{{ block.settings.list_name }}</a></li>
-                          {% endcase %}
-                           {% endfor %}
-                    </ul>
-                </div>
-            </div>
         </div>
+      <div class="comp_row_right">
+        <small>A Few More...</small>
+          <div class="comp_logoes">
+            <ul class="comp_navlist">
+                {% for block in section.blocks %}
+                {% case block.type %}
+                {% when 'comp_list' %}
+                    <li><a href="{{ block.settings.list_link }}">{{ block.settings.list_name }}</a></li>
+                {% endcase %}
+                {% endfor %}
+            </ul>
+          </div>
+      </div>
     </div>
 </section>
-
 {% schema %}
   {
     "name": "Section name",
@@ -40,18 +39,7 @@
               "type":"text",
               "id":"comp_sec_heading",
               "label":"Heading"
-          },
-          
-          {
-              "type":"text",
-              "id":"list_name",
-              "label":"List Name"
-          },
-          {
-              "type":"text",
-              "id":"list_link",
-              "label":"Link"
-          }        
+          }       
     ],
      "blocks": [
       {
@@ -64,9 +52,24 @@
                 "label":"Image"
             }
         ]
+      },
+       {
+        "name": "column",
+        "type":"column",
+        "settings": [
+            {
+              "type":"text",
+              "id":"list_name",
+              "label":"List Name"
+          },
+          {
+              "type":"text",
+              "id":"list_link",
+              "label":"Link"
+          } 
+        ]
       }
     ],
-   
       "presets":[
         { "name":"Company_logo"}
       ]
