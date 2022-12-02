@@ -974,7 +974,7 @@ section.work_section {
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
-  height: 36.4vw;
+  height: 35.9vw;
 }
 .work_detali .work_logo {
   width: 6vw;
@@ -1009,4 +1009,5 @@ section.work_section {
 }
 .work_detali .work_img img {
   width: 22vw;
+  display: block;
 }
