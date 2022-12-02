@@ -943,7 +943,7 @@ section.work_section {
   justify-content: space-between;
 }
 .work_row {
-  width: 84vw;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
