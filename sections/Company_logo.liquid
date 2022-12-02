@@ -5,9 +5,9 @@
             <h2>{{ section.settings.comp_sec_heading }}</h2>
         </div> 
         <div class="comp_sec">
+          <div class="comp_row_left">
             {% for block in section.blocks %}
             {% case block.type %}
-              <div class="comp_row_left">
                 {% when 'logo' %}
                 <div class="comp_col_img">
                     <img src="{{ block.settings.comp_img | img_url:'master'}}"  class="c_logo" alt="">
