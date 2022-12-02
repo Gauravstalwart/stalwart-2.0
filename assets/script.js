@@ -18,8 +18,9 @@ $('.navbar ul li a[href="' + activeurl + '"]')
   .addClass("active");
 
 $(window).scroll(function () {
+  const el = $(".case-study");
   var brands_height = $(".case-study").height();
-  const brands_offset = $(".case-study").offset().top;
+  const brands_offset = el.offset().top;
   var brands_height_half = brands_height / 3;
   var brands_height_scoll = $(window).scrollTop();
 
