@@ -945,14 +945,12 @@ section.work_section {
 .work_row {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
   align-items: center;
 }
 .work_col {
   grid-template-columns: repeat(3, 1fr);
   height: 36vw;
   border: 1px solid var(--color-white);
-  margin: 1vw;
 }
 /* .work_col:nth-child(1) {
   margin-left: 0;
