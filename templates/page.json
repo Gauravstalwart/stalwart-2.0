@@ -146,6 +146,13 @@
           "settings": {
             "comp_img": "shopify:\/\/shop_images\/21.webp"
           }
+        },
+        "6bc98224-af62-4570-abcd-17ce67cce2de": {
+          "type": "link",
+          "settings": {
+            "list_name": "Fiy Body",
+            "list_link": ""
+          }
         }
       },
       "block_order": [
@@ -156,7 +163,8 @@
         "2200b106-41d6-4cbf-8126-1199209bc524",
         "f51c3a65-071a-419d-b926-3cbf72301f35",
         "ef651f88-9b6d-4a93-8026-3c5b16754af7",
-        "d947ba60-b850-403f-a2cc-897108d9526d"
+        "d947ba60-b850-403f-a2cc-897108d9526d",
+        "6bc98224-af62-4570-abcd-17ce67cce2de"
       ],
       "settings": {
         "comp_sec_heading": "We've also worked with...",
