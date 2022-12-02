@@ -952,6 +952,7 @@ section.work_section {
   grid-template-columns: repeat(3, 1fr);
   height: 36vw;
   border: 1px solid var(--color-white);
+  column-gap: 2vw;
 }
 /* .work_col:nth-child(1) {
   margin-left: 0;
