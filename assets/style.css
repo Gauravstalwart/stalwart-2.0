@@ -540,6 +540,9 @@ i {
   align-items: center;
   display: flex;
 }
+.comp_row_left .comp_col_img img {
+  filter: ;
+}
 .comp_sec .comp_row_right {
   width: 25%;
   padding-left: 4vw;
