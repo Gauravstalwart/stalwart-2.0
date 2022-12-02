@@ -502,7 +502,7 @@ i {
 
 @media (min-width: 1201px) {
   .container {
-    max-width: 1450vw;
+    max-width: 1920vw;
     padding: 1vw 8vw;
   }
 }
