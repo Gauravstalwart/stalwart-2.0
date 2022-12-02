@@ -22,7 +22,7 @@
                          {% for block in section.blocks %}
                           {% case block.type %}
                            {% when 'details' %}
-                        <li><a href="#">Lorem lorem</a></li>
+                        <li><a href="{{ block.settings.list_link }}">Lorem lorem</a></li>
                           {% endcase %}
                            {% endfor %}
                     </ul>
@@ -30,7 +30,9 @@
             </div>
         </div>
     </div>
-</section>{% schema %}
+</section>
+
+{% schema %}
   {
     "name": "Section name",
     "settings": [
@@ -39,8 +41,45 @@
               "id":"comp_sec_heading",
               "label":"Heading"
           }
-    ]
-  }
+    ],
+     "blocks": [
+      {
+        "name": "hero-col",
+        "type":"hero_column",
+        "settings": [
+          {
+            "type":"text",
+            "id":"part_name",
+            "label":"Part Name"
+          },
+          {
+            "type":"text",
+            "id":"sram_code",
+            "label":"Code Number"
+          }
+        ],
+        
+            "type": "details",
+            "name": "details_desc",
+            "settings": [
+            {
+                "type":"text",
+                "id":"smalltext",
+                "label":"DEtails Name"
+            },  
+            {
+                "type":"text",
+                "id":"bigtext",
+                "label":"Name of DEtails"
+            }
+          ]
+        }
+      ],
+      
+      "presets":[
+        { "name":"Company_logo"}
+      ]
+    }
 {% endschema %}
 
 {% stylesheet %}
