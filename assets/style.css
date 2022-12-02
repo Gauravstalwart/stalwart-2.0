@@ -948,9 +948,6 @@ section.work_section {
   flex-wrap: wrap;
   align-items: center;
 }
-.work_col + .work_col {
-  margin: 1vw;
-}
 .work_col {
   width: 33.3%;
   height: 36vw;
