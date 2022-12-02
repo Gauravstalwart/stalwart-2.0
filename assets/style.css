@@ -499,6 +499,71 @@ i {
   opacity: 1;
 }
 
+/* COMPANY LOGO SECTION */
+.comp_logo {
+  width: 100%;
+}
+.comp_logo .sec_heading {
+  width: 100%;
+}
+.comp_logo .sec_heading h2 {
+  color: white;
+  font-size: 6vw;
+}
+.comp_sec {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3vw 0;
+  align-items: flex-start;
+}
+.comp_sec .comp_row_left {
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+}
+.comp_sec .comp_row_left:after {
+  position: absolute;
+  content: "";
+  width: 3px;
+  height: 30vw;
+  background: white;
+  top: 0;
+  right: 0;
+}
+.comp_row_left .comp_col_img {
+  width: calc(25% - 10px);
+  margin: 0px 5px 60px;
+  height: 3vw;
+  align-items: center;
+  display: flex;
+}
+.comp_sec .comp_row_right {
+  width: 25%;
+  padding-left: 4vw;
+}
+.comp_row_right small {
+  display: block;
+  font-size: 18px;
+  color: #a5a2a2;
+  margin-bottom: 30px;
+  font-family: var(--font-primary);
+}
+.comp_row_right .comp_logoes {
+  display: block;
+  width: fit-content;
+}
+.comp_row_right .comp_navlist {
+  display: inline-block;
+}
+
+.comp_row_right .comp_navlist li a {
+  padding: 10px 0;
+  color: var(--color-white);
+}
+
 @media (min-width: 1201px) {
   .container {
     max-width: 1920px;
