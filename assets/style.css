@@ -949,10 +949,10 @@ section.work_section {
   align-items: center;
 }
 .work_col {
-  width: calc(33.3% - 2.7vw);
+  width: calc(33.3% - 2vw);
   height: 36vw;
   border: 1px solid var(--color-white);
-  margin: 2vw;
+  margin: 1vw;
 }
 /* .work_col:nth-child(1) {
   margin-left: 0;
