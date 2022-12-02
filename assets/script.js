@@ -19,11 +19,11 @@ $('.navbar ul li a[href="' + activeurl + '"]')
 
 $(window).scroll(function () {
   var brands_height = $(".case-study").height();
-  const brands_offset = $(".case-study").offset();
+  const brands_offset = $(".case-study").offset().top;
   var brands_height_half = brands_height / 3;
   var brands_height_scoll = $(window).scrollTop();
 
-  if (brands_height_scoll >= brands_offset.top - brands_height_half) {
+  if (brands_height_scoll >= brands_offset - brands_height_half) {
     $(".case-study").addClass("color_change");
   } else {
     $(".case-study").removeClass("color_change");
