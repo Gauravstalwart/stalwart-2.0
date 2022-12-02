@@ -1008,9 +1008,12 @@ section.work_section {
   display: inline-flex;
   color: var(--color-black);
   background-color: var(--color-white);
-  padding: 0.5vw 1vw;
+  padding: 0.1vw 0.4vw;
   margin: 0.5vw auto;
-  border-radius: 0.3vw;
+  font-size: 12px;
+  border-radius: 0.15vw;
+  font-weight: 500;
+  font-family: "Work Sans";
 }
 .work_detali .work_img {
   width: 22vw;
