@@ -1,4 +1,36 @@
-{% schema %}
+
+ <section class="comp_logo">
+    <div class="container">
+        <div class="sec_heading">
+            <h2>We've also worked with...</h2>
+        </div> 
+        <div class="comp_sec">
+          {% for block in section.blocks %}
+              {% case block.type %}
+              <div class="comp_row_left">
+                {% when '' %}
+                <div class="comp_col_img">
+                    <img src="./img/slider_logo_1.svg" alt="">
+                </div>
+            </div>
+            {% endcase %}
+            {% endfor %}
+            <div class="comp_row_right">
+                <small>A Few More...</small>
+                <div class="comp_logoes">
+                    <ul class="comp_navlist">
+                         {% for block in section.blocks %}
+                          {% case block.type %}
+                           {% when 'details' %}
+                        <li><a href="#">Lorem lorem</a></li>
+                          {% endcase %}
+                           {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>{% schema %}
   {
     "name": "Section name",
     "settings": []
