@@ -1007,6 +1007,7 @@ section.work_section {
 .work_detali .work_text big {
   color: var(--color-black);
   background-color: var(--color-white);
+  padding: 0.5vw 1vw;
 }
 .work_detali .work_img {
   width: 22vw;
