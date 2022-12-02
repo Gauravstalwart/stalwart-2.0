@@ -19,7 +19,7 @@ $('.navbar ul li a[href="' + activeurl + '"]')
 
 $(window).scroll(function () {
   var brands_height = $(".case-study").height();
-  var brands_offset = $(".case-study").offset();
+  const brands_offset = $(".case-study").offset();
   var brands_height_half = brands_height / 3;
   var brands_height_scoll = $(window).scrollTop();
 
