@@ -2,7 +2,7 @@
  <section class="comp_logo">
     <div class="container">
         <div class="sec_heading">
-            <h2>We've also worked with...</h2>
+            <h2>{{ section.settings.comp_sec_heading }}</h2>
         </div> 
         <div class="comp_sec">
           {% for block in section.blocks %}
@@ -33,7 +33,13 @@
 </section>{% schema %}
   {
     "name": "Section name",
-    "settings": []
+    "settings": [
+          {
+              "type":"text",
+              "id":"hero_sub_heading",
+              "label":"Sub Title"
+        }
+    ]
   }
 {% endschema %}
 
