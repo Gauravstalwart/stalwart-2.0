@@ -992,7 +992,7 @@ section.work_section {
 }
 .work_detali .work_text h4 {
   color: #fff;
-  margin: 1.5vw autov 1vw;
+  margin: 1.5vw auto 1vw;
   font-family: var(--font-heading);
   font-size: 2vw;
   font-weight: 500;
