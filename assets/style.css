@@ -954,6 +954,18 @@ section.work_section {
   border: 1px solid var(--color-white);
   margin: 1vw;
 }
+.work_col:nth-child(1) {
+  margin-left: 0;
+}
+.work_col:nth-child(3) {
+  margin-right: 0;
+}
+.work_col:nth-child(4) {
+  margin-left: 0;
+}
+.work_col:nth-child(6) {
+  margin-right: 0;
+}
 .work_detali {
   padding: 2vw 2vw 0;
   display: flex;
