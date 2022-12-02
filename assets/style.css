@@ -224,7 +224,7 @@ section.welcome {
 }
 
 .welcome .col {
-  width: 33.33vw;
+  width: 33.33%;
   background-color: var(--color-white);
 }
 
