@@ -947,26 +947,14 @@ section.work_section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
-  gap: 2vw;
+  gap: 1.5vw;
 }
 .work_col {
-  grid-template-columns: repeat(3, 1fr);
   height: 36vw;
   border: 1px solid var(--color-white);
   column-gap: 2vw;
 }
-/* .work_col:nth-child(1) {
-  margin-left: 0;
-}
-.work_col:nth-child(3) {
-  margin-right: 0;
-}
-.work_col:nth-child(4) {
-  margin-left: 0;
-}
-.work_col:nth-child(6) {
-  margin-right: 0;
-} */
+
 .work_detali {
   padding: 2vw 2vw 0;
   display: flex;
