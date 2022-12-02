@@ -105,24 +105,23 @@
             "comp_img": "shopify:\/\/shop_images\/22.webp"
           }
         },
-        "d9d61c05-f40c-4232-92f4-9fcb2b7fac47": {
-          "type": "link",
-          "settings": {
-            "list_name": "Fit Body",
-            "list_link": ""
-          }
-        },
         "dd05dff3-70ea-4391-a455-c03f1c8c0f04": {
           "type": "logo",
           "settings": {
             "comp_img": "shopify:\/\/shop_images\/28.webp"
           }
+        },
+        "d1e63115-0148-442e-a9ff-df51574324ba": {
+          "type": "logo",
+          "settings": {
+            "comp_img": "shopify:\/\/shop_images\/25.webp"
+          }
         }
       },
       "block_order": [
         "9a030f6f-70cf-4b3d-a354-c083190ddb79",
-        "d9d61c05-f40c-4232-92f4-9fcb2b7fac47",
-        "dd05dff3-70ea-4391-a455-c03f1c8c0f04"
+        "dd05dff3-70ea-4391-a455-c03f1c8c0f04",
+        "d1e63115-0148-442e-a9ff-df51574324ba"
       ],
       "settings": {
         "comp_sec_heading": "We've also worked with...",
