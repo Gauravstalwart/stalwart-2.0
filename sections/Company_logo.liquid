@@ -14,20 +14,20 @@
           {% endcase %}
         {% endfor %}
       </div>
-    </div>
-    <div class="comp_row_right">
-      <small>{{ section.settings.small }}</small>
-      <div class="comp_logoes">
-        <ul class="comp_navlist">
-          {% for block in section.blocks %}
-            {% case block.type %}
-              {% when 'link' %}
-                <li>
-                  <a href="{{ block.settings.list_link }}">{{ block.settings.list_name }}</a>
-                </li>
-            {% endcase %}
-          {% endfor %}
-        </ul>
+      <div class="comp_row_right">
+        <small>{{ section.settings.small }}</small>
+        <div class="comp_logoes">
+          <ul class="comp_navlist">
+            {% for block in section.blocks %}
+              {% case block.type %}
+                {% when 'link' %}
+                  <li>
+                    <a href="{{ block.settings.list_link }}">{{ block.settings.list_name }}</a>
+                  </li>
+              {% endcase %}
+            {% endfor %}
+          </ul>
+        </div>
       </div>
     </div>
   </div>
