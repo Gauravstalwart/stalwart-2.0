@@ -98,6 +98,17 @@
     },
     "6916c22e-55ee-479c-837e-fb1002243399": {
       "type": "Company_logo",
+      "blocks": {
+        "9a030f6f-70cf-4b3d-a354-c083190ddb79": {
+          "type": "logo",
+          "settings": {
+            "comp_img": "shopify:\/\/shop_images\/22.webp"
+          }
+        }
+      },
+      "block_order": [
+        "9a030f6f-70cf-4b3d-a354-c083190ddb79"
+      ],
       "settings": {
         "comp_sec_heading": "We've also worked with...",
         "small": "A Few More..."
