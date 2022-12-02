@@ -539,6 +539,7 @@ i {
   height: 3vw;
   align-items: center;
   display: flex;
+  filter: invert(1);
 }
 .comp_row_left .comp_col_img img {
   filter: ;
