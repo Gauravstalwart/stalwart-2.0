@@ -568,6 +568,7 @@ i {
   padding: 10px 0;
   color: var(--color-white);
   font-family: var(--font-heading);
+  font-size: 18px;
 }
 
 @media (min-width: 1201px) {
