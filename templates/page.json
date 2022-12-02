@@ -116,12 +116,19 @@
           "settings": {
             "comp_img": "shopify:\/\/shop_images\/25.webp"
           }
+        },
+        "fd8a2d2a-d47e-4dc4-90e2-53dc3e0a9481": {
+          "type": "logo",
+          "settings": {
+            "comp_img": "shopify:\/\/shop_images\/29.webp"
+          }
         }
       },
       "block_order": [
         "9a030f6f-70cf-4b3d-a354-c083190ddb79",
         "dd05dff3-70ea-4391-a455-c03f1c8c0f04",
-        "d1e63115-0148-442e-a9ff-df51574324ba"
+        "d1e63115-0148-442e-a9ff-df51574324ba",
+        "fd8a2d2a-d47e-4dc4-90e2-53dc3e0a9481"
       ],
       "settings": {
         "comp_sec_heading": "We've also worked with...",
