@@ -924,6 +924,7 @@ i {
 /* WORK PAGE CSS */
 section.work_section {
   padding: 0;
+  padding-bottom: 6vw;
 }
 .welcome_work {
   width: 100%;
