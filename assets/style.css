@@ -536,7 +536,6 @@ i {
 .comp_row_left .comp_col_img {
   width: calc(25% - 10px);
   margin: 0px 5px 60px;
-  height: 3vw;
   align-items: center;
   display: flex;
 }
