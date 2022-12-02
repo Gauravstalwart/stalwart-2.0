@@ -1005,7 +1005,7 @@ section.work_section {
   line-height: 1.5;
 }
 .work_detali .work_text big {
-  display: fit-contant;
+  display: inline-flex;
   color: var(--color-black);
   background-color: var(--color-white);
   padding: 0.5vw 1vw;
