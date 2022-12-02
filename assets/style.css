@@ -1004,6 +1004,9 @@ section.work_section {
   font-family: var(--font-primary);
   line-height: 1.5;
 }
+.work_detali .work_text big {
+  color: var(--color-white);
+}
 .work_detali .work_img {
   width: 22vw;
 }
