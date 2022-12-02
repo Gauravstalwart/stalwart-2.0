@@ -564,7 +564,9 @@ i {
 .comp_row_right .comp_navlist {
   display: inline-block;
 }
-
+.comp_row_right .comp_navlist li {
+  display: block;
+}
 .comp_row_right .comp_navlist li a {
   padding: 10px 0;
   color: var(--color-white);
