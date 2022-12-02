@@ -544,7 +544,7 @@ i {
   width: 100%;
   filter: invert(1);
 }
-.comp_sec .comp_row_right {
+.comp_row_right {
   width: 25%;
   padding-left: 4vw;
 }
