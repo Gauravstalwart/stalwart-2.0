@@ -1,84 +1,85 @@
-
 <section class="comp_logo">
-    <div class="container">
-        <div class="sec_heading">
-            <h2>{{ section.settings.comp_sec_heading }}</h2>
-        </div> 
-        <div class="comp_sec">
-          <div class="comp_row_left">
-            {% for block in section.blocks %}
-            {% case block.type %}
-                {% when 'logo' %}
-                <div class="comp_col_img">
-                    <img src="{{ block.settings.comp_img | img_url:'master'}}"  class="c_logo" alt="">
-                </div>
+  <div class="container">
+    <div class="sec_heading">
+      <h2>{{ section.settings.comp_sec_heading }}</h2>
+    </div>
+    <div class="comp_sec">
+      <div class="comp_row_left">
+        {% for block in section.blocks %}
+          {% case block.type %}
+            {% when 'logo' %}
+              <div class="comp_col_img">
+                <img src="{{ block.settings.comp_img | img_url:'master'}}" class="c_logo" alt="">
               </div>
-            {% endcase %}
-            {% endfor %}
-        </div>
-      <div class="comp_row_right">
-        <small>{{ section.settings.small }}</small>
-          <div class="comp_logoes">
-            <ul class="comp_navlist">
-                {% for block in section.blocks %}
-                {% case block.type %}
-                {% when 'link' %}
-                    <li><a href="{{ block.settings.list_link }}">{{ block.settings.list_name }}</a></li>
-                {% endcase %}
-                {% endfor %}
-            </ul>
-          </div>
+          {% endcase %}
+        {% endfor %}
       </div>
     </div>
+    <div class="comp_row_right">
+      <small>{{ section.settings.small }}</small>
+      <div class="comp_logoes">
+        <ul class="comp_navlist">
+          {% for block in section.blocks %}
+            {% case block.type %}
+              {% when 'link' %}
+                <li>
+                  <a href="{{ block.settings.list_link }}">{{ block.settings.list_name }}</a>
+                </li>
+            {% endcase %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
 </section>
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": [
+{
+  "name": "Section name",
+  "settings": [
+        {
+            "type":"text",
+            "id":"comp_sec_heading",
+            "label":"Heading"
+        },
+        {
+            "type":"text",
+            "id":"small",
+            "label":"Small Heading"
+        }
+  ],
+   "blocks": [
+    {
+      "name": "comp_logo",
+      "type":"logo",
+      "settings": [
           {
-              "type":"text",
-              "id":"comp_sec_heading",
-              "label":"Heading"
-          },
-          {
-              "type":"text",
-              "id":"small",
-              "label":"Small Heading"
+              "type":"image_picker",
+              "id":"comp_img",
+              "label":"Image"
           }
-    ],
-     "blocks": [
-      {
-        "name": "comp_logo",
-        "type":"logo",
-        "settings": [
-            {
-                "type":"image_picker",
-                "id":"comp_img",
-                "label":"Image"
-            }
-        ]
-      },
-       {
-        "name": "comp_link",
-        "type":"link",
-        "settings": [
-            {
-              "type":"text",
-              "id":"list_name",
-              "label":"List Name"
-          },
+      ]
+    },
+     {
+      "name": "comp_link",
+      "type":"link",
+      "settings": [
           {
-              "type":"url",
-              "id":"list_link",
-              "label":"Link"
-          } 
-        ]
-      }
-    ],
-      "presets":[
-        { "name":"Company_logo"}
+            "type":"text",
+            "id":"list_name",
+            "label":"List Name"
+        },
+        {
+            "type":"url",
+            "id":"list_link",
+            "label":"Link"
+        }
       ]
     }
+  ],
+    "presets":[
+      { "name":"Company_logo"}
+    ]
+  }
 {% endschema %}
 
 {% stylesheet %}
