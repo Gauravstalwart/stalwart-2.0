@@ -27,14 +27,14 @@ font-family: 'Libre Baskerville', serif;
 }
 
 .container {
-  width: 100vw;
+  width: 100%;
   max-width: 1200vw;
   margin: 0 auto;
   padding: 1vw 10vw;
 }
 
 body {
-  width: 100vw;
+  width: 100%;
   overflow-x: hidden;
   background-color: var(--color-black);
 }
@@ -57,7 +57,7 @@ section {
 
 /* HEADER SECTION START */
 .header_sec {
-  width: 100vw;
+  width: 100%;
   position: sticky;
   background-color: var(--color-black);
   position: absolute;
@@ -142,7 +142,7 @@ li i {
 
 /* WELCOME SECTION */
 section.welcome {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   display: flex;
   align-items: flex-end;
@@ -151,7 +151,7 @@ section.welcome {
 }
 
 .welcome .wel-wrap {
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   align-items: end;
@@ -160,7 +160,7 @@ section.welcome {
 }
 
 .container.wel-heading {
-  width: 100vw;
+  width: 100%;
   flex-direction: column;
 }
 .wel-heading {
@@ -178,7 +178,7 @@ section.welcome {
 }
 
 .welcome .wel-other {
-  width: 100vw;
+  width: 100%;
   position: relative;
 }
 
@@ -217,7 +217,7 @@ section.welcome {
 }
 
 .welcome .row {
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -246,7 +246,7 @@ section.welcome {
 }
 /* CASE_STUDY SECTION */
 section.case_study {
-  width: 100vw;
+  width: 100%;
   display: flex;
   align-items: center;
   background-color: var(--color-black);
@@ -324,19 +324,19 @@ section.case_study {
 
 /* OUR_WORK SECTION */
 section.our_work {
-  width: 100vw;
+  width: 100%;
 }
 .main_heading {
   text-align: center;
 }
 .slider_our_work {
   display: flex;
-  width: 100vw;
+  width: 100%;
   align-items: center;
   flex-wrap: wrap;
 }
 .slider_our_work .our_row {
-  width: 100vw;
+  width: 100%;
   height: auto;
   display: flex;
   flex-wrap: nowrap;
@@ -576,7 +576,7 @@ i {
     padding: 5vw;
   }
   .header_sec .navbar {
-    width: 100vw;
+    width: 100%;
     background-color: var(--color-grey);
     position: absolute;
     top: 12vw;
@@ -915,7 +915,7 @@ i {
 }
 @media (max-width: 355px) {
   .case_study .col_study {
-    width: 100vw;
+    width: 100%;
     margin: 10px auto;
   }
   .case_study .col_study:nth-of-type(n + 6) {
@@ -927,7 +927,7 @@ section.work_section {
   padding: 0;
 }
 .welcome_work {
-  width: 100vw;
+  width: 100%;
   height: 70vh;
   display: flex;
   align-items: flex-end;
@@ -935,7 +935,7 @@ section.work_section {
   padding: 0;
 }
 .welcome-_work .work-wrap {
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   align-items: end;
