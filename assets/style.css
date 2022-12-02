@@ -540,7 +540,7 @@ i {
   align-items: center;
   display: flex;
 }
-.comp_row_left img {
+img {
   filter: invert(1);
 }
 .comp_sec .comp_row_right {
