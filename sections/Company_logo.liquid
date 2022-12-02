@@ -22,7 +22,7 @@
             <ul class="comp_navlist">
                 {% for block in section.blocks %}
                 {% case block.type %}
-                {% when 'comp_list' %}
+                {% when 'link' %}
                     <li><a href="{{ block.settings.list_link }}">{{ block.settings.list_name }}</a></li>
                 {% endcase %}
                 {% endfor %}
@@ -54,8 +54,8 @@
         ]
       },
        {
-        "name": "column",
-        "type":"column",
+        "name": "comp_link",
+        "type":"link",
         "settings": [
             {
               "type":"text",
@@ -63,7 +63,7 @@
               "label":"List Name"
           },
           {
-              "type":"text",
+              "type":"url",
               "id":"list_link",
               "label":"Link"
           } 
