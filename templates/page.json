@@ -153,6 +153,20 @@
             "list_name": "Fiy Body",
             "list_link": ""
           }
+        },
+        "78e3cb36-1aa7-42ad-baf6-4c93494e034b": {
+          "type": "link",
+          "settings": {
+            "list_name": "Plume",
+            "list_link": ""
+          }
+        },
+        "277f4b50-4442-471f-acef-b88994ef526d": {
+          "type": "link",
+          "settings": {
+            "list_name": "Marey",
+            "list_link": ""
+          }
         }
       },
       "block_order": [
@@ -164,7 +178,9 @@
         "f51c3a65-071a-419d-b926-3cbf72301f35",
         "ef651f88-9b6d-4a93-8026-3c5b16754af7",
         "d947ba60-b850-403f-a2cc-897108d9526d",
-        "6bc98224-af62-4570-abcd-17ce67cce2de"
+        "6bc98224-af62-4570-abcd-17ce67cce2de",
+        "78e3cb36-1aa7-42ad-baf6-4c93494e034b",
+        "277f4b50-4442-471f-acef-b88994ef526d"
       ],
       "settings": {
         "comp_sec_heading": "We've also worked with...",
