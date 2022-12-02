@@ -17,7 +17,7 @@
             {% endfor %}
         </div>
       <div class="comp_row_right">
-        <small>A Few More...</small>
+        <small>{{ section.settings.small }}</small>
           <div class="comp_logoes">
             <ul class="comp_navlist">
                 {% for block in section.blocks %}
@@ -39,7 +39,12 @@
               "type":"text",
               "id":"comp_sec_heading",
               "label":"Heading"
-          }       
+          },
+          {
+              "type":"text",
+              "id":"small",
+              "label":"Small Heading"
+          }
     ],
      "blocks": [
       {
