@@ -10,7 +10,7 @@
               <div class="comp_row_left">
                 {% when '' %}
                 <div class="comp_col_img">
-                    <img src="./img/slider_logo_1.svg" alt="">
+                    <img src="{{ block.settings.comp_img | img_url:'master'}}" alt="">
                 </div>
             </div>
             {% endcase %}
@@ -22,7 +22,7 @@
                          {% for block in section.blocks %}
                           {% case block.type %}
                            {% when 'details' %}
-                        <li><a href="{{ block.settings.list_link }}">Lorem lorem</a></li>
+                        <li><a href="{{ block.settings.list_link }}">{{ block.settings.list_name }}</a></li>
                           {% endcase %}
                            {% endfor %}
                     </ul>
@@ -40,42 +40,24 @@
               "type":"text",
               "id":"comp_sec_heading",
               "label":"Heading"
-          }
-    ],
-     "blocks": [
-      {
-        "name": "hero-col",
-        "type":"hero_column",
-        "settings": [
-          {
-            "type":"text",
-            "id":"part_name",
-            "label":"Part Name"
           },
           {
-            "type":"text",
-            "id":"sram_code",
-            "label":"Code Number"
-          }
-        ],
-        
-            "type": "details",
-            "name": "details_desc",
-            "settings": [
-            {
-                "type":"text",
-                "id":"smalltext",
-                "label":"DEtails Name"
-            },  
-            {
-                "type":"text",
-                "id":"bigtext",
-                "label":"Name of DEtails"
-            }
-          ]
-        }
-      ],
-      
+              "type":"image_picker",
+              "id":"comp_img",
+              "label":"Image"
+          },
+          {
+              "type":"text",
+              "id":"list_name",
+              "label":"List Name"
+          },
+          {
+              "type":"text",
+              "id":"list_link",
+              "label":"Link"
+          }        
+    ],
+   
       "presets":[
         { "name":"Company_logo"}
       ]
