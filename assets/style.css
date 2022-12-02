@@ -566,9 +566,9 @@ i {
 }
 .comp_row_right .comp_navlist li {
   display: block;
+  padding: 10px 0;
 }
 .comp_row_right .comp_navlist li a {
-  padding: 30px 0;
   color: var(--color-white);
   font-family: var(--font-heading);
   font-size: 18px;
