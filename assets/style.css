@@ -566,6 +566,7 @@ i {
 }
 .comp_row_right .comp_navlist li {
   display: block;
+  margin: 40px auto;
 }
 .comp_row_right .comp_navlist li a {
   padding: 10px 0;
