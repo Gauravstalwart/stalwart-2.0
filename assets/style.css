@@ -510,6 +510,7 @@ i {
 .comp_logo .sec_heading h2 {
   color: white;
   font-size: 5vw;
+  font-family: var(--font-primary);
 }
 .comp_sec {
   width: 100%;
