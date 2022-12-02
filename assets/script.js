@@ -17,19 +17,20 @@ $('.navbar ul li a[href="' + activeurl + '"]')
   .parent("li")
   .addClass("active");
 
-$(window).scroll(function () {
-  const el = $(".case-study");
-  var brands_height = $(".case-study").height();
-  var brands_offset = el.offset().top;
-  var brands_height_half = brands_height / 3;
-  var brands_height_scoll = $(window).scrollTop();
-
-  if (brands_height_scoll >= brands_offset - brands_height_half) {
-    $(".case-study").addClass("color_change");
-  } else {
-    $(".case-study").removeClass("color_change");
-  }
-});
+const el = $(".case-study");
+if (el.length) {
+  $(window).scroll(function () {
+    var brands_height = $(".case-study").height();
+    var brands_offset = el.offset().top;
+    var brands_height_half = brands_height / 3;
+    var brands_height_scoll = $(window).scrollTop();
+    if (brands_height_scoll >= brands_offset - brands_height_half) {
+      $(".case-study").addClass("color_change");
+    } else {
+      $(".case-study").removeClass("color_change");
+    }
+  });
+}
 
 // window.addEventListener("DOMContentLoaded", () => {
 //   const circle = document.getElementById("circle");
