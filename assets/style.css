@@ -950,6 +950,9 @@ section.work_section {
   justify-content: center;
 }
 .work_col + .work_col {
+  margin: 0;
+}
+.work_col {
   width: calc(33.3% - 2vw);
   height: 36vw;
   border: 1px solid var(--color-white);
