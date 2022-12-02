@@ -95,12 +95,20 @@
       "settings": {
         "main_heading": ""
       }
+    },
+    "6916c22e-55ee-479c-837e-fb1002243399": {
+      "type": "Company_logo",
+      "settings": {
+        "comp_sec_heading": "",
+        "small": ""
+      }
     }
   },
   "order": [
     "b370bbf2-068a-4ec8-9338-9bef9f2d8f31",
     "main",
     "4cddcf18-c303-4527-8763-6a60eaf4994b",
-    "0c4dc316-91f6-4a09-8adb-b62a5f08314a"
+    "0c4dc316-91f6-4a09-8adb-b62a5f08314a",
+    "6916c22e-55ee-479c-837e-fb1002243399"
   ]
 }
