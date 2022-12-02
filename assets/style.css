@@ -567,6 +567,7 @@ i {
 .comp_row_right .comp_navlist li a {
   padding: 10px 0;
   color: var(--color-white);
+  font-family: var(--font-heading);
 }
 
 @media (min-width: 1201px) {
