@@ -1136,6 +1136,7 @@ section.work_section {
   .work_detali .work_img big {
     padding: 0.5vw 1.5vw;
     font-size: 15px;
+    border-radius: 0.55vw;
   }
 }
 @media (max-width: 391px) {
