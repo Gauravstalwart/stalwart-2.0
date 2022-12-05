@@ -1075,6 +1075,10 @@ section.work_section {
     width: 25vw;
     height: 25vw;
   }
+
+  .wel-heading {
+    margin-bottom: 10px;
+  }
   .work_row {
     grid-template-columns: repeat(2, 1fr);
   }
