@@ -1150,6 +1150,9 @@ section.work_section {
     flex-wrap: nowrap;
     align-items: center;
   }
+  .comp_row_right .comp_navlist li {
+    margin: 0 14px;
+  }
   .work_detali .work_img big {
     padding: 0.5vw 1.5vw;
     font-size: 15px;
