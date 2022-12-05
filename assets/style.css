@@ -830,6 +830,9 @@ i {
   .work_col {
     height: 37vw;
   }
+  .work_detali {
+    height: 36.8vw;
+  }
 }
 @media (max-width: 769px) {
   .header_logo img {
