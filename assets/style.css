@@ -1123,6 +1123,9 @@ section.work_section {
   .comp_row_right .comp_navlist li a {
     font-size: 10px;
   }
+  .comp_sec .comp_row_left:after {
+    height: 35vh;
+  }
 }
 @media (max-width: 391px) {
   .wel-other .circle-wrap {
