@@ -1163,11 +1163,11 @@ section.work_section {
   }
   .comp_row_right .comp_navlist {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: center;
   }
   .comp_row_right .comp_navlist li {
-    margin: 0 5px;
+    width: 50%;
   }
   .work_detali .work_img big {
     padding: 0.5vw 1.5vw;
