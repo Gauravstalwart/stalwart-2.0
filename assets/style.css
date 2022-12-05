@@ -1130,6 +1130,9 @@ section.work_section {
   .comp_sec .comp_row_left {
     width: 70%;
   }
+  .comp_row_right {
+    width: 30%;
+  }
 }
 @media (max-width: 391px) {
   .wel-other .circle-wrap {
