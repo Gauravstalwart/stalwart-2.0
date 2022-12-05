@@ -390,7 +390,7 @@ section.our_work {
   margin: 0 auto;
   z-index: 1;
 }
-.our_col.slick-slide .slider_detali .work_img big {
+.slider_detali .work_img big {
   display: inline-flex;
   color: var(--color-black);
   background-color: var(--color-white);
