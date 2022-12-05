@@ -966,6 +966,9 @@ section.work_section {
     top: 19vw;
     right: 28vw;
   }
+  .work_col {
+    height: 39vw;
+  }
 }
 @media (max-width: 480px) {
   .plate.plate2 {
