@@ -407,14 +407,14 @@ section.our_work {
   color: white;
   margin: 1vw auto;
   font-family: var(--font-heading);
-  font-size: 2.6vw;
+  font-size: 2.5vw;
   font-weight: 500;
   line-height: 1;
   transition: 0.4s all ease-out;
 }
 .slider_our_work .slider_detali .slider_text p {
   color: white;
-  font-size: 1.22vw;
+  font-size: 1.1vw;
   font-family: var(--font-primary);
   line-height: 1.4;
   transition: 0.4s all ease-out;
