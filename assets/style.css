@@ -824,6 +824,9 @@ i {
   .welcome_work {
     height: 50vw !important;
   }
+  .wel-heading {
+    margin-bottom: 40px;
+  }
 }
 @media (max-width: 769px) {
   .header_logo img {
