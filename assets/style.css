@@ -421,14 +421,15 @@ section.our_work {
 }
 .slider_our_work .our_col .slider_img {
   display: flex;
-  flex-decoration: column;
+  flex-direction: column;
+  align-items: flex-start;
 }
 .slider_our_work .our_col .slider_img big {
   display: inline-flex;
   color: var(--color-black);
   background-color: var(--color-white);
   padding: 0.1vw 0.4vw;
-  margin: 0.5vw auto 1vw;
+  margin: 0.5vw 0 1vw;
   font-size: 12px;
   border-radius: 0.15vw;
   font-weight: 500;
