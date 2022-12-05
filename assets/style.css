@@ -392,7 +392,7 @@ section.our_work {
 }
 
 .slider_our_work .slider_detali .slider_text {
-  width: 24.5vw;
+  width: 24vw;
   z-index: 1;
 }
 .slider_our_work .slider_detali .slider_text .slider_logo {
@@ -437,7 +437,7 @@ section.our_work {
   text-transform: uppercase;
 }
 .slider_our_work .our_col .slider_img img {
-  width: 24.5vw;
+  width: 24vw;
   aspect-ratio: 360/220;
   z-index: 1;
 }
