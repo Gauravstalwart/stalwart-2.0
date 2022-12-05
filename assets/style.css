@@ -822,7 +822,7 @@ i {
     padding: 10vw 0;
   }
   .welcome_work {
-    height: 50vw;
+    height: 50vw !important;
   }
 }
 @media (max-width: 769px) {
