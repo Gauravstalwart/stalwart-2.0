@@ -1108,11 +1108,12 @@ section.work_section {
     height: 15vw;
   }
   .work_detali .work_text h4 {
-    font-size: 7.8vw;
-    margin: 2vw auto;
+    font-size: 8.5vw;
+    line-height: 1;
+    margin: 4vw 0;
   }
   .work_detali .work_text p {
-    font-size: 4vw;
+    font-size: 5vw;
   }
   .comp_row_left .comp_col_img {
     width: calc(33.33% - 10px);
