@@ -1137,6 +1137,7 @@ section.work_section {
     padding: 0.5vw 1.5vw;
     font-size: 15px;
     border-radius: 0.55vw;
+    margin: 1.5vw auto 3vw;
   }
 }
 @media (max-width: 391px) {
