@@ -1075,7 +1075,9 @@ section.work_section {
     width: 25vw;
     height: 25vw;
   }
-
+  .welcome_work {
+    height: 55vw;
+  }
   .wel-heading {
     margin-bottom: 15px;
   }
