@@ -1132,10 +1132,7 @@ section.work_section {
     height: 35vh;
   }
   .comp_sec .comp_row_left {
-    width: 70%;
-  }
-  .comp_row_right {
-    width: 30%;
+    width: 100%;
   }
   .work_detali .work_img big {
     padding: 0.5vw 1.5vw;
