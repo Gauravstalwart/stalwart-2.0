@@ -1129,7 +1129,10 @@ section.work_section {
     font-size: 10px;
   }
   .comp_sec .comp_row_left:after {
-    height: 35vh;
+    height: 0.5vw;
+    width: 100%;
+    top: 115vw;
+    left: 0;
   }
   .comp_sec .comp_row_left {
     width: 100%;
