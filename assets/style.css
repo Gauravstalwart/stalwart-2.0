@@ -1120,6 +1120,9 @@ section.work_section {
   .comp_row_right .comp_navlist li {
     padding: 0;
   }
+  .comp_row_right .comp_navlist li a {
+    font-size: 10px;
+  }
 }
 @media (max-width: 391px) {
   .wel-other .circle-wrap {
