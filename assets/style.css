@@ -1102,11 +1102,11 @@ section.work_section {
   }
   .work_detali .work_logo img {
     display: block;
-    width: 20vw;
-    height: 4vw;
+    width: 50vw;
+    height: 12vw;
   }
   .work_detali .work_text h4 {
-    font-size: 3.5vw;
+    font-size: 5vw;
   }
   .work_detali .work_text p {
     font-size: 1.6vw;
