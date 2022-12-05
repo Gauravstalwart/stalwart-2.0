@@ -1116,6 +1116,7 @@ section.work_section {
   }
   .comp_row_right small {
     font-size: 10px;
+    margin-bottom: 10px;
   }
   .comp_row_right .comp_navlist li {
     padding: 0;
