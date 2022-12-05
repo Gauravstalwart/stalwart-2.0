@@ -1089,7 +1089,9 @@ section.work_section {
     height: 150vw;
   }
   .work_detali {
-    height: 129.5vw;
+    width: 87.5vw;
+    height: 149.5vw;
+    padding: 6vw 3vw 0;
   }
   .work_detali .work_text {
     width: 80vw;
