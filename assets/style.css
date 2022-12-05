@@ -390,6 +390,18 @@ section.our_work {
   margin: 0 auto;
   z-index: 1;
 }
+.our_col.slick-slide .slider_detali .work_img big {
+  display: inline-flex;
+  color: var(--color-black);
+  background-color: var(--color-white);
+  padding: 0.1vw 0.4vw;
+  margin: 0.5vw auto 1vw;
+  font-size: 12px;
+  border-radius: 0.15vw;
+  font-weight: 500;
+  font-family: "Work Sans";
+  text-transform: uppercase;
+}
 .slider_our_work .slider_detali .slider_text {
   width: 24.5vw;
   z-index: 1;
