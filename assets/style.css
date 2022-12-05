@@ -1090,6 +1090,9 @@ section.work_section {
   .work_detali .work_img {
     width: 37vw;
   }
+  .work_detali .work_img img {
+    width: 37vw;
+  }
 }
 @media (max-width: 391px) {
   .wel-other .circle-wrap {
