@@ -350,11 +350,6 @@ section.our_work {
   border: 1px solid var(--color-white);
   position: relative;
   transition: 0.4s all easy-out;
-  /*animation-name: spin;
-  animation-timing-function: linear;
-  animation-duration: 6s;
-  animation-iteration-count: infinite;
-  animation-fill-mode: both; */
 }
 .slider_our_work .our_row .our_col:hover {
   background-image: linear-gradient(
@@ -471,20 +466,6 @@ i {
   font-size: 1.5vw;
   padding: 0.5vw;
 }
-/* .slider_our_work .our_row .our_col:hover {
-    background:var(--color-white);
-}
-.slider_our_work .our_row .our_col:hover .slider_detali .slider_text h4{
-     color: var(--color-black);
-}
-.slider_our_work .our_row .our_col:hover .slider_detali .slider_text p{
-    color: var(--color-black);
-   
-  
-}
-.slider_our_work .our_row .our_col:hover .slider_detali .slider_text .slider_logo{
-  filter: invert(1);
-} */
 
 .circle {
   position: fixed;
