@@ -1083,7 +1083,7 @@ section.work_section {
   }
   .work_row {
     grid-template-columns: repeat(1, 1fr);
-    gap: 2vw;
+    gap: 4vw;
   }
   .work_col {
     height: 110vw;
