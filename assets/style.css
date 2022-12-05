@@ -1135,6 +1135,7 @@ section.work_section {
   }
   .work_detali .work_img big {
     padding: 0.5vw 1.5vw;
+    font-size: 15px;
   }
 }
 @media (max-width: 391px) {
