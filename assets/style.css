@@ -1126,7 +1126,7 @@ section.work_section {
     padding: 0;
   }
   .comp_row_right .comp_navlist li a {
-    font-size: 18px;
+    font-size: 14px;
   }
   .comp_sec .comp_row_left:after {
     height: 0.5vw;
@@ -1151,7 +1151,7 @@ section.work_section {
     align-items: center;
   }
   .comp_row_right .comp_navlist li {
-    margin: 0 14px;
+    margin: 0 15px;
   }
   .work_detali .work_img big {
     padding: 0.5vw 1.5vw;
