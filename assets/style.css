@@ -416,7 +416,7 @@ section.our_work {
   color: white;
   font-size: 1.22vw;
   font-family: var(--font-primary);
-  line-height: 1.5;
+  line-height: 1.4;
   transition: 0.4s all ease-out;
 }
 .slider_our_work .our_col .slider_img {
