@@ -1093,6 +1093,11 @@ section.work_section {
   .work_detali .work_img img {
     width: 37vw;
   }
+  .work_detali .work_logo img {
+    display: block;
+    width: 20vw;
+    height: 4vw;
+  }
 }
 @media (max-width: 391px) {
   .wel-other .circle-wrap {
