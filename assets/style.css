@@ -1110,7 +1110,7 @@ section.work_section {
     margin: 2vw auto;
   }
   .work_detali .work_text p {
-    font-size: 3.1vw;
+    font-size: 5vw;
   }
   .comp_row_left .comp_col_img {
     width: calc(33.33% - 10px);
