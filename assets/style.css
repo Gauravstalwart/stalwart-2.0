@@ -1159,7 +1159,7 @@ section.work_section {
   .comp_row_right {
     width: 100%;
     padding-left: 2vw;
-    padding-top: 10vw;
+    padding-top: 15vw;
   }
   .comp_row_right .comp_navlist {
     display: flex;
