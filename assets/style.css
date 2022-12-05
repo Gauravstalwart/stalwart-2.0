@@ -1075,6 +1075,9 @@ section.work_section {
     width: 25vw;
     height: 25vw;
   }
+  .work_col {
+    height: 60vw;
+  }
 }
 @media (max-width: 391px) {
   .wel-other .circle-wrap {
