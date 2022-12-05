@@ -1174,6 +1174,12 @@ section.work_section {
     border-radius: 0.55vw;
     margin: 1.5vw auto 3vw;
   }
+  .slider_our_work .our_col .slider_img big {
+    padding: 0.5vw 1.5vw;
+    font-size: 15px;
+    border-radius: 0.55vw;
+    margin: 1.5vw auto 3vw;
+  }
 }
 @media (max-width: 391px) {
   .wel-other .circle-wrap {
