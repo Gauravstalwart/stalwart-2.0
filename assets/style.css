@@ -975,6 +975,9 @@ section.work_section {
   .comp_sec .comp_row_left:after {
     height: 40vh;
   }
+  .comp_row_right {
+    padding-left: 2vw;
+  }
 }
 @media (max-width: 480px) {
   .plate.plate2 {
