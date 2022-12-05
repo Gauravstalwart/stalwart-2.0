@@ -913,7 +913,7 @@ section.work_section {
     padding: 10vw 0;
   }
   .welcome_work {
-    height: 45vw !important;
+    height: 45vw;
   }
   .wel-heading {
     margin-bottom: 40px;
