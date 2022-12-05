@@ -1127,6 +1127,9 @@ section.work_section {
   .comp_sec .comp_row_left:after {
     height: 35vh;
   }
+  .comp_sec .comp_row_left {
+    width: 70%;
+  }
 }
 @media (max-width: 391px) {
   .wel-other .circle-wrap {
