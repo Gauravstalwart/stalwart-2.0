@@ -1134,6 +1134,10 @@ section.work_section {
   .comp_sec .comp_row_left {
     width: 100%;
   }
+  .comp_row_left .comp_col_img {
+    width: calc(50% - 10px);
+    margin: 0 auto;
+  }
   .work_detali .work_img big {
     padding: 0.5vw 1.5vw;
     font-size: 15px;
