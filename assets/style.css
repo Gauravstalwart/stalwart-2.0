@@ -1141,6 +1141,10 @@ section.work_section {
     width: calc(50% - 10px);
     margin: 0 auto;
   }
+  .comp_row_right {
+    width: 100%;
+    padding-left: 0;
+  }
   .work_detali .work_img big {
     padding: 0.5vw 1.5vw;
     font-size: 15px;
