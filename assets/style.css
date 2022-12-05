@@ -924,6 +924,9 @@ section.work_section {
   .work_detali {
     height: 36.8vw;
   }
+  .comp_row_left .comp_col_img {
+    margin: 0 5px 20px;
+  }
 }
 @media (max-width: 769px) {
   .header_logo img {
