@@ -827,6 +827,9 @@ i {
   .wel-heading {
     margin-bottom: 40px;
   }
+  .work_col {
+    height: 37vw;
+  }
 }
 @media (max-width: 769px) {
   .header_logo img {
