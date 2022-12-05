@@ -972,6 +972,9 @@ section.work_section {
   .work_detali {
     height: 38.8vw;
   }
+  .comp_sec .comp_row_left:after {
+    height: 40vh;
+  }
 }
 @media (max-width: 480px) {
   .plate.plate2 {
