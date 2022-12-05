@@ -1075,6 +1075,9 @@ section.work_section {
     width: 25vw;
     height: 25vw;
   }
+  .work_row {
+    grid-template-columns: repeat(2, 1fr);
+  }
   .work_col {
     height: 60vw;
   }
