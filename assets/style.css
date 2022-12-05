@@ -1145,6 +1145,11 @@ section.work_section {
     width: 100%;
     padding-left: 2vw;
   }
+  .comp_row_right .comp_navlist {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
   .work_detali .work_img big {
     padding: 0.5vw 1.5vw;
     font-size: 15px;
