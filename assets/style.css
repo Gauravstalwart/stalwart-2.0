@@ -1077,7 +1077,7 @@ section.work_section {
   }
 
   .wel-heading {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
   }
   .work_row {
     grid-template-columns: repeat(2, 1fr);
