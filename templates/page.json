@@ -225,6 +225,21 @@
     },
     "d06c2885-73ad-4e0a-b300-0e557afb7001": {
       "type": "testimonials",
+      "blocks": {
+        "0f74b593-d442-4eed-b65f-379f79869fbb": {
+          "type": "tm_column",
+          "settings": {
+            "tm_dp": "shopify:\/\/shop_images\/menu_1.png",
+            "dev-int": "Customer Support",
+            "tm_desc": "<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque alias autem quisquam porro explicabo dolorem quos, cum corporis necessitatibus repudiandae ipsum atque, nobis, placeat similique.<\/p>",
+            "name": "kane Dowell",
+            "designation": "CEO, Ask Mummy & Daddy"
+          }
+        }
+      },
+      "block_order": [
+        "0f74b593-d442-4eed-b65f-379f79869fbb"
+      ],
       "settings": {
         "tm_small_heading": "Testimonials",
         "tm_main_heading": "We help to achieve mutual goals."
