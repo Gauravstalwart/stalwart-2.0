@@ -226,8 +226,8 @@
     "d06c2885-73ad-4e0a-b300-0e557afb7001": {
       "type": "testimonials",
       "settings": {
-        "tm_small_heading": "",
-        "tm_main_heading": ""
+        "tm_small_heading": "Testimonials",
+        "tm_main_heading": "We help to achieve mutual goals."
       }
     }
   },
