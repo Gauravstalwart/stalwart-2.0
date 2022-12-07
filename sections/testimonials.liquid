@@ -11,10 +11,10 @@
                   {% for block in section.blocks %}
                     <div class="tm_slider">
                         <div class="tm_dp">
-                            <img src="{{ block.settings.tm_dp | file_url}}">
+                            <img src="{{ block.settings.tm_dp | img_url:'master'}}">
+                            <big>{{ block.settings.dev-int }}</big>
                         </div>
                         <div class="tm_text">
-                            <big>{{ block.settings.dev-int }}</big>
                             <p>{{ block.settings.tm_desc }}</p>
                             <h3>{{ block.settings.name }}</h3>
                             <h5>{{ block.settings.designation }}</h5>
