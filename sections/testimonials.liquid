@@ -13,7 +13,7 @@
                         </div>
                         <div class="tm_text">
                             <big>{{ block.settings.dev-int }}</big>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque alias autem quisquam porro explicabo dolorem quos, cum corporis necessitatibus repudiandae ipsum atque, nobis, placeat similique.</p>
+                            <p>{{ block.settings.tm_desc }}</p>
                             <h3>kane Dowell</h3>
                             <h5>CEO, Ask Mummy & Daddy</h5>
                         </div>
@@ -55,14 +55,14 @@
           "label":"Intro Name"
         },
         {
+          "type":"richtext",
+          "id":"tm_desc",
+          "label":"Description"
+        },
+        {
           "type":"text",
           "id":"slider_heading",
           "label":"Slider Heading"
-        },
-        {
-          "type":"richtext",
-          "id":"slider_desc",
-          "label":"Slider Description"
         },
         {
           "type":"text",
