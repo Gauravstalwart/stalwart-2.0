@@ -2,14 +2,14 @@
     <div class="container">
         <div class="tm_row">
             <div class="tm_col">
-                <small>TESTIMONIALS</small>
-                <h2>We help to achieve mutual goals.</h2>
+                <small>{{ section.settings.tm_small_heading }}</small>
+                <h2>{{ section.settings.tm_main_heading }}</h2>
             </div>
             <div class="tm_col">
                   {% for block in section.blocks %}
                     <div class="tm_slider">
                         <div class="tm_dp">
-                            <img src="{{ block.settings.slider_logo | file_url}}">
+                            <img src="{{ block.settings.tm_dp | file_url}}">
                         </div>
                         <div class="tm_text">
                             <a href="">Customer Support</a>
@@ -28,7 +28,16 @@
     "name": "Testimonial_sec",
     "class": "testimonial_sec",
     "settings": [
-      
+        {
+          "type":"text",
+          "id":"tm_small_heading",
+          "label":"Small Heading"
+        },
+        {
+          "type":"text",
+          "id":"tm_main_heading",
+          "label":"Main Heading"
+        }
     ]
   }
 {% endschema %}
