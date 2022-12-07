@@ -2,8 +2,10 @@
     <div class="container">
         <div class="tm_row">
             <div class="tm_col">
-                <small>{{ section.settings.tm_small_heading }}</small>
-                <h2>{{ section.settings.tm_main_heading }}</h2>
+                <div class="tm_left_text">
+                  <small>{{ section.settings.tm_small_heading }}</small>
+                  <h2>{{ section.settings.tm_main_heading }}</h2>
+                </div>
             </div>
             <div class="tm_col">
                   {% for block in section.blocks %}
