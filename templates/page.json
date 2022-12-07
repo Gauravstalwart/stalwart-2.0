@@ -222,6 +222,13 @@
         "comp_sec_heading": "We've also worked with...",
         "small": "A Few More..."
       }
+    },
+    "d06c2885-73ad-4e0a-b300-0e557afb7001": {
+      "type": "testimonials",
+      "settings": {
+        "tm_small_heading": "",
+        "tm_main_heading": ""
+      }
     }
   },
   "order": [
@@ -229,6 +236,7 @@
     "main",
     "4cddcf18-c303-4527-8763-6a60eaf4994b",
     "0c4dc316-91f6-4a09-8adb-b62a5f08314a",
-    "6916c22e-55ee-479c-837e-fb1002243399"
+    "6916c22e-55ee-479c-837e-fb1002243399",
+    "d06c2885-73ad-4e0a-b300-0e557afb7001"
   ]
 }
