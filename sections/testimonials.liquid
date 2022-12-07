@@ -1,7 +1,35 @@
+<section class="testimonials">
+    <div class="container">
+        <div class="tm_row">
+            <div class="tm_col">
+                <small>TESTIMONIALS</small>
+                <h2>We help to achieve mutual goals.</h2>
+            </div>
+            <div class="tm_col">
+                  {% for block in section.blocks %}
+                    <div class="tm_slider">
+                        <div class="tm_dp">
+                            <img src="" alt="">
+                        </div>
+                        <div class="tm_text">
+                            <a href="">Customer Support</a>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque alias autem quisquam porro explicabo dolorem quos, cum corporis necessitatibus repudiandae ipsum atque, nobis, placeat similique.</p>
+                            <h3>kane Dowell</h3>
+                            <h5>CEO, Ask Mummy & Daddy</h5>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Testimonial_sec",
+    "class": "testimonial_sec",
+    "settings": [
+      
+    ]
   }
 {% endschema %}
 
