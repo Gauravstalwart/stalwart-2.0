@@ -15,7 +15,7 @@
                             <big>{{ block.settings.dev-int }}</big>
                             <p>{{ block.settings.tm_desc }}</p>
                             <h3>{{ block.settings.name }}</h3>
-                            <h5>CEO, Ask Mummy & Daddy</h5>
+                            <h5>{{ block.settings.designation }}</h5>
                         </div>
                     </div>
                 {% endfor %}
@@ -66,8 +66,8 @@
         },
         {
           "type":"text",
-          "id":"brand_name",
-          "label":"Brand Name"
+          "id":"designation",
+          "label":"Designation"
         }
         
       ]
