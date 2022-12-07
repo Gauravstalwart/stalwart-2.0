@@ -12,7 +12,7 @@
                             <img src="{{ block.settings.tm_dp | file_url}}">
                         </div>
                         <div class="tm_text">
-                            <a href="">Customer Support</a>
+                            <big>{{ block.settings.dev-int }}</big>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque alias autem quisquam porro explicabo dolorem quos, cum corporis necessitatibus repudiandae ipsum atque, nobis, placeat similique.</p>
                             <h3>kane Dowell</h3>
                             <h5>CEO, Ask Mummy & Daddy</h5>
@@ -45,9 +45,14 @@
       "type":"tm_column",
       "settings": [
          {
+          "type":"image_picker",
+          "id":"tm_dp",
+          "label":"DP Image"
+        },
+         {
           "type":"text",
-          "id":"slider_logo",
-          "label":"Slider Logo"
+          "id":"dev-int",
+          "label":"Intro Name"
         },
         {
           "type":"text",
@@ -63,12 +68,8 @@
           "type":"text",
           "id":"brand_name",
           "label":"Brand Name"
-        },
-         {
-          "type":"image_picker",
-          "id":"slider_img",
-          "label":"Slider Image"
         }
+        
       ]
     }
   ],
