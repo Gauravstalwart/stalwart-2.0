@@ -448,10 +448,6 @@ section.our_work {
   width: 12vw;
   height: 3vw;
 }
-i {
-  font-size: 1.5vw;
-  padding: 0.5vw;
-}
 
 .circle {
   position: fixed;
@@ -742,8 +738,9 @@ button {
   background-color: var(--color-light-grey);
   opacity: 60%;
 }
-button i {
-  color: black;
+i {
+  font-size: 1.5vw;
+  padding: 0.5vw;
 }
 button.slick-next.pull-right.slick-arrow {
   position: absolute;
