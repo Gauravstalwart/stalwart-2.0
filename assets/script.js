@@ -105,8 +105,8 @@ jQuery(".our_row").length > 0 &&
     ],
   });
 
-jQuery(".tm_slider").length > 0 &&
-  jQuery(".tm_slider").slick({
+jQuery(".slider").length > 0 &&
+  jQuery(".slider").slick({
     infinite: false,
     slidesToShow: 1,
     autoplay: false,
