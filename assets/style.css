@@ -746,12 +746,12 @@ i {
 }
 button.slick-next.pull-right.slick-arrow {
   position: absolute;
-  bottom: -1vw;
+  bottom: -3vw;
   right: 3vw;
 }
 button.slick-prev.pull-left.slick-arrow {
   position: absolute;
-  bottom: -1vw;
+  bottom: -3vw;
   right: 7vw;
 }
 span.pagingInfo {
