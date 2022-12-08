@@ -1097,6 +1097,9 @@ span.line {
   .tm_row .tm_col .tm_left_text {
     text-align: center;
   }
+  .tm_row .tm_col .tm_slider {
+    padding: 2vw 10vw;
+  }
 }
 @media (max-width: 480px) {
   .plate.plate2 {
