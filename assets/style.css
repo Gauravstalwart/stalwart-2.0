@@ -681,6 +681,7 @@ section.testimonials {
 }
 .tm_row .tm_col .tm_left_text {
   padding-left: 6vw;
+  padding-right: 6vw;
 }
 .tm_row .tm_col .tm_left_text small {
   text-transform: uppercase;
