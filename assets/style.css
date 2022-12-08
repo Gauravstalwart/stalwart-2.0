@@ -596,7 +596,6 @@ section.work_section {
   );
   backdrop-filter: blur(20px);
   box-shadow: 0 1px 24px -1px #0000001a;
-  z-index: -1;
 }
 .work_col:after {
   position: absolute;
