@@ -1,8 +1,10 @@
 /* GOOGLEFONT LINK START */
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Work+Sans:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap");
 /*
 font-family: 'Work Sans', sans-serif;
 font-family: 'Libre Baskerville', serif;
+font-family: 'Playfair Display', serif;
 */
 
 /* GOOGLEFONT LINK START */
@@ -24,6 +26,7 @@ font-family: 'Libre Baskerville', serif;
   --color-btn-border: rgba(36, 100, 218, 1);
   --font-heading: "Work Sans", sans-serif;
   --font-primary: "Libre Baskerville", serif;
+  --font-playfire: "Playfair Display", serif;
 }
 
 .container {
