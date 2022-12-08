@@ -738,7 +738,7 @@ button {
   width: 3vw;
   height: 3vw;
   border-radius: 3vw;
-  background-color: white;
+  background-color: var(--color-light-grey);
   opacity: 60%;
 }
 button.slick-next.pull-right.slick-arrow {
