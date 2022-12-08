@@ -1037,6 +1037,9 @@ span.line {
   button.slick-prev.pull-left.slick-arrow {
     right: 10vw;
   }
+  .tm_row {
+    height: 30vw;
+  }
   .tm_row .tm_col {
     width: 100%;
   }
