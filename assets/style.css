@@ -743,12 +743,12 @@ button {
 }
 button.slick-next.pull-right.slick-arrow {
   position: absolute;
-  bottom: -5vw;
+  bottom: -1vw;
   right: 3vw;
 }
 button.slick-prev.pull-left.slick-arrow {
   position: absolute;
-  bottom: -5vw;
+  bottom: -1vw;
   right: 7vw;
 }
 
