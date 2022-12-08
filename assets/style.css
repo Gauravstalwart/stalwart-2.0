@@ -751,6 +751,11 @@ section.testimonials {
   font-size: 0.8vw;
   font-weight: 400;
 }
+button.slick-prev.slick-arrow {
+  position: absolute;
+  bottom: -5vw;
+  right: 3vw;
+}
 
 @media (min-width: 1201px) {
   .container {
