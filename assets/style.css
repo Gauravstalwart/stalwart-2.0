@@ -756,6 +756,11 @@ button.slick-prev.slick-arrow {
   bottom: -5vw;
   right: 3vw;
 }
+button.slick-next.slick-arrow {
+  position: absolute;
+  bottom: -5vw;
+  right: 7vw;
+}
 
 @media (min-width: 1201px) {
   .container {
