@@ -1329,6 +1329,10 @@ span.line {
   .tm_row .tm_col .tm_slider {
     padding: 0vw 6vw;
   }
+  .tm_row .tm_col .tm_slider p {
+    font-size: 2vw;
+    line-height: 2.7vw;
+  }
 }
 @media (max-width: 391px) {
   .wel-other .circle-wrap {
