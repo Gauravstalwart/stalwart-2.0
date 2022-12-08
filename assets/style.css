@@ -1091,6 +1091,9 @@ span.line {
   .tm_row {
     height: 30vw;
   }
+  .tm_row .tm_col {
+    width: 100%;
+  }
 }
 @media (max-width: 480px) {
   .plate.plate2 {
