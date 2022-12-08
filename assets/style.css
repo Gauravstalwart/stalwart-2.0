@@ -1303,11 +1303,11 @@ span.line {
     font-size: 4.7vw;
   }
   button.slick-prev.pull-left.slick-arrow {
-    bottom: -5vw;
-    right: 20vw;
+    bottom: -8vw;
+    right: 25vw;
   }
   button.slick-next.pull-right.slick-arrow {
-    bottom: -5vw;
+    bottom: -8vw;
     right: 14vw;
   }
   button {
