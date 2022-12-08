@@ -1031,6 +1031,12 @@ span.line {
   span.pagingInfo {
     left: 4vw;
   }
+  button.slick-next.pull-right.slick-arrow {
+    right: 6vw;
+  }
+  button.slick-prev.pull-left.slick-arrow {
+    right: 10vw;
+  }
 }
 @media (max-width: 769px) {
   .header_logo img {
