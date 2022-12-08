@@ -599,8 +599,7 @@ section.work_section {
 .work_col:after {
   position: absolute;
   content: "";
-  width: 26.4vw;
-  height: 39.9vw;
+  height: 35.9vw;
   top: 0;
   left: 0;
   background-image: url(https://cdn.shopify.com/s/files/1/0663/5326/7005/files/blur.png?v=1669804816);
