@@ -692,7 +692,7 @@ section.testimonials {
   font-size: 3vw;
   margin: 1vw auto;
   line-height: 1.2;
-  font-family: var(--font-primary);
+  font-family: var(--font-playfire);
 }
 .tm_row .tm_col .tm_slider {
   width: 100%;
