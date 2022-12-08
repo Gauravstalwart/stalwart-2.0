@@ -1334,6 +1334,12 @@ span.line {
     line-height: 2.7vw;
     margin: 2.5vw 0;
   }
+  .tm_row .tm_col .tm_slider h3 {
+    font-size: 2vw;
+  }
+  .tm_row .tm_col .tm_slider h5 {
+    font-size: 2vw;
+  }
 }
 @media (max-width: 391px) {
   .wel-other .circle-wrap {
