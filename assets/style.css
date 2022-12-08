@@ -1044,6 +1044,9 @@ span.line {
     margin: 0;
     left: 0;
   }
+  .tm_row .tm_col .tm_left_text {
+    text-align: center;
+  }
 }
 @media (max-width: 769px) {
   .header_logo img {
