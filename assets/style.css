@@ -1318,6 +1318,9 @@ span.line {
   i {
     font-size: 3.2vw;
   }
+  span.pagingInfo {
+    left: 6vw;
+  }
   span.line {
     width: 20px;
     height: 1px;
