@@ -1299,6 +1299,9 @@ span.line {
   .testimonials .tm_row {
     height: 60vw;
   }
+  .tm_row .tm_col .tm_left_text h2 {
+    font-size: 4.7vw;
+  }
   button.slick-prev.pull-left.slick-arrow {
     bottom: -5vw;
     right: 20vw;
@@ -1323,7 +1326,6 @@ span.line {
     width: 10vw;
     height: 10vw;
   }
-}
 }
 @media (max-width: 391px) {
   .wel-other .circle-wrap {
