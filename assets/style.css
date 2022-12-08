@@ -598,7 +598,7 @@ section.work_section {
   box-shadow: 0 1px 24px -1px #0000001a;
   z-index: -1;
 }
-.work_col:hove:after {
+.work_col:hove .work_col:after {
   position: absolute;
   content: "";
   width: 27vw;
