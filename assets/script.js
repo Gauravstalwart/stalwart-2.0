@@ -118,7 +118,7 @@ $slickElement.on('init reInit afterChange', function (event, slick, currentSlide
 
 
 $slickElement.slick({
-    infinite: false,
+    infinite: true,
     slidesToShow: 1,
     autoplay: false,
     speed: 1200,
