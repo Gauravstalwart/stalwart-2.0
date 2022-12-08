@@ -1104,6 +1104,11 @@ span.line {
   span.pagingInfo {
     margin: 0;
     left: 10vw;
+    font-size: 14px;
+  }
+  .tm_row .tm_col .tm_slider p {
+    font-size: 1.3vw;
+    line-height: 1.7vw;
   }
 }
 @media (max-width: 480px) {
