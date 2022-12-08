@@ -603,7 +603,7 @@ section.work_section {
   height: 35.9vw;
   top: 0;
   left: 0;
-  background-image: url(https://cdn.shopify.com/s/files/1/0663/5326/7005/files/blur.png?v=1669804816);
+  background-image: url("https://cdn.shopify.com/s/files/1/0663/5326/7005/files/blur.png?v=1669804816");
   background-repeat: repeat;
   background-size: 80px;
   z-index: -1;
