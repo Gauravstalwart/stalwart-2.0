@@ -1312,7 +1312,7 @@ span.line {
     font-size: 5.8vw;
     text-align: center;
   }
-  .tm_row {
+  .testimonials .tm_row {
     height: 50vw;
   }
 }
