@@ -1043,6 +1043,7 @@ span.line {
   span.pagingInfo {
     margin: 0;
     left: 0;
+    bottom: 0;
   }
   .tm_row .tm_col .tm_left_text {
     text-align: center;
