@@ -1113,6 +1113,9 @@ span.line {
   .tm_row .tm_col .tm_left_text small {
     font-size: 1.8vw;
   }
+  .tm_row .tm_col .tm_left_text h2 {
+    font-size: 3.8vw;
+  }
 }
 @media (max-width: 480px) {
   .plate.plate2 {
