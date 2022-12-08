@@ -1116,6 +1116,10 @@ span.line {
   .tm_row .tm_col .tm_left_text h2 {
     font-size: 3.8vw;
   }
+  .tm_row .tm_col .tm_slider .tm_dp img {
+    width: 5vw;
+    height: 5vw;
+  }
 }
 @media (max-width: 480px) {
   .plate.plate2 {
