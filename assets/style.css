@@ -1307,11 +1307,11 @@ span.line {
   }
   button.slick-prev.pull-left.slick-arrow {
     bottom: -6vw;
-    right: 25vw;
+    right: 16vw;
   }
   button.slick-next.pull-right.slick-arrow {
     bottom: -6vw;
-    right: 14vw;
+    right: 6vw;
   }
   button {
     width: 8vw;
