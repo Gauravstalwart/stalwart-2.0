@@ -634,7 +634,6 @@ section.work_section {
 }
 .work_detali .work_text {
   width: 22.6vw;
-  z-index: 1;
 }
 .work_detali .work_text h4 {
   color: #fff;
@@ -664,11 +663,11 @@ section.work_section {
 }
 .work_detali .work_img {
   width: 22.6vw;
-  z-index: 1;
 }
 .work_detali .work_img img {
   width: 22.6vw;
   display: block;
+  z-index: 1;
 }
 
 /* TESTIMONIAL SECTION  */
