@@ -1040,6 +1040,10 @@ span.line {
   .tm_row .tm_col {
     width: 100%;
   }
+  span.pagingInfo {
+    margin: 0;
+    left: 0;
+  }
 }
 @media (max-width: 769px) {
   .header_logo img {
