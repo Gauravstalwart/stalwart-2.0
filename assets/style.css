@@ -713,7 +713,7 @@ section.testimonials {
   width: 100%;
 }
 .tm_row .tm_col .tm_slider p {
-  color: black;
+  color: var(--color-black);
   font-size: 0.85vw;
   font-family: "Roboto", sans-serif;
   margin: 1vw 0;
