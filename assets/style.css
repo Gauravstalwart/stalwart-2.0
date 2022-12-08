@@ -702,6 +702,7 @@ section.testimonials {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  padding-right: 6vw;
 }
 .tm_row .slick-list.draggable {
   padding: 0;
