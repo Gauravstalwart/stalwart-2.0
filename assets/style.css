@@ -1327,7 +1327,7 @@ span.line {
     height: 10vw;
   }
   .tm_row .tm_col .tm_slider {
-    padding: 2vw 6vw;
+    padding: 0vw 6vw;
   }
 }
 @media (max-width: 391px) {
