@@ -609,7 +609,7 @@ section.work_section {
   background-repeat: repeat;
   background-size: 80px;
   z-index: -1;
-  background: white;
+  background: green;
 }
 
 .work_detali {
