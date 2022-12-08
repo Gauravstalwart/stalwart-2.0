@@ -587,6 +587,7 @@ section.work_section {
   column-gap: 2vw;
   position: relative;
   transform: 0.4s all;
+  z-index: 1;
 }
 .work_col:hover {
   background-image: linear-gradient(
