@@ -763,6 +763,9 @@ span.pagingInfo {
   font-size: 20px;
   font-family: var(--font-heading);
   font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 @media (min-width: 1201px) {
