@@ -1306,11 +1306,11 @@ span.line {
     font-size: 4.7vw;
   }
   button.slick-prev.pull-left.slick-arrow {
-    bottom: -8vw;
+    bottom: -6vw;
     right: 25vw;
   }
   button.slick-next.pull-right.slick-arrow {
-    bottom: -8vw;
+    bottom: -6vw;
     right: 14vw;
   }
   button {
