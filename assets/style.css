@@ -710,8 +710,8 @@ section.testimonials {
   flex-direction: column;
 }
 .tm_row .tm_col .tm_slider .tm_dp img {
-  width: 56px;
-  height: 56px;
+  width: 3vw;
+  height: 3vw;
   border-radius: 50vw;
   margin: 1vw 0;
 }
