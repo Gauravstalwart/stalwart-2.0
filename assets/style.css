@@ -448,24 +448,6 @@ section.our_work {
   width: 12vw;
   height: 3vw;
 }
-button {
-  width: 3vw;
-  height: 3vw;
-  border-radius: 3vw;
-  background-color: white;
-  opacity: 60%;
-}
-button.slick-next.pull-right.slick-arrow {
-  position: absolute;
-  top: 15vw;
-  right: 20.6vw;
-}
-button.slick-prev.pull-left.slick-arrow {
-  position: absolute;
-  top: 15vw;
-  left: 9.5vw;
-  z-index: 11;
-}
 i {
   font-size: 1.5vw;
   padding: 0.5vw;
@@ -751,15 +733,22 @@ section.testimonials {
   font-size: 0.8vw;
   font-weight: 400;
 }
-button.slick-prev.slick-arrow {
-  position: absolute;
-  bottom: -5vw;
-  right: 3vw;
+button {
+  width: 3vw;
+  height: 3vw;
+  border-radius: 3vw;
+  background-color: white;
+  opacity: 60%;
 }
-button.slick-next.slick-arrow {
+button.slick-next.pull-right.slick-arrow {
   position: absolute;
   bottom: -5vw;
   right: 7vw;
+}
+button.slick-prev.pull-left.slick-arrow {
+  position: absolute;
+  bottom: -5vw;
+  right: 3vw;
 }
 
 @media (min-width: 1201px) {
