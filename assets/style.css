@@ -1070,11 +1070,12 @@ span.line {
     width: 24.9vw;
   }
   button.slick-prev.pull-left.slick-arrow {
-    bottom: -5vwvw;
+    bottom: -3vw;
+    right: 20vw;
   }
   button.slick-next.pull-right.slick-arrow {
-    bottom: -5vw;
-    right: 10vw;
+    bottom: -3vw;
+    right: 16vw;
   }
   .work_col {
     height: 39vw;
