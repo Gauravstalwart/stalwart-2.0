@@ -1197,22 +1197,6 @@ span.line {
   .slider_our_work .our_col .slider_img img {
     width: 81vw;
   }
-  button.slick-prev.pull-left.slick-arrow {
-    top: 72vw;
-    left: 8vw;
-  }
-  button.slick-next.pull-right.slick-arrow {
-    top: 72vw;
-    right: 8vw;
-  }
-  button {
-    width: 10vw;
-    height: 10vw;
-    border-radius: 6vw;
-  }
-  i {
-    font-size: 4.8vw;
-  }
   .circle {
     width: 25vw;
     height: 25vw;
@@ -1314,6 +1298,22 @@ span.line {
   }
   .testimonials .tm_row {
     height: 50vw;
+  }
+  button.slick-prev.pull-left.slick-arrow {
+    top: 72vw;
+    left: 8vw;
+  }
+  button.slick-next.pull-right.slick-arrow {
+    top: 72vw;
+    right: 8vw;
+  }
+  button {
+    width: 10vw;
+    height: 10vw;
+    border-radius: 6vw;
+  }
+  i {
+    font-size: 4.8vw;
   }
 }
 @media (max-width: 391px) {
