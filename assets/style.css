@@ -1299,6 +1299,9 @@ span.line {
   .testimonials .tm_row {
     height: 60vw;
   }
+  .tm_row .tm_col .tm_left_text small {
+    font-size: 3vw;
+  }
   .tm_row .tm_col .tm_left_text h2 {
     font-size: 4.7vw;
   }
