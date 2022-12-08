@@ -596,6 +596,18 @@ section.work_section {
   box-shadow: 0 1px 24px -1px #0000001a;
   z-index: -1;
 }
+.work_col:after {
+  position: absolute;
+  content: "";
+  width: 26.4vw;
+  height: 39.9vw;
+  top: 0;
+  left: 0;
+  background-image: url(https://cdn.shopify.com/s/files/1/0663/5326/7005/files/blur.png?v=1669804816);
+  background-repeat: repeat;
+  background-size: 80px;
+  z-index: -1;
+}
 
 .work_detali {
   padding: 2vw 2vw 0;
