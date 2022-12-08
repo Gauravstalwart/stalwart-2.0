@@ -738,6 +738,7 @@ button {
   width: 3vw;
   height: 3vw;
   border-radius: 3vw;
+  border: none;
   background-color: var(--color-light-grey);
   opacity: 60%;
 }
