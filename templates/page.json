@@ -235,10 +235,21 @@
             "name": "kane Dowell",
             "designation": "CEO, Ask Mummy & Daddy"
           }
+        },
+        "e5edff87-b0b3-4203-bc5e-5bba82dc1fdb": {
+          "type": "tm_column",
+          "settings": {
+            "tm_dp": "shopify:\/\/shop_images\/Asset_1.png",
+            "dev-int": "CUSTOMER SUPPORT",
+            "tm_desc": "<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque alias autem quisquam porro explicabo dolorem quos, cum corporis necessitatibus repudiandae ipsum atque, nobis, placeat similique.<\/p>",
+            "name": "kane Dowell",
+            "designation": "CEO, Ask Mummy & Daddy"
+          }
         }
       },
       "block_order": [
-        "0f74b593-d442-4eed-b65f-379f79869fbb"
+        "0f74b593-d442-4eed-b65f-379f79869fbb",
+        "e5edff87-b0b3-4203-bc5e-5bba82dc1fdb"
       ],
       "settings": {
         "tm_small_heading": "Testimonials",
