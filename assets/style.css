@@ -600,6 +600,7 @@ section.work_section {
 .work_col:after {
   position: absolute;
   content: "";
+  width: 27vw;
   height: 35.9vw;
   top: 0;
   left: 0;
