@@ -656,6 +656,7 @@ section.testimonials {
 }
 .tm_row {
   width: 100%;
+  height: 20vw;
   display: flex;
   flex-wrap: wrap;
 }
