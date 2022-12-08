@@ -1301,19 +1301,19 @@ span.line {
   }
   button.slick-prev.pull-left.slick-arrow {
     bottom: -5vw;
-    right: 8vw;
+    right: 20vw;
   }
   button.slick-next.pull-right.slick-arrow {
     bottom: -5vw;
-    right: 8vw;
+    right: 16vw;
   }
   button {
-    width: 10vw;
-    height: 10vw;
+    width: 4vw;
+    height: 4vw;
     border-radius: 6vw;
   }
   i {
-    font-size: 4.8vw;
+    font-size: 2.8vw;
   }
 }
 @media (max-width: 391px) {
