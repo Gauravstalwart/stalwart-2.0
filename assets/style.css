@@ -730,6 +730,7 @@ section.testimonials {
   color: black;
   font-size: 1vw;
   font-weight: 400;
+  line-height: 1.5;
 }
 button {
   width: 3vw;
