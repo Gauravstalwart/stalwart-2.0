@@ -104,3 +104,28 @@ jQuery(".our_row").length > 0 &&
       },
     ],
   });
+
+jQuery(".tm_row").length > 0 &&
+  jQuery(".tm_row").slick({
+    infinite: false,
+    slidesToShow: 1,
+    autoplay: false,
+    speed: 1200,
+    autoplaySpeed: 700,
+    dots: false,
+    arrows: false,
+    responsive: [
+      {
+        breakpoint: 1025,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
+  });
