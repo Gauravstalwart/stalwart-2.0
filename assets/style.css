@@ -1088,6 +1088,9 @@ span.line {
   .comp_row_right {
     padding-left: 2vw;
   }
+  .tm_row {
+    height: 30vw;
+  }
 }
 @media (max-width: 480px) {
   .plate.plate2 {
