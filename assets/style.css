@@ -1319,6 +1319,11 @@ span.line {
     width: 20px;
     height: 1px;
   }
+  .tm_row .tm_col .tm_slider .tm_dp img {
+    width: 10vw;
+    height: 10vw;
+  }
+}
 }
 @media (max-width: 391px) {
   .wel-other .circle-wrap {
