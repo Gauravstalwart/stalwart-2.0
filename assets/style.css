@@ -721,14 +721,14 @@ section.testimonials {
 }
 .tm_row .tm_col .tm_slider h3 {
   color: black;
-  font-size: 1.1vw;
+  font-size: 1vw;
   font-weight: 800;
   margin-bottom: 0.2vw;
   line-height: 1;
 }
 .tm_row .tm_col .tm_slider h5 {
   color: black;
-  font-size: 0.8vw;
+  font-size: 0.6vw;
   font-weight: 400;
 }
 button {
