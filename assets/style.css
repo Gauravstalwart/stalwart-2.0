@@ -631,6 +631,7 @@ section.work_section {
   display: block;
   width: 12vw;
   height: 3vw;
+  z-index: 1;
 }
 .work_detali .work_text {
   width: 22.6vw;
