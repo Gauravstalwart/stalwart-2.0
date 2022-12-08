@@ -1100,6 +1100,10 @@ span.line {
   .tm_row .tm_col .tm_slider {
     padding: 2vw 10vw;
   }
+  span.pagingInfo {
+    margin: 0;
+    left: 10vw;
+  }
 }
 @media (max-width: 480px) {
   .plate.plate2 {
