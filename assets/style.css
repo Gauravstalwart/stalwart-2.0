@@ -620,7 +620,6 @@ section.work_section {
   justify-content: space-between;
   flex-direction: column;
   height: 35.9vw;
-  z-index: 1;
 }
 .work_detali .work_logo {
   width: 6vw;
