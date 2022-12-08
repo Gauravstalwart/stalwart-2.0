@@ -767,6 +767,11 @@ span.pagingInfo {
   align-items: center;
   gap: 10px;
 }
+span.line {
+  width: 50px;
+  height: 2px;
+  background: black;
+}
 
 @media (min-width: 1201px) {
   .container {
