@@ -686,7 +686,7 @@ section.testimonials {
 }
 
 .tm_row .tm_col .tm_left_text h2 {
-  font-size: 3.4vw;
+  font-size: 3vw;
   margin: 1vw auto;
   line-height: 1.2;
   font-family: var(--font-primary);
