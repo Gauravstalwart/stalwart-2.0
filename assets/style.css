@@ -1323,6 +1323,7 @@ span.line {
   }
   span.pagingInfo {
     left: 6vw;
+    top: -3vw;
   }
   span.line {
     width: 20px;
