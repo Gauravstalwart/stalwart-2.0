@@ -1035,6 +1035,9 @@ span.line {
   .comp_row_left .comp_col_img {
     margin: 0 5px 20px;
   }
+  span.pagingInfo {
+    left: 4vw;
+  }
 }
 @media (max-width: 769px) {
   .header_logo img {
