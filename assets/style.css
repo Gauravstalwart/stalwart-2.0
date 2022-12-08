@@ -1271,6 +1271,7 @@ span.line {
     width: 100%;
     padding-left: 2vw;
     padding-top: 15vw;
+    display: none;
   }
   .comp_row_right .comp_navlist {
     display: flex;
