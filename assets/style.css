@@ -699,6 +699,9 @@ section.testimonials {
   flex-wrap: wrap;
   align-items: center;
 }
+.tm_row .slick-list.draggable {
+  padding: 0;
+}
 .tm_row .tm_col .tm_slider .tm_dp {
   display: flex;
   flex-direction: column;
