@@ -1300,11 +1300,11 @@ span.line {
     height: 50vw;
   }
   button.slick-prev.pull-left.slick-arrow {
-    top: 72vw;
-    left: 8vw;
+    bottom: -5vw;
+    right: 8vw;
   }
   button.slick-next.pull-right.slick-arrow {
-    top: 72vw;
+    bottom: -5vw;
     right: 8vw;
   }
   button {
