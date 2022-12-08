@@ -675,7 +675,6 @@ section.testimonials {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
 }
 .tm_row .tm_col {
   width: 50%;
@@ -698,6 +697,7 @@ section.testimonials {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
 }
 .tm_row .tm_col .tm_slider .tm_dp {
   display: flex;
