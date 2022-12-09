@@ -551,7 +551,7 @@ section.our_work {
 }
 .comp_row_right .comp_navlist li {
   display: inline-block;
-  padding: 0px 10px;
+  padding: 0px 20px;
 }
 .comp_row_right .comp_navlist li a {
   color: var(--color-white);
