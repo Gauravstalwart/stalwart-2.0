@@ -212,6 +212,13 @@
             "list_name": "Flipcart",
             "list_link": ""
           }
+        },
+        "50e09963-086c-46ec-af28-2d6b8a999460": {
+          "type": "link",
+          "settings": {
+            "list_name": "Mishow",
+            "list_link": ""
+          }
         }
       },
       "block_order": [
@@ -232,7 +239,8 @@
         "277f4b50-4442-471f-acef-b88994ef526d",
         "816d5e02-c7ee-4b00-97d8-7813982c56ec",
         "834a1a26-f95c-44c9-b7d5-e9b2b500b58f",
-        "3c83f6fe-30e1-4fcc-af4e-009ed21d02cf"
+        "3c83f6fe-30e1-4fcc-af4e-009ed21d02cf",
+        "50e09963-086c-46ec-af28-2d6b8a999460"
       ],
       "settings": {
         "comp_sec_heading": "We've also worked with...",
