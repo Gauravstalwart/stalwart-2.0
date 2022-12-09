@@ -198,6 +198,13 @@
             "list_name": "Grand Western",
             "list_link": ""
           }
+        },
+        "834a1a26-f95c-44c9-b7d5-e9b2b500b58f": {
+          "type": "link",
+          "settings": {
+            "list_name": "Fitbody",
+            "list_link": "#"
+          }
         }
       },
       "block_order": [
@@ -216,7 +223,8 @@
         "6bc98224-af62-4570-abcd-17ce67cce2de",
         "78e3cb36-1aa7-42ad-baf6-4c93494e034b",
         "277f4b50-4442-471f-acef-b88994ef526d",
-        "816d5e02-c7ee-4b00-97d8-7813982c56ec"
+        "816d5e02-c7ee-4b00-97d8-7813982c56ec",
+        "834a1a26-f95c-44c9-b7d5-e9b2b500b58f"
       ],
       "settings": {
         "comp_sec_heading": "We've also worked with...",
