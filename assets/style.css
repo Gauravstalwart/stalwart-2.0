@@ -501,7 +501,7 @@ section.our_work {
   align-items: flex-start;
 }
 .comp_sec .comp_row_left {
-  width: 75%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -517,7 +517,7 @@ section.our_work {
   right: 0;
 }
 .comp_row_left .comp_col_img {
-  width: calc(25% - 10px);
+  width: 100%;
   margin: 0px 5px 60px;
   align-items: center;
   display: flex;
