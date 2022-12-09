@@ -546,6 +546,7 @@ section.our_work {
 }
 .comp_row_right .comp_navlist {
   display: inline-block;
+  text-align: center;
 }
 .comp_row_right .comp_navlist li + li {
   border-left: 1px solid white;
