@@ -205,6 +205,13 @@
             "list_name": "Fitbody",
             "list_link": "#"
           }
+        },
+        "3c83f6fe-30e1-4fcc-af4e-009ed21d02cf": {
+          "type": "link",
+          "settings": {
+            "list_name": "Flipcart",
+            "list_link": ""
+          }
         }
       },
       "block_order": [
@@ -224,7 +231,8 @@
         "78e3cb36-1aa7-42ad-baf6-4c93494e034b",
         "277f4b50-4442-471f-acef-b88994ef526d",
         "816d5e02-c7ee-4b00-97d8-7813982c56ec",
-        "834a1a26-f95c-44c9-b7d5-e9b2b500b58f"
+        "834a1a26-f95c-44c9-b7d5-e9b2b500b58f",
+        "3c83f6fe-30e1-4fcc-af4e-009ed21d02cf"
       ],
       "settings": {
         "comp_sec_heading": "We've also worked with...",
