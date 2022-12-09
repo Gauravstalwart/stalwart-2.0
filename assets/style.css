@@ -1116,7 +1116,7 @@ span.line {
     height: 38.8vw;
   }
   .comp_sec .comp_row_left:after {
-    height: 40vh;
+    height: 1.8px;
   }
   .comp_row_right {
     padding-left: 2vw;
