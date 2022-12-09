@@ -1313,7 +1313,7 @@ span.line {
   }
 
   .comp_row_right .comp_navlist li {
-    width: 50%;
+    padding: 0 10px;
   }
   .work_detali .work_img big {
     padding: 0.5vw 1.5vw;
