@@ -485,6 +485,7 @@ section.our_work {
 }
 .comp_logo .sec_heading {
   width: 100%;
+  text-align: center;
 }
 .comp_logo .sec_heading h2 {
   color: white;
