@@ -520,7 +520,7 @@ section.our_work {
 }
 .comp_row_left .comp_col_img {
   width: calc(25% - 10px);
-  margin: 0px 5px 60px;
+  margin: 0px 5px 30px;
   align-items: center;
   display: flex;
 }
