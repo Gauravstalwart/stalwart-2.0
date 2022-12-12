@@ -1385,7 +1385,7 @@ span.line {
     margin: 1vw 0;
   }
   .work_col:after {
-    width:87vw
+    width: 87vw;
     height: 150vw;
   }
 }
